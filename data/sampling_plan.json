@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "policy": "stratified-review-v1",
+  "seed": "paris-review-v1",
+  "first_batch": 5,
+  "release": "0.4.0-alpha3",
+  "created_date": "2026-10-02",
+  "scope_ids": [
+    "private_relation_001",
+    "private_relation_002",
+    "private_relation_003",
+    "private_work_001",
+    "private_work_002",
+    "private_work_003",
+    "private_relation_004",
+    "private_relation_005",
+    "private_relation_006",
+    "private_work_004",
+    "private_work_005",
+    "private_work_006",
+    "private_work_007",
+    "private_work_008",
+    "private_work_009",
+    "private_work_010",
+    "private_work_011",
+    "private_work_012"
+  ],
+  "scope_digest": "d64fc1a0eb0db17b574307b6cd41ef27e30dc2fc49d455367f86633c974b912a",
+  "recommended": [
+    {
+      "alignment_id": "private_relation_001",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_005",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_006",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "private_work_006",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "private_work_008",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "private_work_009",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_work_010",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_work_011",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    }
+  ],
+  "note": "质量发现用的分层随机与风险定向混合抽样，不提供统计置信保证；未抽中记录不自动确认。"
+}

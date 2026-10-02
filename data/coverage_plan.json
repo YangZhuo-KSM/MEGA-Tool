@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "basis": "按MEGA I/2第二种呈现目录的末级题目组织；补充、片断等父标题不重复计数。序言来自第三手稿。穆勒暂列全书摘要一项，其内部细分及各节全文单元分母尚未建立。",
+  "evidence": [
+    {"source_id":"de_megai2","pdf_page":6,"printed_page":"6*","status":"scan_checked_ai","note":"2026-10-02核对目录图像；以下de_start为目录印刷页起点，不据此推算PDF地址。"},
+    {"source_id":"zh_collected","pdf_page":22,"printed_page":"2","status":"scan_checked_ai","note":"2026-10-02核对目录图像；zh_start为目录印刷页起点。"}
+  ],
+  "items": [
+    {"id":"preface","work":"manuscript3","title":"序言（第三手稿）","section_ids":[],"de_start":"325","zh_start":"219","total_groups":null,"completion":"partial"},
+    {"id":"wages","work":"manuscript1","title":"工资","section_ids":[],"de_start":"327","zh_start":"223","total_groups":null,"completion":"partial"},
+    {"id":"profit","work":"manuscript1","title":"资本的利润","section_ids":[],"de_start":"338","zh_start":"238","total_groups":null,"completion":"partial"},
+    {"id":"rent","work":"manuscript1","title":"地租","section_ids":[],"de_start":"351","zh_start":"252","total_groups":null,"completion":"partial"},
+    {"id":"alienation","work":"manuscript1","title":"异化劳动和私有财产","section_ids":["alienation"],"de_start":"363","zh_start":"266","total_groups":null,"completion":"partial"},
+    {"id":"private_relation","work":"manuscript2","title":"私有财产的关系","section_ids":["private_relation"],"de_start":"376","zh_start":"281","total_groups":null,"completion":"partial"},
+    {"id":"private_work","work":"manuscript3","title":"私有财产和劳动","section_ids":["private_work"],"de_start":"383","zh_start":"289","total_groups":null,"completion":"partial"},
+    {"id":"communism","work":"manuscript3","title":"私有财产和共产主义","section_ids":[],"de_start":"386","zh_start":"294","total_groups":null,"completion":"partial"},
+    {"id":"hegel","work":"manuscript3","title":"对黑格尔的辩证法和整个哲学的批判","section_ids":[],"de_start":"399","zh_start":"312","total_groups":null,"completion":"partial"},
+    {"id":"needs","work":"manuscript3","title":"私有财产和需要","section_ids":[],"de_start":"418","zh_start":"339","total_groups":null,"completion":"partial"},
+    {"id":"addenda","work":"manuscript3","title":"增补","section_ids":[],"de_start":"424","zh_start":"346","total_groups":null,"completion":"partial"},
+    {"id":"division","work":"manuscript3","title":"分工","section_ids":[],"de_start":"429","zh_start":"353","total_groups":null,"completion":"partial"},
+    {"id":"money","work":"manuscript3","title":"货币","section_ids":[],"de_start":"434","zh_start":"359","total_groups":null,"completion":"partial"},
+    {"id":"mill","work":"mill","title":"詹姆斯·穆勒《政治经济学原理》一书摘要","section_ids":["mill"],"de_start":null,"zh_start":null,"total_groups":null,"completion":"partial","note":"沿用已核对正式标题；暂不猜测全文分节及德中范围。当前仅收录评注片段。"}
+  ]
+}
