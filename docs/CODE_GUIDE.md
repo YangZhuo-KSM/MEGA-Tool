@@ -49,3 +49,15 @@ reader_ui.py承接两个新工作区。搜索跳转先写一个session_state意�
 ## 8. 研究覆盖与范围统计
 
 coverage.py把独立目录计划关联实时corpus/reviews，分别计算目录是否开始、已收录文字校订及对应确认；未知全文分母返回None。stats.research_distribution先筛选语言/版本/专题/主读/确认，再对去重查询逐条检索，返回scope、summary、hits供CSV/JSON和界面共同使用。research_ui.py负责第六个覆盖工作区和扩展术语界面；reading_targets继续提供统计命中回读入口。追加脚本append_v04_batch.py备份后只追加新记录，逐条检查旧指纹及reviews不变，并拒绝重复覆盖。
+
+## 新专题追加（alpha6）
+append_v04_batch6.main可接收new_sections与coverage_updates；在写入前检查新ID、既有目录分配不得覆盖、每专题只属于一项覆盖计划。批次脚本只提供转录、逐页位置和专题配置；旧记录/指纹逐项保护，四JSON备份至local_backups。正文模型、阅读聚合及搜索接口不变。
+
+alpha7的issue_overrides只允许指定kind/status/note/reported_reading/evidence_pages，保留由照录文字生成的锚点。跨页单元的疑点可指向实际后一页，不默认使用第一来源页。
+
+alpha8的extra_page_maps用于追加正文之外已核对的插图、未编号或空白页；拒绝覆盖既有映射，缓存页级提取，交由原validator校验。批次组数由rows长度决定，界面审核与导出不固定为6。sampling.py将正文来源位置跨过PDF插页的组定向选出；实际跨页引用仍由citations.py按明确印刷标签生成，不虚构连续范围。
+
+## Windows启动器（2026-10-07）
+desktop_launcher.py提供Tk启动窗口和同一exe的--serve子进程。paris/desktop.py负责研究目录选择、单实例文件锁、端口选择、就绪检测和Windows Job进程树清理。就绪后才打开浏览器，重复打开复用已有服务；不终止其他端口上的程序。corpus.ROOT允许启动器通过MEGA_TOOL_ROOT指定研究目录，普通源码运行路径不变；各研究模块仍共用同一个ROOT。启动器不写语料或审核。
+
+scripts/build_windows.py生成PyInstaller文件夹发行版，捆绑运行时和依赖，拷贝app.py及样本JSON；排除原PDF、reviews.json和本机路径。内部构建优先原研究目录，独立副本使用自身data。requirements-build.txt记录构建工具版本。不能把exe单独从发行目录拿走。

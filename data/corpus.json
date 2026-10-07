@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release": "0.4.0-alpha3",
+  "release": "0.4.0-alpha8",
   "editions": [
     {
       "id": "de_megai2",
@@ -145,7 +145,16 @@
       "aliases": [
         "Privateigentum und Arbeit"
       ],
-      "coverage": "本节开头连续12个句群，非整节；句群边界为项目阅读划分"
+      "coverage": "本节开头连续24个句群，非整节；句群边界为项目阅读划分"
+    },
+    {
+      "id": "communism",
+      "title": "私有财产和共产主义",
+      "aliases": [
+        "Privateigentum und Kommunismus",
+        "共产主义"
+      ],
+      "coverage": "本节开头连续30个句群，非整节；句群边界为项目阅读划分"
     }
   ],
   "units": [
@@ -2506,6 +2515,1992 @@
         "zh_collected:316"
       ],
       "transcription_note": "2026-10-02逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_013",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 13,
+      "label": "魁奈与重农主义的过渡",
+      "text": "Die physiokratische Lehre von Dr. Quesnay bildet den Uebergang aus dem Mercantilsystem zu Adam Smith. Die Physiokratie ist unmittelbar die nationalökonomische Auflösung des Feudaleigenthums, aber darum eben so unmittelbar die nationalökonomische Umwandlung, Wiederherstellung desselben, nur daß seine Sprache nun nicht mehr feudal, sondern ökonomisch wird.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 385,
+          "printed_page": "385"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_013",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 13,
+      "label": "魁奈与重农主义的过渡",
+      "text": "魁奈医生的重农主义学说是从重商主义体系到亚当·斯密的过渡。重农学派直接是封建所有制在国民经济学上的解体，但正因为如此，它同样直接是封建所有制在国民经济学上的变革、恢复，不过它的语言这时不再是封建的，而是经济学的了。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 316,
+          "printed_page": "291"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:316"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_014",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 14,
+      "label": "土地与财富的对象",
+      "text": "Aller Reichthum wird aufgelöst in die Erde und den Landbau; (Agrikultur) die Erde ist noch nicht Capital, sie. ist noch eine besondre Daseinsweise desselben, die in ihrer und um ihrer natürlichen Besonderheit willen gelten soll; aber die Erde ist doch ein allgemeines natürliches Element, während das Merkantüsystem nur das edle Metall als Existenz des Reichthums kennt. Der Gegenstand des Reichthums, seine Materie, hat also sogleich die höchste Allgemeinheit innerhalb der Naturgrenze, — insofern er noch als Natur unmittelbar gegenständlicher Reichthum ist — erhalten.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 385,
+          "printed_page": "385"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_014",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 14,
+      "label": "土地与财富的对象",
+      "text": "全部财富被归结为土地和耕作（农业）。土地还不是资本，它还是资本的一种特殊的存在形式，这种存在形式应当在它的自然特殊性中并且由于它的这种自然特殊性而起作用。但是，土地毕竟是一种普遍的自然要素，而重商主义体系只知道贵金属是财富的存在。因此，财富的对象、财富的材料立即获得了自然界范围之内的最高普遍性，因为它们作为自然界仍然是直接对象性的财富。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 316,
+          "printed_page": "291"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:316"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_015",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 15,
+      "label": "农业作为劳动的特殊形式",
+      "text": "Und die Erde ist nur durch die Arbeit, die Agrikultur für den Menschen. Also wird schon das subjektive Wesen des Reichthums in die Arbeit versezt. Aber zugleich ist die Agricultur die einzig produktive Arbeit. Also ist die Arbeit noch nicht in ihrer Allgemeinheit und Abstraktion gefaßt, sie ist noch an ein besondres Naturelement als ihre Materie gebunden, sie ist daher auch nur noch in einer besonderen Naturbestimmten Daseinsweise erkannt.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 385,
+          "printed_page": "385"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_015",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 15,
+      "label": "农业作为劳动的特殊形式",
+      "text": "而土地只有通过劳动、耕种才对人存在。因而财富的主体本质已经移入劳动中。但是，农业同时是惟一的生产的劳动。因此，劳动还不是从它的普遍性和抽象性上被理解的，它还是同一种作为它的材料的特殊自然要素结合在一起，因而，它也还是仅仅在一种特殊的、自然规定的存在形式中被认识的。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 316,
+          "printed_page": "291"
+        },
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 317,
+          "printed_page": "292"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:316",
+        "zh_collected:317"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_016",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 16,
+      "label": "土地与劳动的因素关系",
+      "text": "Sie ist daher erst eine bestimmte, besondre Entäusserung d[es] Menschen, wie ihr Product auch als ein bestimmter, — mehr noch der Natur als ihr selbst anheimfallender Reichthum — gefaßt ist. Die Erde wird hier noch als von Menschen unabhängiges Naturdasein anerkannt, noch nicht als Capital, d. h. als ein Moment der Arbeit selbst. Vielmehr erscheint die Arbeit als ihr Moment.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 385,
+          "printed_page": "385"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_016",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 16,
+      "label": "土地与劳动的因素关系",
+      "text": "因此，劳动不过是人的一种特定的、特殊的外化，正像劳动产品还被理解为一种特定的财富——与其说来源于劳动本身，不如说来源于自然界的财富。在这里，土地还被看作不依赖于人的自然存在，还没有被看作资本，就是说，还没有被看作劳动本身的因素。相反，劳动却表现为土地的因素。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 317,
+          "printed_page": "292"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_017",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 17,
+      "label": "财富的普遍本质与抽象劳动",
+      "text": "Indem aber der Fetischismus des alten äusserlichen nur als Gegenstand existirenden Reichthums auf ein sehr einfaches Naturelement reducirt und sein Wesen schon, wenn auch erst theilweise auf eine besondre Weise, in seiner subjektiven Existenz anerkannt ist, ist der nothwendige Fortschritt, daß das allgemeine Wesen des Reichthums erkannt und daher die Arbeit in ihrer vollständigen Absolutheit, d. h. Abstraktion, zum Princip erhoben wird.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 385,
+          "printed_page": "385"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_017",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 17,
+      "label": "财富的普遍本质与抽象劳动",
+      "text": "但是，因为这里把过去的外在的仅仅作为对象存在的财富的拜物教归结为一种极其简单的自然要素，而且已经承认——虽然只是部分地、以一种特殊的方式承认——财富的本质就在于财富的主体存在，所以，认出财富的普遍本质，并因此把具有完全绝对性即抽象性的劳动提高为原则，是一个必要的进步。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 317,
+          "printed_page": "292"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_018",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 18,
+      "label": "一般劳动作为财富的本质",
+      "text": "Es wird der Physiokratie bewiesen, daß die Agrikultur in ökonomischer Hinsicht, also d[er] einzig berechtigten von keiner andern Industrie verschieden sei, also nicht eine bestimmte Arbeit, eine an ein besondres Element II gebundne, eine besondre Arbeitsäusserung, sondern die Arbeit überhaupt das Wesen des Reichthums sei.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 385,
+          "printed_page": "385"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_018",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 18,
+      "label": "一般劳动作为财富的本质",
+      "text": "人们向重农学派证明，从经济学观点即惟一合理的观点来看，农业同任何其他一切生产部门毫无区别，因此，财富的本质不是某种特定的劳动，不是与某种特殊要素结合在一起的、某种特殊的劳动表现，而是一般劳动。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 317,
+          "printed_page": "292"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_019",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 19,
+      "label": "重农学派对地产本质的理解",
+      "text": "Die Physiokratie läugnet den besondren äusserlichen nur gegenständlichen Reichthum, indem sie die Arbeit für sein Wesen erklärt. Aber zunächst ist die Arbeit für sie nur das subjektive Wesen des Grundeigenthums (sie geht von der Art des Eigenthums aus, welche historisch als die herrschende und anerkannte erscheint); sie läßt nur das Grundeigenthum zum entäusserten Menschen werden.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 385,
+          "printed_page": "385"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_019",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 19,
+      "label": "重农学派对地产本质的理解",
+      "text": "重农学派既然把劳动宣布为财富的本质，也就否定了特殊的、外在的、仅仅是对象性的财富。但是，在重农学派看来，劳动首先只是地产的主体本质（重农学派是以那种在历史上占统治地位并得到公认的财产为出发点的）；他们认为，只有地产才成为外化的人。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 317,
+          "printed_page": "292"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_020",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 20,
+      "label": "农业与封建性质的扬弃",
+      "text": "Sie hebt seinen Feudalcharakter auf, indem sie die Industrie (Agrikultur) für sein Wesen erklärt; aber sie verhält sich läugnend zur Welt der Industrie, sie erkennt das Feudalwesen an, indem sie die Agricultor für die einzige Industrie erklärt.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 385,
+          "printed_page": "385"
+        },
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 386,
+          "printed_page": "386"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:385",
+        "de_megai2:386"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_020",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 20,
+      "label": "农业与封建性质的扬弃",
+      "text": "他们既然把生产（农业）宣布为地产的本质，也就消除了地产的封建性质；但是，就他们宣布农业是惟一的生产来说，他们对工业世界持否定态度，并且承认封建制度。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 317,
+          "printed_page": "292"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_021",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 21,
+      "label": "工业包含地产的主体本质",
+      "text": "Es versteht sich, daß sobald nun das subjektive Wesen der im Gegensatz zum Grundeigenthum, d. h. als Industrie sich constituirenden Industrie —, gefaßt wird, dieses Wesen jenen seinen Gegensatz in sich einschließt. Denn wie die Industrie das aufgehobne Grundeigenthum, so umfaßt ihr subjektives Wesen zugleich sein subjektives Wesen.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 386,
+          "printed_page": "386"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_021",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 21,
+      "label": "工业包含地产的主体本质",
+      "text": "十分明显，那种与地产相对立的、即作为工业而确立下来的工业的主体本质一旦被理解，那么这种本质同时也包含着自己的那个对立面。因为正像工业包含着已被扬弃了的地产一样，工业的主体本质也同时包含着地产的主体本质。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 317,
+          "printed_page": "292"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_022",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 22,
+      "label": "从农业劳动到一般劳动",
+      "text": "Wie das Grundeigenthum die erste Form des Privateigenthums ist, wie die Industrie ihr blos als eine besondre Art des Eigenthums zunächst historisch entgegentritt — oder vielmehr der freigelaßne Sklave des Grundeigenthums ist — so wiederholt sich bei der wissenschaftlichen Erfassung des subjektiven Wesens des Privateigenthums, der Arbeit dieser Proceß und die Arbeit erscheint zunächst nur als Landbauarbeit, macht sich dann aber als Arbeit überhaupt geltend.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 386,
+          "printed_page": "386"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_022",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 22,
+      "label": "从农业劳动到一般劳动",
+      "text": "地产是私有财产的第一个形式，而工业在历史上最初仅仅作为财产的一个特殊种类与地产相对立——或者不如说它是地产的获得自由的奴隶——，同样，在科学地理解私有财产的主体本质，理解劳动时，这一过程也在重演。而劳动起初只作为农业劳动出现，后来才作为一般劳动得到承认。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 318,
+          "printed_page": "293"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:318"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_023",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 23,
+      "label": "工业资本与私有财产的客观形式",
+      "text": "/|lll| Aller Reichthum ist zum industriellen Reichthum, zum Reichthum der Arbeit geworden und die Industrie ist die vollendete Arbeit, wie das Fabrikwesen das ausgebildete Wesen der Industrie, d. h. der Arbeit ist und das industrielle Capital die vollendete objektive Gestalt des Privateigenthums ist.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 386,
+          "printed_page": "386"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_023",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 23,
+      "label": "工业资本与私有财产的客观形式",
+      "text": "[III]一切财富都成了工业的财富，成了劳动的财富，而工业是完成了的劳动，正像工厂制度是工业的即劳动的发达的本质，而工业资本是私有财产的完成了的客观形式一样。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 318,
+          "printed_page": "293"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:318"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_de_024",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "private_work",
+      "sequence": 24,
+      "label": "私有财产成为世界历史性的力量",
+      "text": "— Wir sehn wie auch nun erst das Privateigenthum seine Herrschaft über den Menschen vollenden und in allgemeinster Form zur weltgeschichtlichen Macht werden kann. —",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 386,
+          "printed_page": "386"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "private_work_zh_024",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "private_work",
+      "sequence": 24,
+      "label": "私有财产成为世界历史性的力量",
+      "text": "——我们看到，只有这时私有财产才能完成它对人的统治，并以最普遍的形式成为世界历史性的力量。——",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 318,
+          "printed_page": "293"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:318"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_001",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 1,
+      "label": "无产和有产的对立",
+      "text": "X ad. p. XXXIX. Aber der Gegensatz von Eigenthumslosigkeit und Eigenthum ist ein noch indifferenter, nicht in seiner thätigen Beziehung, seinem innern Verhältniß, noch nicht als Widerspruch gefaßter Gegensatz, solange er nicht als der Gegensatz der Arbeit und des Capitals begriffen wird.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 386,
+          "printed_page": "386"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_001",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 1,
+      "label": "无产和有产的对立",
+      "text": "× 补入第XXXIX页。但是，无产和有产的对立，只要还没有把它理解为劳动和资本的对立，它还是一种无关紧要的对立，一种没有从它的能动关系上、它的内在关系上来理解的对立，还没有作为矛盾来理解的对立⁹³。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 319,
+          "printed_page": "294"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:319"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_002",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 2,
+      "label": "私有财产的矛盾关系",
+      "text": "Auch ohne die fortgeschrittne Bewegung des Privateigenthums, im alten Rom, in der Türkei etc kann dieser Gegensatz in der ersten Gestalt sich aussprechen. So erscheint er noch nicht als durch das Privateigenthum selbst gesezt. Aber die Arbeit, das subjektive Wesen des Privateigenthums, als Ausschliessung des Eigenthums und das Capital, die objektive Arbeit als Ausschliessung der Arbeit ist das Privateigenthum als sein entwickeltes Verhältniß des Widerspruchs, darum ein energisches, zur Auflösung treibendes Verhältniß.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 386,
+          "printed_page": "386"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_002",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 2,
+      "label": "私有财产的矛盾关系",
+      "text": "这种对立即使没有私有财产的前进运动也能以最初的形式表现出来，如在古罗马、土耳其等。因此，它还不表现为由私有财产本身设定的对立。但是，作为财产之排除的劳动，即私有财产的主体本质，和作为劳动之排除的资本，即客体化的劳动，——这就是作为上述对立发展到矛盾关系的、因而促使矛盾得到解决的能动关系的私有财产。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 319,
+          "printed_page": "294"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:319"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_003",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 3,
+      "label": "自我异化的扬弃与资本",
+      "text": "xx ad ibidem Die Aufhebung der Selbstentfremdung macht denselben Weg, wie die Selbstentfremdung. Erst wird das Privateigenthum nur in seiner objektiven Seite, — aber doch die Arbeit als sein Wesen — betrachtet. Seine Daseinsform ist daher das Capital, das „als solches“ aufzuheben ist. (Proudhon.)",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_003",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 3,
+      "label": "自我异化的扬弃与资本",
+      "text": "×× 补入同一页。自我异化的扬弃同自我异化走的是一条道路。最初，对私有财产只是从它的客体方面来考察，——但是劳动仍然被看成它的本质。因此，它的存在形式就是“本身”应被消灭的资本。（蒲鲁东。）",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 319,
+          "printed_page": "294"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:319"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_004",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 4,
+      "label": "傅立叶与圣西门的劳动观点",
+      "text": "Oder die besondre Weise der Arbeit — als nivellirte, parcellirte und darum unfreie Arbeit wird als die Quelle der Schädlichkeit des Privateigenthums und seines Menschenentfremdeten Daseins gefaßt—Fourier, der d[en] Physiokraten entsprechend auch wieder die Landbauarbeit wenigstens als die ausgezeichnete faßt, während St. Simon im Gegensatz die Industriearbeit als solche für das Wesen erklärt und nun auch die alleinige Herrschaft der Industriellen und die Verbesserung der Lage der Arbeiter begehrt.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_004",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 4,
+      "label": "傅立叶与圣西门的劳动观点",
+      "text": "或者，劳动的特殊方式，即划一的、分散的因而是不自由的劳动，被理解为私有财产的有害性的和它同人相异化的存在的根源——傅立叶，他和重农学派一样，也把农业劳动看成至少是最好的劳动，⁹⁴而圣西门则相反，他把工业劳动本身说成本质，因此他渴望工业家独占统治，渴望改善工人状况。①",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 319,
+          "printed_page": "294"
+        },
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 320,
+          "printed_page": "295"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:319",
+        "zh_collected:320"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_005",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 5,
+      "label": "共产主义的最初形式",
+      "text": "Der Communismus endlich ist der positive Ausdruck des aufgehobnen Privateigenthums, zunächst das allgemeine Privateigenthum. Indem er dieß Verhältniß in seiner Allgemeinheit faßt, ist er 1) in seiner ersten Gestalt nur eine Verallgemeinerung und Vollendung desselben; als solche zeigt er sich in doppelter Gestalt:",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_005",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 5,
+      "label": "共产主义的最初形式",
+      "text": "最后，共产主义是扬弃了的私有财产的积极表现；起先它是作为普遍的私有财产出现的。共产主义是从私有财产的普遍性来看私有财产关系，因而共产主义\n（1）在它的最初的形式中不过是这种关系的普遍化和完成。⁹⁵这样的共产主义以双重的形式表现出来：",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 320,
+          "printed_page": "295"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_006",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 6,
+      "label": "占有目的与工人规定的推广",
+      "text": "einmal ist die Herrschaft des sachlichen Eigenthums so groß ihm gegenüber, daß er alles vernichten will, was nicht fähig ist, als Privateigenthum von allen besessen [zu] werden; er will auf gewaltsame Weise v[on] Talent, etc abstrahiren, der physische, unmittelbare Besitz gilt ihm als einziger Zweck des Lebens und Daseins; die Bestimmung des Arbeiters wird nicht aufgehoben, sondern auf alle Menschen ausgedehnt; || das Verhältniß des Privateigenthums bleibt das Verhältniß der Gemeinschaft zur Sachenwelt;",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_006",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 6,
+      "label": "占有目的与工人规定的推广",
+      "text": "首先，物质的财产对它的统治力量如此之大，以致它想把不能被所有人作为私有财产占有的一切都消灭；它想用强制的方法把才能等等抛弃。在它看来，物质的直接的占有是生活和存在的惟一目的；工人这个规定并没有被取消，而是被推广到一切人身上；私有财产关系仍然是共同体同实物世界的关系；",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 320,
+          "printed_page": "295"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_007",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 7,
+      "label": "公妻制与粗陋共产主义",
+      "text": "endlich spricht sich diese Bewegung, dem Privateigenthum das allgemeine Privateigenthum entgegenzustellen, in der thierischen Form aus, daß der Ehe (welche allerdings eine Form des exclusiven Privateigenthums ist) die Weibergemeinschaft, wo also das Weib zu einem gemeinschaftlichen und gemeinen Eigenthum wird, entgegengestellt wird. Man darf sagen, daß dieser Gedanke der Weibergemeinschaft das ausgesprochne Geheimniß dieses noch ganz rohen und gedankenlosen Communismus ist.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_007",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 7,
+      "label": "公妻制与粗陋共产主义",
+      "text": "最后，用普遍的私有财产来反对私有财产这个运动是以一种动物的形式表现出来的：用公妻制——也就是把妇女变为公有的和共有的财产——来反对婚姻（它确实是一种排他性的私有财产的形式）。人们可以说，公妻制这种思想是这个仍然十分粗陋的和无思想的共产主义的昭然若揭的秘密。⁹⁶",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 320,
+          "printed_page": "295"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_008",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 8,
+      "label": "财富与共同体的关系",
+      "text": "Wie das Weib aus der Ehe in die allgemeine Prostitution, so tritt die ganze Welt des Reichthums, d. h. des gegenständlichen Wesens d[es] Menschen, aus dem Verhältniß der exclusiven Ehe mit dem Privateigenthümer in das Verhältniß der universellen Prostitution mit der Gemeinschaft.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_008",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 8,
+      "label": "财富与共同体的关系",
+      "text": "正像妇女从婚姻转向普遍卖淫一样，财富——人的对象性的本质——的整个世界，也从它同私有者的排他性的婚姻的关系转向它同共同体的普遍卖淫关系。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 320,
+          "printed_page": "295"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_009",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 9,
+      "label": "个性的否定与私有财产",
+      "text": "Dieser Communismus — indem er die Persönlichkeit d[es] Menschen überall negirt — ist eben nur der conséquente Ausdruck des Privateigenthums, welches diese Negation ist.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_009",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 9,
+      "label": "个性的否定与私有财产",
+      "text": "这种共产主义——由于到处否定人的个性——只不过是私有财产的彻底表现，私有财产就是这种否定。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 320,
+          "printed_page": "295"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_010",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 10,
+      "label": "忌妒心与平均主义欲望",
+      "text": "Der allgemeine und als Macht sich constituirende Neid ist die versteckte Form, in welcher die Habsucht sich herstellt und nur auf eine andre Weise sich befriedigt. Der Gedanke jedes Privateigenthums als eines solchen ist wenigstens gegen das reichere Privateigenthum als Neid und Nivellirungssucht gekehrt, so daß diese sogar das Wesen der Concurrenz ausmachen.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_010",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 10,
+      "label": "忌妒心与平均主义欲望",
+      "text": "普遍的和作为权力而形成的忌妒心，是贪财欲所采取的并且只是用另一种方式使自己得到满足的隐蔽形式。任何私有财产，就它本身而言，至少对较富裕的私有财产怀有忌妒心和平均主义欲望，这种忌妒心和平均主义欲望甚至构成竞争的本质。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 320,
+          "printed_page": "295"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_011",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 11,
+      "label": "粗陋共产主义与抽象否定",
+      "text": "Der rohe Communist ist nur die Vollendung dieses Neides und dieser Nivellirung von dem vorgestellten Minimum aus. Er hat ein bestimmtes begrenztes Maaß. Wie wenig diese Aufhebung des Privateigenthums eine wirkliche Aneignung ist, beweist eben die abstrakte Negation der ganzen Welt der Bildung und der Civilisation; die Rückkehr zur unnatürlichen ||IV| Einfachheit des armen und bedürfnißlosen Menschen, der nicht über das Privateigenthum hinaus, sondern noch nicht einmal bei demselben angelangt ist.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 387,
+          "printed_page": "387"
+        },
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 388,
+          "printed_page": "388"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:387",
+        "de_megai2:388"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_011",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 11,
+      "label": "粗陋共产主义与抽象否定",
+      "text": "粗陋的共产主义②不过是这种忌妒心和这种从想像的最低限度出发的平均主义的完成。它具有一个特定的、有限制的尺度。对整个文化和文明的世界的抽象否定，向贫穷的、需求不高的人——他不仅没有超越私有财产的水平，甚至从来没有达到私有财产的水平——的非自然的[IV]简单状态的倒退，恰恰证明私有财产的这种扬弃决不是真正的占有。⁹⁷",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 320,
+          "printed_page": "295"
+        },
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 321,
+          "printed_page": "296"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:320",
+        "zh_collected:321"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_012",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 12,
+      "label": "劳动共同性与普遍资本家",
+      "text": "Die Gemeinschaft ist nur eine Gemeinschaft der Arbeit und der Gleichheit des Salairs, den das gemeinschaftliche Capital, die Gemeinschaft als der allgemeine Capitalist auszahlt. Beide Seiten des Verhältnisses sind in eine vorgestellte Allgemeinheit erhoben, die Arbeit, als die Bestimmung, in welcher jeder gesezt ist, das Capital, als die anerkannte Allgemeinheit und Macht der Gemeinschaft.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 388,
+          "printed_page": "388"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_012",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 12,
+      "label": "劳动共同性与普遍资本家",
+      "text": "共同性只是劳动的共同性以及由共同的资本——作为普遍的资本家的共同体——所支付的工资的平等的共同性。关系的两个方面被提高到想像的普遍性：劳动是为每个人设定的天职，而资本是共同体的公认的普遍性和力量。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 321,
+          "printed_page": "296"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-03",
+      "evidence_pages": [
+        "zh_collected:321"
+      ],
+      "transcription_note": "2026-10-03逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_013",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 13,
+      "label": "男女关系与人的退化",
+      "text": "In dem Verhältniß zum Weib, als dem Raub und d[er] Magd der gemeinschaftlichen Wollust, ist die unendliche Degradation ausgesprochen, in welcher der Mensch für sich selbst existirt, denn das Geheimniß dieses Verhältnisses hat seinen unzweideutigen, entschiednen, offenbaren, enthüllten Ausdruck in dem Verhältnisse des Mannes zum Weibe und in der Weise, wie das unmittelbare, natürliche Gattungsverhältniß gefaßt wird.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 388,
+          "printed_page": "388"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_013",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 13,
+      "label": "男女关系与人的退化",
+      "text": "把妇女当作共同淫欲的掳获物和婢女来对待，这表现了人在对待自身方面的无限的退化，因为这种关系的秘密在男人对妇女的关系上，以及在对直接的、自然的类关系的理解方式上，都毫不含糊地、确凿无疑地、明显地、露骨地表现出来。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 321,
+          "printed_page": "296"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:321"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_014",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 14,
+      "label": "自然的类关系与人的本质",
+      "text": "Das unmittelbare, natürliche, nothwendige Verhältniß d[es] Menschen zum Menschen ist das Verhältniß des Mannes zum Weibe. // In diesem natürlichen Gattungsverhältniß ist das Verhältniß des Menschen zur Natur unmittelbar sein Verhältniß zum Menschen wie das Verhältniß zum Menschen unmittelbar sein Verhältniß zur Natur, seine eigne natürliche Bestimmung ist. In diesem Verhältniß erscheint also sinnlich, auf ein anschaubares Factum reducirt inwieweit dem Menschen das menschliche Wesen zur Natur oder die Natur zum menschlichen Wesen d[es] Menschen geworden ist.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 388,
+          "printed_page": "388"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_014",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 14,
+      "label": "自然的类关系与人的本质",
+      "text": "人对人的直接的、自然的、必然的关系是男人对妇女的关系。在这种自然的类关系中，人对自然的关系直接就是人对人的关系，正像人对人的关系直接就是人对自然的关系，就是他自己的自然的规定。因此，这种关系通过感性的形式，作为一种显而易见的事实，表现出人的本质在何种程度上对人来说成为自然，或者自然在何种程度上成为人具有的人的本质。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 321,
+          "printed_page": "296"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:321"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_015",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 15,
+      "label": "关系与文化教养程度",
+      "text": "Aus diesem Verhältniß kann man also die ganze Bildungsstufe d[es] Menschen beurtheilen. | / Aus dem Charakter dieses Verhältnisses—folgt, inwieweit der Mensch als Gattungswesen, als Mensch sich geworden ist und erfaßt hat; das Verhältniß des Mannes zum Weib ist das natürlichste Verhältniß d[es] Menschen zum Menschen.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 388,
+          "printed_page": "388"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_015",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 15,
+      "label": "关系与文化教养程度",
+      "text": "因此，从这种关系就可以判断人的整个文化教养程度。从这种关系的性质就可以看出，人在何种程度上对自己来说成为并把自身理解为类存在物、人。男人对妇女的关系是人对人最自然的关系。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 321,
+          "printed_page": "296"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:321"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_016",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 16,
+      "label": "人的自然与人的需要",
+      "text": "In ihm zeigt sich also inwieweit das natürliche Verhalten des Menschen menschlich oder inwieweit das menschlichenresen ihm zum Natürlichen Wesen, inwieweit seine menschliche Natur ihm zur Natur geworden ist. In diesem Verhältniß zeigt sich auch, inwieweit das Bedürfniß des Menschen zum menschlichen Bedürfniß, inwieweit ihm also der andre Mensch als Mensch zum Bedürfniß geworden ist, inwieweit er in seinem individuellsten Dasein zugleich Gemeinwesen ist.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 388,
+          "printed_page": "388"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_016",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 16,
+      "label": "人的自然与人的需要",
+      "text": "因此，这种关系表明人的自然的行为在何种程度上成为人的行为，或者，人的本质在何种程度上对人来说成为自然的本质，他的人的本性在何种程度上对他来说成为自然。这种关系还表明，人具有的需要在何种程度上成为人的需要，就是说，别人作为人在何种程度上对他来说成为需要，他作为个人的存在在何种程度上同时又是社会存在物。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 321,
+          "printed_page": "296"
+        },
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 322,
+          "printed_page": "297"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:321",
+        "zh_collected:322"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_017",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 17,
+      "label": "粗陋共产主义的表现形式",
+      "text": "Die erste positive Aufhebung des Privateigenthums, der rohe Communismus ist also nur eine Erscheinungsform von der Niedertracht des Privateigenthums, das sich als das positive Gemeinwesen setzen will.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 388,
+          "printed_page": "388"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_017",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 17,
+      "label": "粗陋共产主义的表现形式",
+      "text": "由此可见，对私有财产的最初的积极的扬弃，即粗陋的共产主义，不过是想把自己设定为积极的共同体的私有财产的卑鄙性的一种表现形式。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 322,
+          "printed_page": "297"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_018",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 18,
+      "label": "政治性质与废除国家",
+      "text": "2) Der Communismus α) noch politischer Natur, demokratisch oder despotisch; ß) mit Aufhebung des Staats, aber zugleich noch unvollendetes, immer noch mit dem Privateigenthum, d. h. der Entfremdung d[es] Menschen afficirtem Wesen.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 389,
+          "printed_page": "389"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_018",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 18,
+      "label": "政治性质与废除国家",
+      "text": "(2)共产主义(α)还具有政治性质，是民主的或专制的；(β)是废除国家的，但同时是还未完成的，总还是处于私有财产即人的异化的影响下。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 322,
+          "printed_page": "297"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_019",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 19,
+      "label": "复归与尚未理解的本质",
+      "text": "In beiden Formen weiß sich der Communismus schon als Reintegration oder Rückkehr des Menschen in sich, als Aufhebung der menschlichen Selbstentfremdung, aber indem er das positive Wesen des Privateigenthums noch nicht || erfaßt hat und ebensowenig die menschliche Natur des Bedürfnisses verstanden hat, ist er auch noch von demselben befangen und inf icirt. Er hat zwar seinen Begriff erfaßt, aber noch nicht sein Wesen.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 389,
+          "printed_page": "389"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_019",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 19,
+      "label": "复归与尚未理解的本质",
+      "text": "这两种形式的共产主义都已经认识到自己是人向自身的还原或复归，是人的自我异化的扬弃；但是，因为它还没有理解私有财产的积极的本质，也还不了解需要所具有的人的本性，所以它还受私有财产的束缚和感染。它虽然已经理解私有财产这一概念，但是还不理解它的本质。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 322,
+          "printed_page": "297"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_020",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 20,
+      "label": "对人的本质的真正占有",
+      "text": "3) Der Communismus als positive Aufhebung des Privateigenthums, als menschlicher Selbstentfremdung und darum als wirkliche Aneignung des menschlichen Wesens durch und für d[en] Menschen; darum als vollständige, bewußt und innerhalb des ganzen Reichthums der bisherigen Entwicklung gewordne Rückkehr des Menschen für sich als eines gesellschaftlichen, d.h. menschlichen Menschen.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 389,
+          "printed_page": "389"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_020",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 20,
+      "label": "对人的本质的真正占有",
+      "text": "(3)共产主义是私有财产即人的自我异化的积极的扬弃，因而是通过人并且为了人而对人的本质的真正占有；因此，它是人向自身、向社会的即合乎人性的人的复归，这种复归是完全的，自觉的和在以往发展的全部财富的范围内生成的。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 322,
+          "printed_page": "297"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_021",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 21,
+      "label": "自然主义与人道主义",
+      "text": "Dieser Communismus ist als vollendeter Naturalismus = Humanismus, als vollendeter Humanismus = Naturalismus, er ist die wahrhafte Auflösung des Widerstreits des Menschen mit der Natur und mit d[em] Menschen, die wahre Auflösung des Streits zwischen Existenz und Wesen, zwischen Vergegenständlichung und Selbstbestätigung, zwischen Freiheit und Nothwendigkeit, zwischen Individuum und Gattung. Er ist das aufgelöste Räthsel der Geschichte und weiß sich als diese Lösung. /",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 389,
+          "printed_page": "389"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_021",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 21,
+      "label": "自然主义与人道主义",
+      "text": "这种共产主义，作为完成了的自然主义=人道主义，而作为完成了的人道主义=自然主义，它是人和自然界之间、人和人之间的矛盾的真正解决，是存在和本质、对象化和自我确证、自由和必然、个体和类之间的斗争的真正解决。它是历史之谜的解答，而且知道自己就是这种解答。⁹⁸",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 322,
+          "printed_page": "297"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_022",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 22,
+      "label": "历史运动与共产主义的生成",
+      "text": "|V| Die ganze Bewegung der Geschichte ist daher, wie sein wirklicher Zeugungsakt — der Geburtsakt seines empirischen Daseins—so auch für sein denkendes Bewußtsein die begriffne und gewußte Bewegung seines Werdens, während jener noch unvollendete Communismus aus einzelnen dem Privateigenthum entgegenstehenden Geschichtsgestalten einen historischen Beweis, einen Beweis in dem Bestehenden für sich sucht, indem er einzelne Momente aus der Bewegung (Cabet, Villegardelle, etc reiten besonders auf diesem Roß) herausreißt und als Beweise seiner historischen Vollblütigkeit fixirt, womit er eben darthut, daß die unverhältnißmässig grössere Parthie dieser Bewegung seinen Behauptungen widerspricht und daß, wenn er einmal gewesen ist, eben sein vergangnes Sein die Prätention des Wesens widerlegt.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 389,
+          "printed_page": "389"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_022",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 22,
+      "label": "历史运动与共产主义的生成",
+      "text": "[V]因此，历史的全部运动，既是它的现实的产生活动——它的经验存在的诞生活动，——同时，对它的思维着的意识来说，又是它的被理解和被认识到的生成运动。而上述尚未完成的共产主义从各个与私有财产相对立的历史形式中为自己寻找历史的证明——在持续存在中的证明，同时它从运动中抽出个别环节（卡贝、维尔加德尔等人尤其喜欢卖弄这一套），把它们作为自己是历史的纯种的证明固定下来；但是，它这样做恰好说明：历史运动的绝大部分是同它的论断不一致的，如果它曾经存在过，那么它的这种过去的存在恰恰反驳了对本质的奢求。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 322,
+          "printed_page": "297"
+        },
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 323,
+          "printed_page": "298"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:322",
+        "zh_collected:323"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_023",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 23,
+      "label": "革命运动的基础",
+      "text": "Daß in der Bewegung des Privateigenthums, eben d[er] Oekonomie, die ganze revolutionaire Bewegung sowohl ihre empirische, als theoretische Basis findet, davon ist die Nothwendigkeit leicht einzusehn.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 389,
+          "printed_page": "389"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_023",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 23,
+      "label": "革命运动的基础",
+      "text": "不难看到，整个革命运动必然在私有财产的运动中，即在经济的运动中，为自己既找到经验的基础，也找到理论的基础。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 323,
+          "printed_page": "298"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_024",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 24,
+      "label": "私有财产与人的生命",
+      "text": "Das materielle, unmittelbar sinnliche Privateigenthum, ist der materielle sinnliche Ausdruck des entfremdeten menschlichen Lebens. Seine Bewegung — die Production und Consumtion — ist die sinnliche Offenbarung von der Bewegung aller bisherigen Production, d. h. Verwirklichung oder Wirklichkeit d[es] Menschen.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 389,
+          "printed_page": "389"
+        },
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 390,
+          "printed_page": "390"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:389",
+        "de_megai2:390"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_024",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 24,
+      "label": "私有财产与人的生命",
+      "text": "这种物质的、直接感性的私有财产，是异化了的人的生命的物质的、感性的表现。私有财产的运动——生产和消费——是迄今为止全部生产的运动的感性展现，就是说，是人的实现或人的现实。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 323,
+          "printed_page": "298"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_025",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 25,
+      "label": "生产的特殊方式与异化的扬弃",
+      "text": "Religion, Familie, Staat, Recht, Moral, Wissenschaft, Kunst etc sind nur besondre Weisen der Production und fallen unter ihr allgemeines Gesetz. Die positive Aufhebung des Privateigenthums als die Aneignung des menschlichen Lebens, ist daher die positive Aufhebung aller Entfremdung, also die Rückkehr des Menschen aus Religion, Familie, Staat etc in sein menschliches d. h. gesellschaftliches Dasein.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 390,
+          "printed_page": "390"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_025",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 25,
+      "label": "生产的特殊方式与异化的扬弃",
+      "text": "宗教、家庭、国家、法、道德、科学、艺术等等，都不过是生产的一些特殊的方式，并且受生产的普遍规律的支配。因此，对私有财产的积极的扬弃，作为对人的生命的占有，是对一切异化的积极的扬弃，从而是人从宗教、家庭、国家等等向自己的人的存在即社会的存在的复归。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 323,
+          "printed_page": "298"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_026",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 26,
+      "label": "宗教异化与现实生活",
+      "text": "Die religiöse Entfremdung als solche geht nur in dem Gebiet des Bewußtseins, des menschlichen Innern vor, aber die ökonomische Entfremdung ist die des wirklichen Lebens, — ihre Aufhebung umfaßt daher beide Seiten. Es versteht sich, daß die Bewegung bei den verschiednen Völkern ihren ersten Beginn danach nimmt, ob das wahre anerkannte Leben des Volkes mehr im Bewußtsein oder in der äussern Welt vorsichgeht, mehr das ideelle oder reelle Leben ist.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 390,
+          "printed_page": "390"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_026",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 26,
+      "label": "宗教异化与现实生活",
+      "text": "宗教的异化本身只是发生在意识领域、人的内心领域中，而经济的异化是现实生活的异化，——因此对异化的扬弃包括两个方面。不言而喻，在不同的民族那里，运动从哪个领域开始，这要看一个民族的真正的、公认的生活主要是在意识领域中还是在外部世界中进行，这种生活更多地是观念的生活还是现实的生活。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 323,
+          "printed_page": "298"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_027",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 27,
+      "label": "无神论与共产主义的博爱",
+      "text": "Der Communismus beginnt sogleich (Owen) mit dem Atheismus, der Atheismus ist zunächst noch weit entfernt Communismus zu sein, wie jener Atheismus mehr noch eine Abstraktion ist.—Die Philanthropie das Atheismus ist daher zuerst nur eine || philosophische abstrakte Philanthropie, die des Communismus sogleich reell und unmittelbar zur Wtkung gespannt.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 390,
+          "printed_page": "390"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_027",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 27,
+      "label": "无神论与共产主义的博爱",
+      "text": "共产主义是径直从无神论开始的（欧文）⁹⁹，而无神论最初还根本不是共产主义；那种无神论主要还是一个抽象。——因此，无神论的博爱最初还只是哲学的、抽象的博爱，而共产主义的博爱则径直是现实的和直接追求实效的。——",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 323,
+          "printed_page": "298"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_028",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 28,
+      "label": "人与对象的相互存在",
+      "text": "Wir haben gesehn, wie unter Voraussetzung des positiv aufgehobnen Privateigenthums, der Mensch d[en] Menschen producirt, sich selbst und den andern Menschen; wie der Gegenstand, welcher die unmittelbare Bethätigung seiner Individualität zugleich sein eignes Dasein für den andern Menschen dessen Dasein und dessen Dasein für ihn ist.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 390,
+          "printed_page": "390"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_028",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 28,
+      "label": "人与对象的相互存在",
+      "text": "我们已经看到，在被积极扬弃的私有财产的前提下，人如何生产人——他自己和别人；直接体现他的个性的对象如何是他自己为别人的存在，同时是这个别人的存在，而且也是这个别人为他的存在。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 323,
+          "printed_page": "298"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_029",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 29,
+      "label": "材料与主体作为出发点",
+      "text": "Ebenso sind aber sowohl das Material der Arbeit, als der Mensch als Subjekt, wie Resultat so Ausgangspunkt der Bewegung (und daß sie dieser Ausgangspunkt sein müssen, eben darin liegt die geschichthche Nothwendigkeit des Privateigenthums).",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 390,
+          "printed_page": "390"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_029",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 29,
+      "label": "材料与主体作为出发点",
+      "text": "但是，同样，无论是劳动的材料还是作为主体的人，都既是运动的结果，又是运动的出发点（并且二者必须是这个出发点，私有财产的历史必然性就在于此）。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 323,
+          "printed_page": "298"
+        },
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 326,
+          "printed_page": "301"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:323",
+        "zh_collected:326"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_de_030",
+      "edition_id": "de_megai2",
+      "language": "de",
+      "section_id": "communism",
+      "sequence": 30,
+      "label": "社会性质与活动享受",
+      "text": "Also ist der gesellschaftliche Charakter der allgemeine Charakter der ganzen Bewegung; wie die Gesellschaft selbst den Menschen als Menschen producirt, so ist sie durch ihn producirt. Die Thätigkeit und der Genuß, wie ihrem Inhalt, sind auch der Existenzweisenachgesellschaftliche Thätigkeit und gesellschaftlicher Genuß.",
+      "locations": [
+        {
+          "source_id": "de_megai2",
+          "pdf_page": 390,
+          "printed_page": "390"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
+    },
+    {
+      "id": "communism_zh_030",
+      "edition_id": "zh_collected",
+      "language": "zh",
+      "section_id": "communism",
+      "sequence": 30,
+      "label": "社会性质与活动享受",
+      "text": "因此，社会性质是整个运动的普遍性质；正像社会本身生产作为人的人一样，社会也是由人生产的。活动和享受，无论就其内容或就其存在方式来说，都是社会的活动和社会的享受。",
+      "locations": [
+        {
+          "source_id": "zh_collected",
+          "pdf_page": 326,
+          "printed_page": "301"
+        }
+      ],
+      "proofread_status": "scan_checked_ai",
+      "proofread_by": "Codex",
+      "proofread_at": "2026-10-04",
+      "evidence_pages": [
+        "zh_collected:326"
+      ],
+      "transcription_note": "2026-10-04逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。"
     }
   ],
   "alignments": [
@@ -3222,6 +5217,720 @@
       "verified_at": null,
       "review_batch": 7,
       "note": "第7批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_013",
+      "section_id": "private_work",
+      "label": "魁奈与重农主义的过渡",
+      "de_ids": [
+        "private_work_de_013"
+      ],
+      "zh_ids": [
+        "private_work_zh_013"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 8,
+      "note": "第8批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_014",
+      "section_id": "private_work",
+      "label": "土地与财富的对象",
+      "de_ids": [
+        "private_work_de_014"
+      ],
+      "zh_ids": [
+        "private_work_zh_014"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 8,
+      "note": "第8批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_015",
+      "section_id": "private_work",
+      "label": "农业作为劳动的特殊形式",
+      "de_ids": [
+        "private_work_de_015"
+      ],
+      "zh_ids": [
+        "private_work_zh_015"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 8,
+      "note": "第8批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_016",
+      "section_id": "private_work",
+      "label": "土地与劳动的因素关系",
+      "de_ids": [
+        "private_work_de_016"
+      ],
+      "zh_ids": [
+        "private_work_zh_016"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 8,
+      "note": "第8批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_017",
+      "section_id": "private_work",
+      "label": "财富的普遍本质与抽象劳动",
+      "de_ids": [
+        "private_work_de_017"
+      ],
+      "zh_ids": [
+        "private_work_zh_017"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 8,
+      "note": "第8批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_018",
+      "section_id": "private_work",
+      "label": "一般劳动作为财富的本质",
+      "de_ids": [
+        "private_work_de_018"
+      ],
+      "zh_ids": [
+        "private_work_zh_018"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 8,
+      "note": "第8批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_019",
+      "section_id": "private_work",
+      "label": "重农学派对地产本质的理解",
+      "de_ids": [
+        "private_work_de_019"
+      ],
+      "zh_ids": [
+        "private_work_zh_019"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 9,
+      "note": "第9批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_020",
+      "section_id": "private_work",
+      "label": "农业与封建性质的扬弃",
+      "de_ids": [
+        "private_work_de_020"
+      ],
+      "zh_ids": [
+        "private_work_zh_020"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 9,
+      "note": "第9批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_021",
+      "section_id": "private_work",
+      "label": "工业包含地产的主体本质",
+      "de_ids": [
+        "private_work_de_021"
+      ],
+      "zh_ids": [
+        "private_work_zh_021"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 9,
+      "note": "第9批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_022",
+      "section_id": "private_work",
+      "label": "从农业劳动到一般劳动",
+      "de_ids": [
+        "private_work_de_022"
+      ],
+      "zh_ids": [
+        "private_work_zh_022"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 9,
+      "note": "第9批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_023",
+      "section_id": "private_work",
+      "label": "工业资本与私有财产的客观形式",
+      "de_ids": [
+        "private_work_de_023"
+      ],
+      "zh_ids": [
+        "private_work_zh_023"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 9,
+      "note": "第9批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "private_work_024",
+      "section_id": "private_work",
+      "label": "私有财产成为世界历史性的力量",
+      "de_ids": [
+        "private_work_de_024"
+      ],
+      "zh_ids": [
+        "private_work_zh_024"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 9,
+      "note": "第9批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_001",
+      "section_id": "communism",
+      "label": "无产和有产的对立",
+      "de_ids": [
+        "communism_de_001"
+      ],
+      "zh_ids": [
+        "communism_zh_001"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 10,
+      "note": "第10批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_002",
+      "section_id": "communism",
+      "label": "私有财产的矛盾关系",
+      "de_ids": [
+        "communism_de_002"
+      ],
+      "zh_ids": [
+        "communism_zh_002"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 10,
+      "note": "第10批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_003",
+      "section_id": "communism",
+      "label": "自我异化的扬弃与资本",
+      "de_ids": [
+        "communism_de_003"
+      ],
+      "zh_ids": [
+        "communism_zh_003"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 10,
+      "note": "第10批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_004",
+      "section_id": "communism",
+      "label": "傅立叶与圣西门的劳动观点",
+      "de_ids": [
+        "communism_de_004"
+      ],
+      "zh_ids": [
+        "communism_zh_004"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 10,
+      "note": "第10批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_005",
+      "section_id": "communism",
+      "label": "共产主义的最初形式",
+      "de_ids": [
+        "communism_de_005"
+      ],
+      "zh_ids": [
+        "communism_zh_005"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 10,
+      "note": "第10批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_006",
+      "section_id": "communism",
+      "label": "占有目的与工人规定的推广",
+      "de_ids": [
+        "communism_de_006"
+      ],
+      "zh_ids": [
+        "communism_zh_006"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 10,
+      "note": "第10批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_007",
+      "section_id": "communism",
+      "label": "公妻制与粗陋共产主义",
+      "de_ids": [
+        "communism_de_007"
+      ],
+      "zh_ids": [
+        "communism_zh_007"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 11,
+      "note": "第11批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_008",
+      "section_id": "communism",
+      "label": "财富与共同体的关系",
+      "de_ids": [
+        "communism_de_008"
+      ],
+      "zh_ids": [
+        "communism_zh_008"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 11,
+      "note": "第11批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_009",
+      "section_id": "communism",
+      "label": "个性的否定与私有财产",
+      "de_ids": [
+        "communism_de_009"
+      ],
+      "zh_ids": [
+        "communism_zh_009"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 11,
+      "note": "第11批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_010",
+      "section_id": "communism",
+      "label": "忌妒心与平均主义欲望",
+      "de_ids": [
+        "communism_de_010"
+      ],
+      "zh_ids": [
+        "communism_zh_010"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 11,
+      "note": "第11批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_011",
+      "section_id": "communism",
+      "label": "粗陋共产主义与抽象否定",
+      "de_ids": [
+        "communism_de_011"
+      ],
+      "zh_ids": [
+        "communism_zh_011"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 11,
+      "note": "第11批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_012",
+      "section_id": "communism",
+      "label": "劳动共同性与普遍资本家",
+      "de_ids": [
+        "communism_de_012"
+      ],
+      "zh_ids": [
+        "communism_zh_012"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 11,
+      "note": "第11批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_013",
+      "section_id": "communism",
+      "label": "男女关系与人的退化",
+      "de_ids": [
+        "communism_de_013"
+      ],
+      "zh_ids": [
+        "communism_zh_013"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_014",
+      "section_id": "communism",
+      "label": "自然的类关系与人的本质",
+      "de_ids": [
+        "communism_de_014"
+      ],
+      "zh_ids": [
+        "communism_zh_014"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_015",
+      "section_id": "communism",
+      "label": "关系与文化教养程度",
+      "de_ids": [
+        "communism_de_015"
+      ],
+      "zh_ids": [
+        "communism_zh_015"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_016",
+      "section_id": "communism",
+      "label": "人的自然与人的需要",
+      "de_ids": [
+        "communism_de_016"
+      ],
+      "zh_ids": [
+        "communism_zh_016"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_017",
+      "section_id": "communism",
+      "label": "粗陋共产主义的表现形式",
+      "de_ids": [
+        "communism_de_017"
+      ],
+      "zh_ids": [
+        "communism_zh_017"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_018",
+      "section_id": "communism",
+      "label": "政治性质与废除国家",
+      "de_ids": [
+        "communism_de_018"
+      ],
+      "zh_ids": [
+        "communism_zh_018"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_019",
+      "section_id": "communism",
+      "label": "复归与尚未理解的本质",
+      "de_ids": [
+        "communism_de_019"
+      ],
+      "zh_ids": [
+        "communism_zh_019"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_020",
+      "section_id": "communism",
+      "label": "对人的本质的真正占有",
+      "de_ids": [
+        "communism_de_020"
+      ],
+      "zh_ids": [
+        "communism_zh_020"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_021",
+      "section_id": "communism",
+      "label": "自然主义与人道主义",
+      "de_ids": [
+        "communism_de_021"
+      ],
+      "zh_ids": [
+        "communism_zh_021"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_022",
+      "section_id": "communism",
+      "label": "历史运动与共产主义的生成",
+      "de_ids": [
+        "communism_de_022"
+      ],
+      "zh_ids": [
+        "communism_zh_022"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_023",
+      "section_id": "communism",
+      "label": "革命运动的基础",
+      "de_ids": [
+        "communism_de_023"
+      ],
+      "zh_ids": [
+        "communism_zh_023"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_024",
+      "section_id": "communism",
+      "label": "私有财产与人的生命",
+      "de_ids": [
+        "communism_de_024"
+      ],
+      "zh_ids": [
+        "communism_zh_024"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_025",
+      "section_id": "communism",
+      "label": "生产的特殊方式与异化的扬弃",
+      "de_ids": [
+        "communism_de_025"
+      ],
+      "zh_ids": [
+        "communism_zh_025"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_026",
+      "section_id": "communism",
+      "label": "宗教异化与现实生活",
+      "de_ids": [
+        "communism_de_026"
+      ],
+      "zh_ids": [
+        "communism_zh_026"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_027",
+      "section_id": "communism",
+      "label": "无神论与共产主义的博爱",
+      "de_ids": [
+        "communism_de_027"
+      ],
+      "zh_ids": [
+        "communism_zh_027"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_028",
+      "section_id": "communism",
+      "label": "人与对象的相互存在",
+      "de_ids": [
+        "communism_de_028"
+      ],
+      "zh_ids": [
+        "communism_zh_028"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_029",
+      "section_id": "communism",
+      "label": "材料与主体作为出发点",
+      "de_ids": [
+        "communism_de_029"
+      ],
+      "zh_ids": [
+        "communism_zh_029"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
+    },
+    {
+      "id": "communism_030",
+      "section_id": "communism",
+      "label": "社会性质与活动享受",
+      "de_ids": [
+        "communism_de_030"
+      ],
+      "zh_ids": [
+        "communism_zh_030"
+      ],
+      "status": "uncertain",
+      "proposed_by": "Codex",
+      "verified_by": null,
+      "verified_at": null,
+      "review_batch": 12,
+      "note": "第12批句群对应候选；跨页来源分别保存，等待用户确认。"
     }
   ],
   "page_map": [
@@ -3458,6 +6167,138 @@
       "status": "scan_checked_ai",
       "checked_by": "Codex",
       "checked_at": "2026-10-02"
+    },
+    {
+      "source_id": "de_megai2",
+      "pdf_page": 385,
+      "printed_page": "385",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 317,
+      "printed_page": "292",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "de_megai2",
+      "pdf_page": 386,
+      "printed_page": "386",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 318,
+      "printed_page": "293",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 319,
+      "printed_page": "294",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "de_megai2",
+      "pdf_page": 387,
+      "printed_page": "387",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 320,
+      "printed_page": "295",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "de_megai2",
+      "pdf_page": 388,
+      "printed_page": "388",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 321,
+      "printed_page": "296",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 322,
+      "printed_page": "297",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-04"
+    },
+    {
+      "source_id": "de_megai2",
+      "pdf_page": 389,
+      "printed_page": "389",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-04"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 323,
+      "printed_page": "298",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-04"
+    },
+    {
+      "source_id": "de_megai2",
+      "pdf_page": 390,
+      "printed_page": "390",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-04"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 326,
+      "printed_page": "301",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-04"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 324,
+      "printed_page": null,
+      "page_kind": "illustration",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-04",
+      "note": "扫描图像为笔记本III第5页的手稿影印及图题，无印刷页标签；不推算为299。"
+    },
+    {
+      "source_id": "zh_collected",
+      "pdf_page": 325,
+      "printed_page": null,
+      "page_kind": "blank",
+      "status": "scan_checked_ai",
+      "checked_by": "Codex",
+      "checked_at": "2026-10-04",
+      "note": "扫描图像无正文、图题或印刷页标签，仅见纸面及扫描边缘；不推算为300。"
     }
   ],
   "comparisons": [
@@ -4849,6 +7690,1023 @@
         "zh_collected:316"
       ],
       "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_013",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Die physiokratische Lehre von Dr. Quesnay bildet den Uebergang aus dem Mercantilsystem zu Adam Smith. Die Physiokratie ist unmittelbar die nationalökonomische Auflösung des Feudaleigenthums, aber darum eben so unmittelbar die nationalökonomische Umwandlung, Wiederherstellung desselben, nur daß seine Sprache nun nicht mehr feudal, sondern ökonomisch wird.",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_013",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "魁奈医生的重农主义学说是从重商主义体系到亚当·斯密的过渡。重农学派直接是封建所有制在国民经济学上的解体，但正因为如此，它同样直接是封建所有制在国民经济学上的变革、恢复，不过它的语言这时不再是封建的，而是经济学的了。",
+      "evidence_pages": [
+        "zh_collected:316"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_014",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Aller Reichthum wird aufgelöst in die Erde und den Landbau; (Agrikultur) die Erde ist noch nicht Capital, sie. ist noch eine besondre Daseinsweise desselben, die in ihrer und um ihrer natürlichen Besonderheit willen gelten soll; aber die Erde ist doch ein allgemeines natürliches Element, während das Merkantüsystem nur das edle Metall als Existenz des Reichthums kennt. Der Gegenstand des Reichthums, seine Materie, hat also sogleich die höchste Allgemeinheit innerhalb der Naturgrenze, — insofern er noch als Natur unmittelbar gegenständlicher Reichthum ist — erhalten.",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_014",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "全部财富被归结为土地和耕作（农业）。土地还不是资本，它还是资本的一种特殊的存在形式，这种存在形式应当在它的自然特殊性中并且由于它的这种自然特殊性而起作用。但是，土地毕竟是一种普遍的自然要素，而重商主义体系只知道贵金属是财富的存在。因此，财富的对象、财富的材料立即获得了自然界范围之内的最高普遍性，因为它们作为自然界仍然是直接对象性的财富。",
+      "evidence_pages": [
+        "zh_collected:316"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_015",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Und die Erde ist nur durch die Arbeit, die Agrikultur für den Menschen. Also wird schon das subjektive Wesen des Reichthums in die Arbeit versezt. Aber zugleich ist die Agricultur die einzig produktive Arbeit. Also ist die Arbeit noch nicht in ihrer Allgemeinheit und Abstraktion gefaßt, sie ist noch an ein besondres Naturelement als ihre Materie gebunden, sie ist daher auch nur noch in einer besonderen Naturbestimmten Daseinsweise erkannt.",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_015",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "而土地只有通过劳动、耕种才对人存在。因而财富的主体本质已经移入劳动中。但是，农业同时是惟一的生产的劳动。因此，劳动还不是从它的普遍性和抽象性上被理解的，它还是同一种作为它的材料的特殊自然要素结合在一起，因而，它也还是仅仅在一种特殊的、自然规定的存在形式中被认识的。",
+      "evidence_pages": [
+        "zh_collected:316",
+        "zh_collected:317"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_016",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Sie ist daher erst eine bestimmte, besondre Entäusserung d[es] Menschen, wie ihr Product auch als ein bestimmter, — mehr noch der Natur als ihr selbst anheimfallender Reichthum — gefaßt ist. Die Erde wird hier noch als von Menschen unabhängiges Naturdasein anerkannt, noch nicht als Capital, d. h. als ein Moment der Arbeit selbst. Vielmehr erscheint die Arbeit als ihr Moment.",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_016",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "因此，劳动不过是人的一种特定的、特殊的外化，正像劳动产品还被理解为一种特定的财富——与其说来源于劳动本身，不如说来源于自然界的财富。在这里，土地还被看作不依赖于人的自然存在，还没有被看作资本，就是说，还没有被看作劳动本身的因素。相反，劳动却表现为土地的因素。",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_017",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Indem aber der Fetischismus des alten äusserlichen nur als Gegenstand existirenden Reichthums auf ein sehr einfaches Naturelement reducirt und sein Wesen schon, wenn auch erst theilweise auf eine besondre Weise, in seiner subjektiven Existenz anerkannt ist, ist der nothwendige Fortschritt, daß das allgemeine Wesen des Reichthums erkannt und daher die Arbeit in ihrer vollständigen Absolutheit, d. h. Abstraktion, zum Princip erhoben wird.",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_017",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "但是，因为这里把过去的外在的仅仅作为对象存在的财富的拜物教归结为一种极其简单的自然要素，而且已经承认——虽然只是部分地、以一种特殊的方式承认——财富的本质就在于财富的主体存在，所以，认出财富的普遍本质，并因此把具有完全绝对性即抽象性的劳动提高为原则，是一个必要的进步。",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_018",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Es wird der Physiokratie bewiesen, daß die Agrikultur in ökonomischer Hinsicht, also d[er] einzig berechtigten von keiner andern Industrie verschieden sei, also nicht eine bestimmte Arbeit, eine an ein besondres Element II gebundne, eine besondre Arbeitsäusserung, sondern die Arbeit überhaupt das Wesen des Reichthums sei.",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_018",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "人们向重农学派证明，从经济学观点即惟一合理的观点来看，农业同任何其他一切生产部门毫无区别，因此，财富的本质不是某种特定的劳动，不是与某种特殊要素结合在一起的、某种特殊的劳动表现，而是一般劳动。",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_019",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Die Physiokratie läugnet den besondren äusserlichen nur gegenständlichen Reichthum, indem sie die Arbeit für sein Wesen erklärt. Aber zunächst ist die Arbeit für sie nur das subjektive Wesen des Grundeigenthums (sie geht von der Art des Eigenthums aus, welche historisch als die herrschende und anerkannte erscheint); sie läßt nur das Grundeigenthum zum entäusserten Menschen werden.",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_019",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "重农学派既然把劳动宣布为财富的本质，也就否定了特殊的、外在的、仅仅是对象性的财富。但是，在重农学派看来，劳动首先只是地产的主体本质（重农学派是以那种在历史上占统治地位并得到公认的财产为出发点的）；他们认为，只有地产才成为外化的人。",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_020",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Sie hebt seinen Feudalcharakter auf, indem sie die Industrie (Agrikultur) für sein Wesen erklärt; aber sie verhält sich läugnend zur Welt der Industrie, sie erkennt das Feudalwesen an, indem sie die Agricultor für die einzige Industrie erklärt.",
+      "evidence_pages": [
+        "de_megai2:385",
+        "de_megai2:386"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_020",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "他们既然把生产（农业）宣布为地产的本质，也就消除了地产的封建性质；但是，就他们宣布农业是惟一的生产来说，他们对工业世界持否定态度，并且承认封建制度。",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_021",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Es versteht sich, daß sobald nun das subjektive Wesen der im Gegensatz zum Grundeigenthum, d. h. als Industrie sich constituirenden Industrie —, gefaßt wird, dieses Wesen jenen seinen Gegensatz in sich einschließt. Denn wie die Industrie das aufgehobne Grundeigenthum, so umfaßt ihr subjektives Wesen zugleich sein subjektives Wesen.",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_021",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "十分明显，那种与地产相对立的、即作为工业而确立下来的工业的主体本质一旦被理解，那么这种本质同时也包含着自己的那个对立面。因为正像工业包含着已被扬弃了的地产一样，工业的主体本质也同时包含着地产的主体本质。",
+      "evidence_pages": [
+        "zh_collected:317"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_022",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Wie das Grundeigenthum die erste Form des Privateigenthums ist, wie die Industrie ihr blos als eine besondre Art des Eigenthums zunächst historisch entgegentritt — oder vielmehr der freigelaßne Sklave des Grundeigenthums ist — so wiederholt sich bei der wissenschaftlichen Erfassung des subjektiven Wesens des Privateigenthums, der Arbeit dieser Proceß und die Arbeit erscheint zunächst nur als Landbauarbeit, macht sich dann aber als Arbeit überhaupt geltend.",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_022",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "地产是私有财产的第一个形式，而工业在历史上最初仅仅作为财产的一个特殊种类与地产相对立——或者不如说它是地产的获得自由的奴隶——，同样，在科学地理解私有财产的主体本质，理解劳动时，这一过程也在重演。而劳动起初只作为农业劳动出现，后来才作为一般劳动得到承认。",
+      "evidence_pages": [
+        "zh_collected:318"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_023",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "/|lll| Aller Reichthum ist zum industriellen Reichthum, zum Reichthum der Arbeit geworden und die Industrie ist die vollendete Arbeit, wie das Fabrikwesen das ausgebildete Wesen der Industrie, d. h. der Arbeit ist und das industrielle Capital die vollendete objektive Gestalt des Privateigenthums ist.",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_023",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "[III]一切财富都成了工业的财富，成了劳动的财富，而工业是完成了的劳动，正像工厂制度是工业的即劳动的发达的本质，而工业资本是私有财产的完成了的客观形式一样。",
+      "evidence_pages": [
+        "zh_collected:318"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_de_024",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "— Wir sehn wie auch nun erst das Privateigenthum seine Herrschaft über den Menschen vollenden und in allgemeinster Form zur weltgeschichtlichen Macht werden kann. —",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "private_work_zh_024",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "——我们看到，只有这时私有财产才能完成它对人的统治，并以最普遍的形式成为世界历史性的力量。——",
+      "evidence_pages": [
+        "zh_collected:318"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_001",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "X ad. p. XXXIX. Aber der Gegensatz von Eigenthumslosigkeit und Eigenthum ist ein noch indifferenter, nicht in seiner thätigen Beziehung, seinem innern Verhältniß, noch nicht als Widerspruch gefaßter Gegensatz, solange er nicht als der Gegensatz der Arbeit und des Capitals begriffen wird.",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_001",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "× 补入第XXXIX页。但是，无产和有产的对立，只要还没有把它理解为劳动和资本的对立，它还是一种无关紧要的对立，一种没有从它的能动关系上、它的内在关系上来理解的对立，还没有作为矛盾来理解的对立⁹³。",
+      "evidence_pages": [
+        "zh_collected:319"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_002",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Auch ohne die fortgeschrittne Bewegung des Privateigenthums, im alten Rom, in der Türkei etc kann dieser Gegensatz in der ersten Gestalt sich aussprechen. So erscheint er noch nicht als durch das Privateigenthum selbst gesezt. Aber die Arbeit, das subjektive Wesen des Privateigenthums, als Ausschliessung des Eigenthums und das Capital, die objektive Arbeit als Ausschliessung der Arbeit ist das Privateigenthum als sein entwickeltes Verhältniß des Widerspruchs, darum ein energisches, zur Auflösung treibendes Verhältniß.",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_002",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "这种对立即使没有私有财产的前进运动也能以最初的形式表现出来，如在古罗马、土耳其等。因此，它还不表现为由私有财产本身设定的对立。但是，作为财产之排除的劳动，即私有财产的主体本质，和作为劳动之排除的资本，即客体化的劳动，——这就是作为上述对立发展到矛盾关系的、因而促使矛盾得到解决的能动关系的私有财产。",
+      "evidence_pages": [
+        "zh_collected:319"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_003",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "xx ad ibidem Die Aufhebung der Selbstentfremdung macht denselben Weg, wie die Selbstentfremdung. Erst wird das Privateigenthum nur in seiner objektiven Seite, — aber doch die Arbeit als sein Wesen — betrachtet. Seine Daseinsform ist daher das Capital, das „als solches“ aufzuheben ist. (Proudhon.)",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_003",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "×× 补入同一页。自我异化的扬弃同自我异化走的是一条道路。最初，对私有财产只是从它的客体方面来考察，——但是劳动仍然被看成它的本质。因此，它的存在形式就是“本身”应被消灭的资本。（蒲鲁东。）",
+      "evidence_pages": [
+        "zh_collected:319"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_004",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Oder die besondre Weise der Arbeit — als nivellirte, parcellirte und darum unfreie Arbeit wird als die Quelle der Schädlichkeit des Privateigenthums und seines Menschenentfremdeten Daseins gefaßt—Fourier, der d[en] Physiokraten entsprechend auch wieder die Landbauarbeit wenigstens als die ausgezeichnete faßt, während St. Simon im Gegensatz die Industriearbeit als solche für das Wesen erklärt und nun auch die alleinige Herrschaft der Industriellen und die Verbesserung der Lage der Arbeiter begehrt.",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_004",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "或者，劳动的特殊方式，即划一的、分散的因而是不自由的劳动，被理解为私有财产的有害性的和它同人相异化的存在的根源——傅立叶，他和重农学派一样，也把农业劳动看成至少是最好的劳动，⁹⁴而圣西门则相反，他把工业劳动本身说成本质，因此他渴望工业家独占统治，渴望改善工人状况。①",
+      "evidence_pages": [
+        "zh_collected:319",
+        "zh_collected:320"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_005",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Der Communismus endlich ist der positive Ausdruck des aufgehobnen Privateigenthums, zunächst das allgemeine Privateigenthum. Indem er dieß Verhältniß in seiner Allgemeinheit faßt, ist er 1) in seiner ersten Gestalt nur eine Verallgemeinerung und Vollendung desselben; als solche zeigt er sich in doppelter Gestalt:",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_005",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "最后，共产主义是扬弃了的私有财产的积极表现；起先它是作为普遍的私有财产出现的。共产主义是从私有财产的普遍性来看私有财产关系，因而共产主义\n（1）在它的最初的形式中不过是这种关系的普遍化和完成。⁹⁵这样的共产主义以双重的形式表现出来：",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_006",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "einmal ist die Herrschaft des sachlichen Eigenthums so groß ihm gegenüber, daß er alles vernichten will, was nicht fähig ist, als Privateigenthum von allen besessen [zu] werden; er will auf gewaltsame Weise v[on] Talent, etc abstrahiren, der physische, unmittelbare Besitz gilt ihm als einziger Zweck des Lebens und Daseins; die Bestimmung des Arbeiters wird nicht aufgehoben, sondern auf alle Menschen ausgedehnt; || das Verhältniß des Privateigenthums bleibt das Verhältniß der Gemeinschaft zur Sachenwelt;",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_006",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "首先，物质的财产对它的统治力量如此之大，以致它想把不能被所有人作为私有财产占有的一切都消灭；它想用强制的方法把才能等等抛弃。在它看来，物质的直接的占有是生活和存在的惟一目的；工人这个规定并没有被取消，而是被推广到一切人身上；私有财产关系仍然是共同体同实物世界的关系；",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_007",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "endlich spricht sich diese Bewegung, dem Privateigenthum das allgemeine Privateigenthum entgegenzustellen, in der thierischen Form aus, daß der Ehe (welche allerdings eine Form des exclusiven Privateigenthums ist) die Weibergemeinschaft, wo also das Weib zu einem gemeinschaftlichen und gemeinen Eigenthum wird, entgegengestellt wird. Man darf sagen, daß dieser Gedanke der Weibergemeinschaft das ausgesprochne Geheimniß dieses noch ganz rohen und gedankenlosen Communismus ist.",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_007",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "最后，用普遍的私有财产来反对私有财产这个运动是以一种动物的形式表现出来的：用公妻制——也就是把妇女变为公有的和共有的财产——来反对婚姻（它确实是一种排他性的私有财产的形式）。人们可以说，公妻制这种思想是这个仍然十分粗陋的和无思想的共产主义的昭然若揭的秘密。⁹⁶",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_008",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Wie das Weib aus der Ehe in die allgemeine Prostitution, so tritt die ganze Welt des Reichthums, d. h. des gegenständlichen Wesens d[es] Menschen, aus dem Verhältniß der exclusiven Ehe mit dem Privateigenthümer in das Verhältniß der universellen Prostitution mit der Gemeinschaft.",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_008",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "正像妇女从婚姻转向普遍卖淫一样，财富——人的对象性的本质——的整个世界，也从它同私有者的排他性的婚姻的关系转向它同共同体的普遍卖淫关系。",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_009",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Dieser Communismus — indem er die Persönlichkeit d[es] Menschen überall negirt — ist eben nur der conséquente Ausdruck des Privateigenthums, welches diese Negation ist.",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_009",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "这种共产主义——由于到处否定人的个性——只不过是私有财产的彻底表现，私有财产就是这种否定。",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_010",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Der allgemeine und als Macht sich constituirende Neid ist die versteckte Form, in welcher die Habsucht sich herstellt und nur auf eine andre Weise sich befriedigt. Der Gedanke jedes Privateigenthums als eines solchen ist wenigstens gegen das reichere Privateigenthum als Neid und Nivellirungssucht gekehrt, so daß diese sogar das Wesen der Concurrenz ausmachen.",
+      "evidence_pages": [
+        "de_megai2:387"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_010",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "普遍的和作为权力而形成的忌妒心，是贪财欲所采取的并且只是用另一种方式使自己得到满足的隐蔽形式。任何私有财产，就它本身而言，至少对较富裕的私有财产怀有忌妒心和平均主义欲望，这种忌妒心和平均主义欲望甚至构成竞争的本质。",
+      "evidence_pages": [
+        "zh_collected:320"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_011",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Der rohe Communist ist nur die Vollendung dieses Neides und dieser Nivellirung von dem vorgestellten Minimum aus. Er hat ein bestimmtes begrenztes Maaß. Wie wenig diese Aufhebung des Privateigenthums eine wirkliche Aneignung ist, beweist eben die abstrakte Negation der ganzen Welt der Bildung und der Civilisation; die Rückkehr zur unnatürlichen ||IV| Einfachheit des armen und bedürfnißlosen Menschen, der nicht über das Privateigenthum hinaus, sondern noch nicht einmal bei demselben angelangt ist.",
+      "evidence_pages": [
+        "de_megai2:387",
+        "de_megai2:388"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_011",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "粗陋的共产主义②不过是这种忌妒心和这种从想像的最低限度出发的平均主义的完成。它具有一个特定的、有限制的尺度。对整个文化和文明的世界的抽象否定，向贫穷的、需求不高的人——他不仅没有超越私有财产的水平，甚至从来没有达到私有财产的水平——的非自然的[IV]简单状态的倒退，恰恰证明私有财产的这种扬弃决不是真正的占有。⁹⁷",
+      "evidence_pages": [
+        "zh_collected:320",
+        "zh_collected:321"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_012",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "Die Gemeinschaft ist nur eine Gemeinschaft der Arbeit und der Gleichheit des Salairs, den das gemeinschaftliche Capital, die Gemeinschaft als der allgemeine Capitalist auszahlt. Beide Seiten des Verhältnisses sind in eine vorgestellte Allgemeinheit erhoben, die Arbeit, als die Bestimmung, in welcher jeder gesezt ist, das Capital, als die anerkannte Allgemeinheit und Macht der Gemeinschaft.",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_012",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-03",
+      "extracted_reading": null,
+      "corrected_text": "共同性只是劳动的共同性以及由共同的资本——作为普遍的资本家的共同体——所支付的工资的平等的共同性。关系的两个方面被提高到想像的普遍性：劳动是为每个人设定的天职，而资本是共同体的公认的普遍性和力量。",
+      "evidence_pages": [
+        "zh_collected:321"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_013",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "In dem Verhältniß zum Weib, als dem Raub und d[er] Magd der gemeinschaftlichen Wollust, ist die unendliche Degradation ausgesprochen, in welcher der Mensch für sich selbst existirt, denn das Geheimniß dieses Verhältnisses hat seinen unzweideutigen, entschiednen, offenbaren, enthüllten Ausdruck in dem Verhältnisse des Mannes zum Weibe und in der Weise, wie das unmittelbare, natürliche Gattungsverhältniß gefaßt wird.",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_013",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "把妇女当作共同淫欲的掳获物和婢女来对待，这表现了人在对待自身方面的无限的退化，因为这种关系的秘密在男人对妇女的关系上，以及在对直接的、自然的类关系的理解方式上，都毫不含糊地、确凿无疑地、明显地、露骨地表现出来。",
+      "evidence_pages": [
+        "zh_collected:321"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_014",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Das unmittelbare, natürliche, nothwendige Verhältniß d[es] Menschen zum Menschen ist das Verhältniß des Mannes zum Weibe. // In diesem natürlichen Gattungsverhältniß ist das Verhältniß des Menschen zur Natur unmittelbar sein Verhältniß zum Menschen wie das Verhältniß zum Menschen unmittelbar sein Verhältniß zur Natur, seine eigne natürliche Bestimmung ist. In diesem Verhältniß erscheint also sinnlich, auf ein anschaubares Factum reducirt inwieweit dem Menschen das menschliche Wesen zur Natur oder die Natur zum menschlichen Wesen d[es] Menschen geworden ist.",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_014",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "人对人的直接的、自然的、必然的关系是男人对妇女的关系。在这种自然的类关系中，人对自然的关系直接就是人对人的关系，正像人对人的关系直接就是人对自然的关系，就是他自己的自然的规定。因此，这种关系通过感性的形式，作为一种显而易见的事实，表现出人的本质在何种程度上对人来说成为自然，或者自然在何种程度上成为人具有的人的本质。",
+      "evidence_pages": [
+        "zh_collected:321"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_015",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Aus diesem Verhältniß kann man also die ganze Bildungsstufe d[es] Menschen beurtheilen. | / Aus dem Charakter dieses Verhältnisses—folgt, inwieweit der Mensch als Gattungswesen, als Mensch sich geworden ist und erfaßt hat; das Verhältniß des Mannes zum Weib ist das natürlichste Verhältniß d[es] Menschen zum Menschen.",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_015",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "因此，从这种关系就可以判断人的整个文化教养程度。从这种关系的性质就可以看出，人在何种程度上对自己来说成为并把自身理解为类存在物、人。男人对妇女的关系是人对人最自然的关系。",
+      "evidence_pages": [
+        "zh_collected:321"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_016",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "In ihm zeigt sich also inwieweit das natürliche Verhalten des Menschen menschlich oder inwieweit das menschlichenresen ihm zum Natürlichen Wesen, inwieweit seine menschliche Natur ihm zur Natur geworden ist. In diesem Verhältniß zeigt sich auch, inwieweit das Bedürfniß des Menschen zum menschlichen Bedürfniß, inwieweit ihm also der andre Mensch als Mensch zum Bedürfniß geworden ist, inwieweit er in seinem individuellsten Dasein zugleich Gemeinwesen ist.",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_016",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "因此，这种关系表明人的自然的行为在何种程度上成为人的行为，或者，人的本质在何种程度上对人来说成为自然的本质，他的人的本性在何种程度上对他来说成为自然。这种关系还表明，人具有的需要在何种程度上成为人的需要，就是说，别人作为人在何种程度上对他来说成为需要，他作为个人的存在在何种程度上同时又是社会存在物。",
+      "evidence_pages": [
+        "zh_collected:321",
+        "zh_collected:322"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_017",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Die erste positive Aufhebung des Privateigenthums, der rohe Communismus ist also nur eine Erscheinungsform von der Niedertracht des Privateigenthums, das sich als das positive Gemeinwesen setzen will.",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_017",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "由此可见，对私有财产的最初的积极的扬弃，即粗陋的共产主义，不过是想把自己设定为积极的共同体的私有财产的卑鄙性的一种表现形式。",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_018",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "2) Der Communismus α) noch politischer Natur, demokratisch oder despotisch; ß) mit Aufhebung des Staats, aber zugleich noch unvollendetes, immer noch mit dem Privateigenthum, d. h. der Entfremdung d[es] Menschen afficirtem Wesen.",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_018",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "(2)共产主义(α)还具有政治性质，是民主的或专制的；(β)是废除国家的，但同时是还未完成的，总还是处于私有财产即人的异化的影响下。",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_019",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "In beiden Formen weiß sich der Communismus schon als Reintegration oder Rückkehr des Menschen in sich, als Aufhebung der menschlichen Selbstentfremdung, aber indem er das positive Wesen des Privateigenthums noch nicht || erfaßt hat und ebensowenig die menschliche Natur des Bedürfnisses verstanden hat, ist er auch noch von demselben befangen und inf icirt. Er hat zwar seinen Begriff erfaßt, aber noch nicht sein Wesen.",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_019",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "这两种形式的共产主义都已经认识到自己是人向自身的还原或复归，是人的自我异化的扬弃；但是，因为它还没有理解私有财产的积极的本质，也还不了解需要所具有的人的本性，所以它还受私有财产的束缚和感染。它虽然已经理解私有财产这一概念，但是还不理解它的本质。",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_020",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "3) Der Communismus als positive Aufhebung des Privateigenthums, als menschlicher Selbstentfremdung und darum als wirkliche Aneignung des menschlichen Wesens durch und für d[en] Menschen; darum als vollständige, bewußt und innerhalb des ganzen Reichthums der bisherigen Entwicklung gewordne Rückkehr des Menschen für sich als eines gesellschaftlichen, d.h. menschlichen Menschen.",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_020",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "(3)共产主义是私有财产即人的自我异化的积极的扬弃，因而是通过人并且为了人而对人的本质的真正占有；因此，它是人向自身、向社会的即合乎人性的人的复归，这种复归是完全的，自觉的和在以往发展的全部财富的范围内生成的。",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_021",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Dieser Communismus ist als vollendeter Naturalismus = Humanismus, als vollendeter Humanismus = Naturalismus, er ist die wahrhafte Auflösung des Widerstreits des Menschen mit der Natur und mit d[em] Menschen, die wahre Auflösung des Streits zwischen Existenz und Wesen, zwischen Vergegenständlichung und Selbstbestätigung, zwischen Freiheit und Nothwendigkeit, zwischen Individuum und Gattung. Er ist das aufgelöste Räthsel der Geschichte und weiß sich als diese Lösung. /",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_021",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "这种共产主义，作为完成了的自然主义=人道主义，而作为完成了的人道主义=自然主义，它是人和自然界之间、人和人之间的矛盾的真正解决，是存在和本质、对象化和自我确证、自由和必然、个体和类之间的斗争的真正解决。它是历史之谜的解答，而且知道自己就是这种解答。⁹⁸",
+      "evidence_pages": [
+        "zh_collected:322"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_022",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "|V| Die ganze Bewegung der Geschichte ist daher, wie sein wirklicher Zeugungsakt — der Geburtsakt seines empirischen Daseins—so auch für sein denkendes Bewußtsein die begriffne und gewußte Bewegung seines Werdens, während jener noch unvollendete Communismus aus einzelnen dem Privateigenthum entgegenstehenden Geschichtsgestalten einen historischen Beweis, einen Beweis in dem Bestehenden für sich sucht, indem er einzelne Momente aus der Bewegung (Cabet, Villegardelle, etc reiten besonders auf diesem Roß) herausreißt und als Beweise seiner historischen Vollblütigkeit fixirt, womit er eben darthut, daß die unverhältnißmässig grössere Parthie dieser Bewegung seinen Behauptungen widerspricht und daß, wenn er einmal gewesen ist, eben sein vergangnes Sein die Prätention des Wesens widerlegt.",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_022",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "[V]因此，历史的全部运动，既是它的现实的产生活动——它的经验存在的诞生活动，——同时，对它的思维着的意识来说，又是它的被理解和被认识到的生成运动。而上述尚未完成的共产主义从各个与私有财产相对立的历史形式中为自己寻找历史的证明——在持续存在中的证明，同时它从运动中抽出个别环节（卡贝、维尔加德尔等人尤其喜欢卖弄这一套），把它们作为自己是历史的纯种的证明固定下来；但是，它这样做恰好说明：历史运动的绝大部分是同它的论断不一致的，如果它曾经存在过，那么它的这种过去的存在恰恰反驳了对本质的奢求。",
+      "evidence_pages": [
+        "zh_collected:322",
+        "zh_collected:323"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_023",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Daß in der Bewegung des Privateigenthums, eben d[er] Oekonomie, die ganze revolutionaire Bewegung sowohl ihre empirische, als theoretische Basis findet, davon ist die Nothwendigkeit leicht einzusehn.",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_023",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "不难看到，整个革命运动必然在私有财产的运动中，即在经济的运动中，为自己既找到经验的基础，也找到理论的基础。",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_024",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Das materielle, unmittelbar sinnliche Privateigenthum, ist der materielle sinnliche Ausdruck des entfremdeten menschlichen Lebens. Seine Bewegung — die Production und Consumtion — ist die sinnliche Offenbarung von der Bewegung aller bisherigen Production, d. h. Verwirklichung oder Wirklichkeit d[es] Menschen.",
+      "evidence_pages": [
+        "de_megai2:389",
+        "de_megai2:390"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_024",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "这种物质的、直接感性的私有财产，是异化了的人的生命的物质的、感性的表现。私有财产的运动——生产和消费——是迄今为止全部生产的运动的感性展现，就是说，是人的实现或人的现实。",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_025",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Religion, Familie, Staat, Recht, Moral, Wissenschaft, Kunst etc sind nur besondre Weisen der Production und fallen unter ihr allgemeines Gesetz. Die positive Aufhebung des Privateigenthums als die Aneignung des menschlichen Lebens, ist daher die positive Aufhebung aller Entfremdung, also die Rückkehr des Menschen aus Religion, Familie, Staat etc in sein menschliches d. h. gesellschaftliches Dasein.",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_025",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "宗教、家庭、国家、法、道德、科学、艺术等等，都不过是生产的一些特殊的方式，并且受生产的普遍规律的支配。因此，对私有财产的积极的扬弃，作为对人的生命的占有，是对一切异化的积极的扬弃，从而是人从宗教、家庭、国家等等向自己的人的存在即社会的存在的复归。",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_026",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Die religiöse Entfremdung als solche geht nur in dem Gebiet des Bewußtseins, des menschlichen Innern vor, aber die ökonomische Entfremdung ist die des wirklichen Lebens, — ihre Aufhebung umfaßt daher beide Seiten. Es versteht sich, daß die Bewegung bei den verschiednen Völkern ihren ersten Beginn danach nimmt, ob das wahre anerkannte Leben des Volkes mehr im Bewußtsein oder in der äussern Welt vorsichgeht, mehr das ideelle oder reelle Leben ist.",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_026",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "宗教的异化本身只是发生在意识领域、人的内心领域中，而经济的异化是现实生活的异化，——因此对异化的扬弃包括两个方面。不言而喻，在不同的民族那里，运动从哪个领域开始，这要看一个民族的真正的、公认的生活主要是在意识领域中还是在外部世界中进行，这种生活更多地是观念的生活还是现实的生活。",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_027",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Der Communismus beginnt sogleich (Owen) mit dem Atheismus, der Atheismus ist zunächst noch weit entfernt Communismus zu sein, wie jener Atheismus mehr noch eine Abstraktion ist.—Die Philanthropie das Atheismus ist daher zuerst nur eine || philosophische abstrakte Philanthropie, die des Communismus sogleich reell und unmittelbar zur Wtkung gespannt.",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_027",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "共产主义是径直从无神论开始的（欧文）⁹⁹，而无神论最初还根本不是共产主义；那种无神论主要还是一个抽象。——因此，无神论的博爱最初还只是哲学的、抽象的博爱，而共产主义的博爱则径直是现实的和直接追求实效的。——",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_028",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Wir haben gesehn, wie unter Voraussetzung des positiv aufgehobnen Privateigenthums, der Mensch d[en] Menschen producirt, sich selbst und den andern Menschen; wie der Gegenstand, welcher die unmittelbare Bethätigung seiner Individualität zugleich sein eignes Dasein für den andern Menschen dessen Dasein und dessen Dasein für ihn ist.",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_028",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "我们已经看到，在被积极扬弃的私有财产的前提下，人如何生产人——他自己和别人；直接体现他的个性的对象如何是他自己为别人的存在，同时是这个别人的存在，而且也是这个别人为他的存在。",
+      "evidence_pages": [
+        "zh_collected:323"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_029",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Ebenso sind aber sowohl das Material der Arbeit, als der Mensch als Subjekt, wie Resultat so Ausgangspunkt der Bewegung (und daß sie dieser Ausgangspunkt sein müssen, eben darin liegt die geschichthche Nothwendigkeit des Privateigenthums).",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_029",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "但是，同样，无论是劳动的材料还是作为主体的人，都既是运动的结果，又是运动的出发点（并且二者必须是这个出发点，私有财产的历史必然性就在于此）。",
+      "evidence_pages": [
+        "zh_collected:323",
+        "zh_collected:326"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_de_030",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "Also ist der gesellschaftliche Charakter der allgemeine Charakter der ganzen Bewegung; wie die Gesellschaft selbst den Menschen als Menschen producirt, so ist sie durch ihn producirt. Die Thätigkeit und der Genuß, wie ihrem Inhalt, sind auch der Existenzweisenachgesellschaftliche Thätigkeit und gesellschaftlicher Genuß.",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
+    },
+    {
+      "unit_id": "communism_zh_030",
+      "method": "scan_review_ai",
+      "reviewed_by": "Codex",
+      "reviewed_at": "2026-10-04",
+      "extracted_reading": null,
+      "corrected_text": "因此，社会性质是整个运动的普遍性质；正像社会本身生产作为人的人一样，社会也是由人生产的。活动和享受，无论就其内容或就其存在方式来说，都是社会的活动和社会的享受。",
+      "evidence_pages": [
+        "zh_collected:326"
+      ],
+      "note": "图像核对转录；页级原提取文本保存在extraction.json。未应用旧替换规则。"
     }
   ],
   "coverage": [
@@ -5116,6 +8974,253 @@
       "note": "本地PDF384的页内标记暂记||n|；其中字形与罗马数字II的区分仍待核。中文页用[II]，不据译文静默替换。正文保留候选并明确待审。",
       "recorded_by": "Codex",
       "recorded_at": "2026-10-02"
+    },
+    {
+      "id": "private_work_de_014_literal_106",
+      "unit_id": "private_work_de_014",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "sie.",
+      "reported_reading": "sie.",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "text_anchor": {
+        "start": 106,
+        "end": 110,
+        "quote": "sie."
+      },
+      "note": "本地PDF可见字形为“sie.”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-03"
+    },
+    {
+      "id": "private_work_de_014_literal_301",
+      "unit_id": "private_work_de_014",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "Merkantüsystem",
+      "reported_reading": "Merkantüsystem",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "text_anchor": {
+        "start": 301,
+        "end": 315,
+        "quote": "Merkantüsystem"
+      },
+      "note": "本地PDF可见字形为“Merkantüsystem”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-03"
+    },
+    {
+      "id": "private_work_de_018_literal_212",
+      "unit_id": "private_work_de_018",
+      "kind": "glyph_doubt",
+      "status": "open",
+      "current_reading": "Element II gebundne",
+      "reported_reading": "Element后的页内标记待辨",
+      "evidence_pages": [
+        "de_megai2:385"
+      ],
+      "text_anchor": {
+        "start": 212,
+        "end": 231,
+        "quote": "Element II gebundne"
+      },
+      "note": "本地PDF385在Element与gebundne之间可见II形标记，暂按可见字形照录；标记性质及转写形式待核，不据语义删除或改写。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-03"
+    },
+    {
+      "id": "private_work_de_020_literal_199",
+      "unit_id": "private_work_de_020",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "Agricultor",
+      "reported_reading": "Agricultor",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "text_anchor": {
+        "start": 199,
+        "end": 209,
+        "quote": "Agricultor"
+      },
+      "note": "本地PDF可见字形为“Agricultor”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-03"
+    },
+    {
+      "id": "private_work_de_023_literal_0",
+      "unit_id": "private_work_de_023",
+      "kind": "glyph_doubt",
+      "status": "open",
+      "current_reading": "/|lll|",
+      "reported_reading": "页内罗马数字及界符待辨",
+      "evidence_pages": [
+        "de_megai2:386"
+      ],
+      "text_anchor": {
+        "start": 0,
+        "end": 6,
+        "quote": "/|lll|"
+      },
+      "note": "本地PDF386在Aller Reichthum前的标记暂记/|lll|；竖线、字母l及罗马数字III的转写仍待核，不据中文[III]替换。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-03"
+    },
+    {
+      "id": "communism_de_011_literal_347",
+      "unit_id": "communism_de_011",
+      "kind": "glyph_doubt",
+      "status": "open",
+      "current_reading": "||IV|",
+      "reported_reading": "IV页内标记的界符待核",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "text_anchor": {
+        "start": 347,
+        "end": 352,
+        "quote": "||IV|"
+      },
+      "note": "PDF388在unnatürlichen与Einfachheit之间的标记暂转写为||IV|；左侧界符及罗马数字的具体字形仍待核。中文[IV]独立照录，不据译文确定德文标记。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-03"
+    },
+    {
+      "id": "communism_de_016_literal_101",
+      "unit_id": "communism_de_016",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "menschlichenresen",
+      "reported_reading": "menschlichenresen",
+      "evidence_pages": [
+        "de_megai2:388"
+      ],
+      "text_anchor": {
+        "start": 101,
+        "end": 118,
+        "quote": "menschlichenresen"
+      },
+      "note": "本地PDF可见字形为“menschlichenresen”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-04"
+    },
+    {
+      "id": "communism_de_018_literal_76",
+      "unit_id": "communism_de_018",
+      "kind": "glyph_doubt",
+      "status": "open",
+      "current_reading": "ß)",
+      "reported_reading": "分项标记ß/β字形待核",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "text_anchor": {
+        "start": 76,
+        "end": 78,
+        "quote": "ß)"
+      },
+      "note": "PDF389分项标记暂按可见提取候选ß)照录；ß与希腊β的字形区别待核，中文β独立照录，不据译文定字。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-04"
+    },
+    {
+      "id": "communism_de_019_literal_347",
+      "unit_id": "communism_de_019",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "inf icirt",
+      "reported_reading": "inf icirt",
+      "evidence_pages": [
+        "de_megai2:389"
+      ],
+      "text_anchor": {
+        "start": 347,
+        "end": 356,
+        "quote": "inf icirt"
+      },
+      "note": "本地PDF可见字形为“inf icirt”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-04"
+    },
+    {
+      "id": "communism_de_027_literal_196",
+      "unit_id": "communism_de_027",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "das Atheismus",
+      "reported_reading": "das Atheismus",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "text_anchor": {
+        "start": 196,
+        "end": 209,
+        "quote": "das Atheismus"
+      },
+      "note": "本地PDF可见字形为“das Atheismus”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-04"
+    },
+    {
+      "id": "communism_de_027_literal_334",
+      "unit_id": "communism_de_027",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "Wtkung",
+      "reported_reading": "Wtkung",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "text_anchor": {
+        "start": 334,
+        "end": 340,
+        "quote": "Wtkung"
+      },
+      "note": "本地PDF可见字形为“Wtkung”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-04"
+    },
+    {
+      "id": "communism_de_029_literal_188",
+      "unit_id": "communism_de_029",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "geschichthche",
+      "reported_reading": "geschichthche",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "text_anchor": {
+        "start": 188,
+        "end": 201,
+        "quote": "geschichthche"
+      },
+      "note": "本地PDF可见字形为“geschichthche”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-04"
+    },
+    {
+      "id": "communism_de_030_literal_246",
+      "unit_id": "communism_de_030",
+      "kind": "semantic_doubt",
+      "status": "retained_as_source",
+      "current_reading": "Existenzweisenachgesellschaftliche",
+      "reported_reading": "Existenzweisenachgesellschaftliche",
+      "evidence_pages": [
+        "de_megai2:390"
+      ],
+      "text_anchor": {
+        "start": 246,
+        "end": 280,
+        "quote": "Existenzweisenachgesellschaftliche"
+      },
+      "note": "本地PDF可见字形为“Existenzweisenachgesellschaftliche”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。",
+      "recorded_by": "Codex",
+      "recorded_at": "2026-10-04"
     }
   ],
   "missing_pages": []

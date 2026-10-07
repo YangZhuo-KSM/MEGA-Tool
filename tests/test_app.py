@@ -20,7 +20,7 @@ def app():
 
 def test_default_reader_and_section_switch():
     at=app()
-    assert at.metric[0].value=='42'
+    assert at.metric[0].value=='84'
     assert at.metric[1].value=='0'
     at.sidebar.selectbox[0].select('mill').run()
     assert not at.exception

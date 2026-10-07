@@ -1,8 +1,9 @@
 """Read and validate the transparent JSON corpus. No database is needed."""
 import json
+import os
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ['MEGA_TOOL_ROOT']).resolve() if os.environ.get('MEGA_TOOL_ROOT') else Path(__file__).resolve().parents[1]
 
 
 def validate(data):

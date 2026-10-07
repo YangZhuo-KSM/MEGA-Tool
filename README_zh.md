@@ -60,9 +60,9 @@ MEGA Tool 就是从这个实际研究工作流出发设计的。
 
 ## 当前公开版本
 
-**v0.4.0-alpha3 — Research Preview**
+**v0.4.0-alpha8 — Research Preview**
 
-当前公开版包含 **42 组德中对应、98 个文本单元和 29 条页码映射**，覆盖《1844年经济学哲学手稿》及穆勒笔记中的若干研究片段。
+当前公开版包含 **84 组德中对应、182 个文本单元和 45 条页码映射**，覆盖《1844年经济学哲学手稿》及穆勒笔记中的若干研究片段。
 
 这个仓库既是一个正在使用的研究工具，也记录了文献学判断、书目信息和界面设计如何被转化为可复现的数字研究流程。
 
@@ -75,6 +75,8 @@ MEGA Tool 就是从这个实际研究工作流出发设计的。
 程序运行本身不依赖在线 AI API。
 
 ## 本地运行
+
+**[下载 Windows 便携版](https://github.com/YangZhuo-KSM/MEGA-Tool/releases/download/v0.4.0-alpha8/MEGA_Tool-Windows-alpha8.zip)**：解压 ZIP 后双击 `MEGA_Tool_Windows.exe`，无需安装 Python。保留整个解压文件夹，阅读期间保持启动器窗口打开；详见[Windows启动版](docs/WINDOWS_EXE.md)。
 
 使用 Python 3.11 或更新版本；项目已在 Windows / Python 3.14 上验证。
 
@@ -108,7 +110,7 @@ macOS / Linux 可使用 `python3 -m venv .venv` 创建环境，并将 Windows �
 - [代码说明](docs/CODE_GUIDE.md)
 - [转录复盘](docs/TRANSCRIPTION_REVIEW.md)
 - [验证记录](docs/VALIDATION.md)
-- [当前公开预览版说明](docs/V04_ALPHA3.md)
+- [当前公开预览版说明](docs/V04_ALPHA8.md)
 
 ## 开发说明
 

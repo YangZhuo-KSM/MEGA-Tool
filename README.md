@@ -60,9 +60,9 @@ This is the kind of problem the tool is meant to make easier to detect and trace
 
 ## Current public preview
 
-**v0.4.0-alpha3 — Research Preview**
+**v0.4.0-alpha8 — Research Preview**
 
-The current public version contains **42 German–Chinese alignment groups, 98 text units, and 29 page mappings** across selected passages from the 1844 manuscripts and the notes on James Mill.
+The current public version contains **84 German–Chinese alignment groups, 182 text units, and 45 page mappings** across selected passages from the 1844 manuscripts and the notes on James Mill.
 
 The repository is intended both as a working research tool and as a record of how textual, bibliographical, and interface decisions are translated into a reproducible digital workflow.
 
@@ -75,6 +75,8 @@ Core modules separate corpus loading, reading-page generation, search, page loca
 The application does not require an online AI API at runtime.
 
 ## Run locally
+
+**[Download the Windows portable edition](https://github.com/YangZhuo-KSM/MEGA-Tool/releases/download/v0.4.0-alpha8/MEGA_Tool-Windows-alpha8.zip)** — extract the ZIP and double-click `MEGA_Tool_Windows.exe`. No Python installation is required. Keep the extracted folder intact and the launcher window open while reading. See [Windows instructions](docs/WINDOWS_EXE.md).
 
 Use Python 3.11 or newer. The application has been tested on Windows with Python 3.14.
 
@@ -108,7 +110,7 @@ Page mappings are tied to the indexed PDFs by file hash and page count. A differ
 - [Code guide](docs/CODE_GUIDE.md)
 - [Transcription review](docs/TRANSCRIPTION_REVIEW.md)
 - [Validation](docs/VALIDATION.md)
-- [Current public preview notes](docs/V04_ALPHA3.md)
+- [Current public preview notes](docs/V04_ALPHA8.md)
 
 ## Development note
 

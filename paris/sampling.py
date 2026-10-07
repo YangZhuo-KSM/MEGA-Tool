@@ -20,7 +20,7 @@ def scope_digest(data, ids):
     ], ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 
-def build_plan(data, first_batch=5, seed='paris-review-v1'):
+def build_plan(data, first_batch=5, seed='paris-review-v1', created_date='2026-10-02'):
     scope = [a for a in data['alignments'] if a['review_batch'] >= first_batch]
     units = index(data['units']); strata = defaultdict(list)
     reasons = defaultdict(list)
@@ -50,6 +50,9 @@ def build_plan(data, first_batch=5, seed='paris-review-v1'):
             if any(i['status']=='open' for i in issues): select(a, '未解决疑点：定向核查')
             if issues: risks['照录/字形疑点'].append(a)
             if any(len(u['locations'])>1 for u in selected): risks['跨页接续'].append(a)
+            if any(any(right['pdf_page']-left['pdf_page']>1 and right['source_id']==left['source_id']
+                       for left,right in zip(u['locations'],u['locations'][1:])) for u in selected):
+                select(a, '跨插页正文：定向核查')
             if len(a['de_ids'])>1 or len(a['zh_ids'])>1: risks['多单元对应'].append(a)
         for category, candidates in sorted(risks.items()):
             # One representative per risk type in each stratum; overlap limits burden.
@@ -57,10 +60,28 @@ def build_plan(data, first_batch=5, seed='paris-review-v1'):
             select(candidate, '风险代表样本：'+category)
     ids = [a['id'] for a in scope]
     return dict(schema_version=1, policy='stratified-review-v1', seed=seed,
-                first_batch=first_batch, release=data['release'], created_date='2026-10-02',
+                first_batch=first_batch, release=data['release'], created_date=created_date,
                 scope_ids=ids, scope_digest=scope_digest(data, ids),
                 recommended=[dict(alignment_id=a['id'], reasons=reasons[a['id']]) for a in scope if a['id'] in reasons],
                 note='质量发现用的分层随机与风险定向混合抽样，不提供统计置信保证；未抽中记录不自动确认。')
+
+
+def extend_plan(data, previous, created_date):
+    """Append a review cohort without redrawing earlier frozen suggestions."""
+    current = {a['id'] for a in data['alignments'] if a['review_batch'] >= previous['first_batch']}
+    old = set(previous['scope_ids'])
+    if not old <= current or scope_digest(data, previous['scope_ids']) != previous['scope_digest']:
+        raise ValueError('原抽样范围的正文、来源或疑点已改变，不能增量延续清单。')
+    new_ids = current-old
+    if not new_ids:
+        return previous
+    cohort = dict(data, alignments=[a for a in data['alignments'] if a['id'] in new_ids])
+    result = build_plan(cohort, previous['first_batch'], previous['seed'], created_date)
+    result['scope_ids'] = [a['id'] for a in data['alignments'] if a['id'] in current]
+    result['scope_digest'] = scope_digest(data, result['scope_ids'])
+    result['recommended'] = previous['recommended'] + result['recommended']
+    result['previous_scope_digest'] = previous['scope_digest']
+    return result
 
 
 def load_plan(data, path=None):

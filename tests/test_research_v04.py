@@ -12,9 +12,9 @@ from paris.reviews import fingerprint
 def test_coverage_has_all_four_works_without_fabricated_full_denominator():
     data=load_corpus(); plan=load_plan(data); rows=coverage_rows(data,{},plan)
     assert {r['work'] for r in rows}=={'manuscript1','manuscript2','manuscript3','mill'}
-    assert len(rows)==14 and sum(r['groups']>0 for r in rows)==4
-    assert sum(r['groups'] for r in rows)==42
-    assert sum(r['units'] for r in rows)==84
+    assert len(rows)==14 and sum(r['groups']>0 for r in rows)==5
+    assert sum(r['groups'] for r in rows)==84
+    assert sum(r['units'] for r in rows)==168
     assert all(r['collected_ratio'] is None for r in rows)
     assert next(r for r in rows if r['id']=='wages')['checked_ratio'] is None
     assert next(r for r in rows if r['id']=='private_work')['confirmed_ratio']==0
@@ -65,8 +65,8 @@ def test_scoped_multiterm_counts_reproduce_rows_and_do_not_count_comparison_copi
 def test_chinese_statistics_whole_word_option_does_not_erase_substrings():
     data=load_corpus()
     report=research_distribution(data,{},['私有财产'],'zh',section_ids=['private_work'],whole_word=True)
-    assert report['hits'] and report['scope']['units']==12
-    assert all('第289' in h['citation'] or '第290' in h['citation'] or '第291页' in h['citation'] for h in report['hits'])
+    assert report['hits'] and report['scope']['units']==24
+    assert all('第289' in h['citation'] or '第290' in h['citation'] or '第291页' in h['citation'] or '第292页' in h['citation'] or '第293页' in h['citation'] for h in report['hits'])
     assert all(len(h['spans'])==h['count'] for h in report['hits'])
 
 
@@ -92,7 +92,7 @@ def test_research_workspaces_and_new_sample_jump(monkeypatch):
     app=AppTest.from_file(str(Path(__file__).resolve().parents[1]/'app.py')).run(timeout=30)
     app.sidebar.radio(key='workspace').set_value('覆盖清单').run()
     assert not app.exception
-    assert any(m.value=='4/14' for m in app.metric)
+    assert any(m.value=='5/14' for m in app.metric)
     app.button(key='coverage_private_work').click().run()
     assert app.sidebar.selectbox(key='section_id').value=='private_work'
     assert any('主体本质' in m.value for m in app.markdown)
@@ -101,7 +101,7 @@ def test_research_workspaces_and_new_sample_jump(monkeypatch):
     app.multiselect(key='stats_sections').set_value(['private_work']).run()
     app.text_area(key='stats_queries_zh').input('私有财产\n劳动').run()
     assert not app.exception
-    assert any('12 个文本单元，2 项独立查询' in c.value for c in app.caption)
+    assert any('24 个文本单元，2 项独立查询' in c.value for c in app.caption)
     app.checkbox(key='stats_confirmed').check().run()
     assert any('当前范围无命中' in i.value for i in app.info)
     app.sidebar.radio(key='workspace').set_value('审核与资料').run()

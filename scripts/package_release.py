@@ -47,7 +47,7 @@ def build(stage):
         files.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts
                      and p.suffix in ('.py','.md','.jpg','.png')
                      and 'reviews' not in p.relative_to(ROOT).parts
-                     and p.name not in ('REVIEW_ACCEPTANCE.md','original-pages.jpg')
+                     and p.name not in ('REVIEW_ACCEPTANCE.md','original-pages.jpg','windows-exe-original.png','USER_CONTRIBUTIONS_README_HANDOFF.md')
                      and not p.name.endswith('.local.md'))
     if stage=='stage0':
         files=[p for p in files if 'tests' not in p.relative_to(ROOT).parts and 'reviews' not in p.relative_to(ROOT).parts]

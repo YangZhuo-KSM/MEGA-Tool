@@ -3,8 +3,8 @@
   "policy": "stratified-review-v1",
   "seed": "paris-review-v1",
   "first_batch": 5,
-  "release": "0.4.0-alpha3",
-  "created_date": "2026-10-02",
+  "release": "0.4.0-alpha8",
+  "created_date": "2026-10-04",
   "scope_ids": [
     "private_relation_001",
     "private_relation_002",
@@ -23,9 +23,51 @@
     "private_work_009",
     "private_work_010",
     "private_work_011",
-    "private_work_012"
+    "private_work_012",
+    "private_work_013",
+    "private_work_014",
+    "private_work_015",
+    "private_work_016",
+    "private_work_017",
+    "private_work_018",
+    "private_work_019",
+    "private_work_020",
+    "private_work_021",
+    "private_work_022",
+    "private_work_023",
+    "private_work_024",
+    "communism_001",
+    "communism_002",
+    "communism_003",
+    "communism_004",
+    "communism_005",
+    "communism_006",
+    "communism_007",
+    "communism_008",
+    "communism_009",
+    "communism_010",
+    "communism_011",
+    "communism_012",
+    "communism_013",
+    "communism_014",
+    "communism_015",
+    "communism_016",
+    "communism_017",
+    "communism_018",
+    "communism_019",
+    "communism_020",
+    "communism_021",
+    "communism_022",
+    "communism_023",
+    "communism_024",
+    "communism_025",
+    "communism_026",
+    "communism_027",
+    "communism_028",
+    "communism_029",
+    "communism_030"
   ],
-  "scope_digest": "d64fc1a0eb0db17b574307b6cd41ef27e30dc2fc49d455367f86633c974b912a",
+  "scope_digest": "9cf68491b615b33fd6e206ed05b6904abec5b7735f5368e6a36603434a8c1acc",
   "recommended": [
     {
       "alignment_id": "private_relation_001",
@@ -75,7 +117,119 @@
       "reasons": [
         "未解决疑点：定向核查"
       ]
+    },
+    {
+      "alignment_id": "private_work_015",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "private_work_016",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_work_018",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "private_work_019",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_work_020",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "private_work_023",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "communism_003",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_004",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "communism_008",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_011",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "communism_012",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_014",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_015",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_018",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "communism_020",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_021",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_029",
+      "reasons": [
+        "跨插页正文：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
     }
   ],
-  "note": "质量发现用的分层随机与风险定向混合抽样，不提供统计置信保证；未抽中记录不自动确认。"
+  "note": "质量发现用的分层随机与风险定向混合抽样，不提供统计置信保证；未抽中记录不自动确认。",
+  "previous_scope_digest": "5a612932df210ed501b8fe280befc241a3ec688117a20eb309eaabf07efd7247"
 }

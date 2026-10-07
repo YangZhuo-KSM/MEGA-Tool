@@ -43,16 +43,33 @@ PRINTED.update({('zh_collected', 306): '281', ('zh_collected', 307): '282',
                 ('zh_collected', 314): '289', ('zh_collected', 315): '290'})
 
 
-def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=None):
+def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=None, reviewed_date='2026-10-02',
+         new_sections=None, coverage_updates=None, issue_overrides=None, extra_page_maps=None):
     original = load_corpus()
     if any(a['review_batch'] == batch for a in original['alignments']):
         raise SystemExit(f'Batch {batch} already present; refusing to overwrite edits.')
     data = copy.deepcopy(original)
+    coverage_path = ROOT / 'data/coverage_plan.json'
+    coverage = json.loads(coverage_path.read_text(encoding='utf-8'))
+    existing_sections = {s['id'] for s in data['sections']}
+    for section in new_sections or []:
+        if section['id'] in existing_sections:
+            raise ValueError('New section ID already exists: '+section['id'])
+        data['sections'].append(copy.deepcopy(section))
+        existing_sections.add(section['id'])
+    for item_id, section_ids in (coverage_updates or {}).items():
+        item = next(i for i in coverage['items'] if i['id'] == item_id)
+        if item['section_ids']:
+            raise ValueError('Refusing to replace an existing coverage assignment: '+item_id)
+        item['section_ids'] = list(section_ids)
+    assigned = [sid for i in coverage['items'] for sid in i['section_ids']]
+    if len(assigned) != len(set(assigned)) or set(assigned) != existing_sections:
+        raise ValueError('Coverage assignments must include every section exactly once')
     review_path = ROOT / 'data/reviews.json'
     review_bytes = review_path.read_bytes() if review_path.exists() else None
     evidence_path = ROOT / 'data/extraction.json'
     evidence = json.loads(evidence_path.read_text(encoding='utf-8'))
-    stamp = '2026-10-02'
+    stamp = reviewed_date
     for section, n, label, de, zh, de_pages, zh_pages in rows:
         for lang, text, source, pages in [('de', de, 'de_megai2', de_pages), ('zh', zh, 'zh_collected', zh_pages)]:
             uid = f'{section}_{lang}_{n:03}'
@@ -62,7 +79,7 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
                         sequence=n, label=label, text=text, locations=locations,
                         proofread_status='scan_checked_ai', proofread_by='Codex', proofread_at=stamp,
                         evidence_pages=refs,
-                        transcription_note='2026-10-02逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。')
+                        transcription_note=f'{stamp}逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。')
             data['units'].append(unit)
             data['corrections'].append(dict(unit_id=uid, method='scan_review_ai', reviewed_by='Codex',
                 reviewed_at=stamp, extracted_reading=None, corrected_text=text, evidence_pages=refs,
@@ -79,7 +96,7 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
                         data['editorial_issues'].append(dict(
                             id=f'{uid}_literal_{start}', unit_id=uid, kind='semantic_doubt',
                             status='retained_as_source', current_reading=word, reported_reading=word,
-                            evidence_pages=[f'{source}:{pages[0]}'],
+                            evidence_pages=[f'{source}:{pages[-1] if word == "Agricultor" else pages[0]}'],
                             text_anchor=dict(start=start, end=start+len(word), quote=word),
                             note=f'本地PDF可见字形为“{word}”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。',
                             recorded_by='Codex', recorded_at=stamp))
@@ -87,11 +104,32 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
                             data['editorial_issues'][-1].update(kind='glyph_doubt',status='open',
                                 reported_reading='页内标记字形待辨',
                                 note='本地PDF384的页内标记暂记||n|；其中字形与罗马数字II的区分仍待核。中文页用[II]，不据译文静默替换。正文保留候选并明确待审。')
+                        if word == 'Element II gebundne':
+                            data['editorial_issues'][-1].update(kind='glyph_doubt',status='open',
+                                reported_reading='Element后的页内标记待辨',
+                                note='本地PDF385在Element与gebundne之间可见II形标记，暂按可见字形照录；标记性质及转写形式待核，不据语义删除或改写。')
+                        if word == '/|lll|':
+                            data['editorial_issues'][-1].update(kind='glyph_doubt',status='open',
+                                reported_reading='页内罗马数字及界符待辨',
+                                note='本地PDF386在Aller Reichthum前的标记暂记/|lll|；竖线、字母l及罗马数字III的转写仍待核，不据中文[III]替换。')
+                        override = (issue_overrides or {}).get(uid, {}).get(word)
+                        if override:
+                            allowed = {'kind', 'status', 'note', 'reported_reading', 'evidence_pages'}
+                            if not set(override) <= allowed:
+                                raise ValueError('Issue override may only change editorial description and evidence')
+                            data['editorial_issues'][-1].update(copy.deepcopy(override))
                         start = text.find(word, start+len(word))
         data['alignments'].append(dict(id=f'{section}_{n:03}', section_id=section, label=label,
             de_ids=[f'{section}_de_{n:03}'], zh_ids=[f'{section}_zh_{n:03}'], status='uncertain',
             proposed_by='Codex', verified_by=None, verified_at=None, review_batch=batch,
             note=f'第{batch}批句群对应候选；跨页来源分别保存，等待用户确认。'))
+    for page in extra_page_maps or []:
+        if any(p['source_id'] == page['source_id'] and p['pdf_page'] == page['pdf_page']
+               for p in data['page_map']):
+            raise ValueError('Refusing to replace an existing page mapping')
+        data['page_map'].append(copy.deepcopy(page))
+        source, number = page['source_id'], page['pdf_page']
+        evidence[f'{source}:{number}'] = (ROOT / f'tmp/source_review/{source}/{number:04}.txt').read_text(encoding='utf-8')
     for section in data['sections']:
         if section['id'] in {r[0] for r in rows}:
             count = sum(a['section_id'] == section['id'] for a in data['alignments'])
@@ -104,13 +142,17 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
     assert all(fingerprint(data, a) == fingerprint(original, a) for a in original['alignments'])
     backup = ROOT / f'local_backups/v04-before-batch{batch}'
     backup.mkdir(parents=True, exist_ok=False)
-    for name in ('corpus.json', 'extraction.json'):
+    for name in ('corpus.json', 'extraction.json', 'coverage_plan.json', 'sampling_plan.json'):
         (backup / name).write_bytes((ROOT / 'data' / name).read_bytes())
     target = ROOT / 'data/corpus.json'
     temp = target.with_suffix('.batch6.tmp')
     temp.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     temp.replace(target)
     evidence_path.write_text(json.dumps(evidence, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    if coverage_updates:
+        temp = coverage_path.with_suffix('.tmp')
+        temp.write_text(json.dumps(coverage, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+        temp.replace(coverage_path)
     assert (review_path.read_bytes() if review_path.exists() else None) == review_bytes
     print(f'Added {len(rows)} pending groups; prior text/fingerprints and review bytes unchanged.')
     print('Corpus SHA256:', hashlib.sha256(target.read_bytes()).hexdigest())

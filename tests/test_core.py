@@ -18,10 +18,10 @@ def data():
 
 def test_curated_data_integrity(data):
     assert not validate(data)
-    assert len(data['alignments'])==42
+    assert len(data['alignments'])==84
     assert len([a for a in data['alignments'] if a['section_id']=='mill'])==12
     assert all(a['status']=='uncertain' and not a['verified_by'] for a in data['alignments'])
-    assert {a['review_batch'] for a in data['alignments']}=={1,2,3,4,5,6,7}
+    assert {a['review_batch'] for a in data['alignments']}==set(range(1,13))
 
 
 @pytest.mark.parametrize('text,query,expected',[
