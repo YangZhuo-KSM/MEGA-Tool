@@ -1,6 +1,6 @@
 # MEGA Tool
 
-**A research-oriented digital humanities tool for reading, locating, comparing, and citing Marx’s *Economic and Philosophic Manuscripts of 1844* across MEGA² and Chinese editions.**
+**A research-oriented digital humanities tool for reading, locating, comparing, and citing Marx’s *Paris Manuscripts* (including *Economic and Philosophic Manuscripts of 1844*) across MEGA² and Chinese editions.**
 
 [中文说明](README_zh.md)
 
