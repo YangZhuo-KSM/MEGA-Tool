@@ -45,11 +45,13 @@ def test_single_instance_lock_releases_and_reacquires(tmp_path):
 
 
 @pytest.mark.skipif(sys.platform!='win32',reason='Windows process lifecycle')
-def test_real_launcher_health_and_owned_service_exit():
-    root=Path(__file__).resolve().parents[1]
+def test_real_launcher_health_and_owned_service_exit(tmp_path):
+    source=Path(__file__).resolve().parents[1]
+    # Never acquire the user's live workspace lock or alter its runtime files.
+    root=make_project(tmp_path/'启动器验收')
     port=free_port(0)
-    result=subprocess.run([sys.executable,str(root/'desktop_launcher.py'),'--check','--root',str(root),
-        '--port',str(port)],cwd=root,timeout=95,capture_output=True,text=True,encoding='utf-8')
+    result=subprocess.run([sys.executable,'-X','utf8',str(source/'desktop_launcher.py'),'--check','--root',str(root),
+        '--port',str(port)],cwd=source,timeout=95,capture_output=True,text=True,encoding='utf-8')
     assert result.returncode==0,result.stderr
     state=json.loads((root/'tmp/desktop/check.json').read_text(encoding='utf-8'))
     assert state['ok'] and state['root']==str(root) and state['url']==f'http://127.0.0.1:{port}/'

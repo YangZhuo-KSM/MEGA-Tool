@@ -108,7 +108,7 @@ st.sidebar.caption('PARIS MANUSCRIPTS / 1844')
 consume_jump(data)
 mode=st.sidebar.radio('工作区',['德中对读','页码索引','版本比较','术语分布','覆盖清单','审核与资料'],key='workspace')
 st.sidebar.divider()
-st.sidebar.caption(f'{__version__} · 本地研究预览')
+st.sidebar.caption(f'{data.get("release", __version__)} · 本地研究预览')
 st.sidebar.caption('收录范围：精选样本。所有对应关系均有独立核验状态。')
 
 st.markdown('<div class="eyebrow">PARIS MANUSCRIPTS · RESEARCH READER</div>',unsafe_allow_html=True)

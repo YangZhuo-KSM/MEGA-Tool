@@ -21,7 +21,7 @@
 
 ## 核验状态
 
-文字：`scan_checked_ai`。目前62个单元经过AI图像核对，研究者仍须复核。
+文字：`scan_checked_ai`。当前主读480个单元经过AI图像核对，研究者仍须复核。
 
 对应：`uncertain`（待审）、`automatically_aligned`（算法候选）、`manually_verified`（研究者已确认）。初始24组全部为uncertain；不存在自动批准或根据测试通过升级学术状态的规则。
 

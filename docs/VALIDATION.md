@@ -80,3 +80,25 @@ alpha3浏览器实际筛选第7批四组建议通过，截图sampling-alpha3.png
 ## 2026-10-07 Windows exe
 
 完整100测试通过（14.66秒），新增研究目录识别、端口冲突、单实例锁与受管理服务退出检查。真实冻结exe通过就绪检查；独立中文目录副本、重复双击、无PDF阅读与退出通过。本机浏览器验证84组、24原确认、印刷298/301检索、301原页、阅读页10高亮及覆盖清单。corpus/reviews哈希保持，原PDF未改。日志tmp/exe-tests.log、tmp/exe-package-checks.json；截图windows-exe-reader.png、windows-exe-original.png。
+
+## 2026-10-12 alpha9
+
+103 passed（16.37秒），四源哈希/页数及242/114/57校验通过。旧84组完整记录/指纹及24确认保持；原25抽样理由不变，新增8条。浏览器306—307引用/307原页/阅读页22高亮及照录提示通过。源码无PDF包114组/5专题/6工作区通过；真实Windows独立中文目录副本alpha9/114/0确认，端口冲突与重复启动通过，新德文跨页395—396查询及缺PDF提示正确。日志tmp/alpha9-tests.log、alpha9-validation.log、alpha9-smoke.log、alpha9-exe-checks.json；截图communism-alpha9.png。
+
+## 2026-10-12 alpha10
+
+107 passed（16.97秒），四源及314单元/150对应/71页映射校验通过。旧114组记录/指纹、reviews字节和24有效确认保持；旧33条抽样理由冻结，新15条。新增测试检查节界共页、新专题/长句跨页搜索、未静默修复的重复词与旧拼写、开放界符及AppTest。实际exe浏览器150/24/6、313—314页引用/314原页/阅读页3联动与照录标记通过。证据tmp/alpha10-tests.log、alpha10-validation.log、alpha10-integrity.json及截图hegel-alpha10.png。
+
+源码ZIP解压后无PDF冒烟通过：150对应、6专题、6工作区。Windows便携ZIP在隔离中文目录实际启动通过，端口冲突自动改用8513，重复启动受控；搜索wesentliehe返回MEGA² I/2 S.399，缺PDF提示及阅读页1定位高亮正确。便携实例正常退出且8513关闭，原8501服务保持健康；证据tmp/alpha10-smoke.log、tmp/alpha10-exe-checks.json。
+
+## 2026-10-12 alpha11
+
+112 passed（19.15秒）；四源哈希/页数及398单元/192对应/86映射通过。旧150组记录、reviews字节、24有效确认及旧48条抽样建议保持；抽样61/168。浏览器实际服务alpha11/192/24/6，wtklichen→MEGA² I/2 S.406→406原页→阅读页18高亮通过；前缀重叠造成的重复疑点警告已去除，正文未改。证据tmp/alpha11-tests.log、tmp/alpha11-validation.log及screenshots/hegel-alpha11.png。
+
+alpha11 Windows便携ZIP在独立中文目录从无服务状态启动；8501占用时使用8513，重复双击不重复启动。便携副本显示192/0/6，搜索wtklichen返回MEGA² I/2 S.406，缺PDF提示和阅读页18定位通过；正常退出后8513关闭，原8501保持健康。最终ZIP无PDF、reviews.json或本机local_sources.json，CRC及运行文件/研究JSON与发行目录一致。SHA256 `e74f563174921110334177da82b8977b8b61722546fe006a28180beb9307b169`；证据tmp/alpha11-exe-checks.json。
+
+## 2026-10-12 alpha12
+
+117 passed（20.77秒）；四源哈希/页数及494单元/240对应/94映射通过。旧192组记录、reviews字节、24有效确认及旧61条抽样建议保持；抽样76/216。浏览器实际服务alpha12/240/24/6，exis||tiren→MEGA² I/2 S.408→408原页→阅读页22高亮通过；页面显示开放页界标记。文字层的明显OCR误识依据扫描图恢复为可见正常字形，并由批次测试防止回退。证据tmp/alpha12-tests.log、tmp/alpha12-validation.log。
+
+alpha12源码ZIP在无PDF解压目录通过240对应/6专题/6工作区冒烟。Windows便携ZIP在隔离中文目录实际启动，端口冲突自动使用8513，重复启动和内置检查通过；搜索exis||tiren返回MEGA² I/2 S.408，缺PDF提示及阅读页22定位高亮正确。正常退出后8513关闭，8501正式服务保持健康。最终ZIP排除PDF、reviews.json、local_sources.json和Asset_by_user，包内app及四份研究JSON与发行目录哈希一致。Windows ZIP SHA256 `bb13119b443444011e1ef6f4eb3837e634ded430d2200a93b9b5c6abc7a70129`；源码ZIP SHA256 `c65650ca0f62204260e9fc97e2b0eeafa90cc55c6a6bdcd65067907583e50f45`。

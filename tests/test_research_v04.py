@@ -12,9 +12,9 @@ from paris.reviews import fingerprint
 def test_coverage_has_all_four_works_without_fabricated_full_denominator():
     data=load_corpus(); plan=load_plan(data); rows=coverage_rows(data,{},plan)
     assert {r['work'] for r in rows}=={'manuscript1','manuscript2','manuscript3','mill'}
-    assert len(rows)==14 and sum(r['groups']>0 for r in rows)==5
-    assert sum(r['groups'] for r in rows)==84
-    assert sum(r['units'] for r in rows)==168
+    assert len(rows)==14 and sum(r['groups']>0 for r in rows)==6
+    assert sum(r['groups'] for r in rows)==240
+    assert sum(r['units'] for r in rows)==480
     assert all(r['collected_ratio'] is None for r in rows)
     assert next(r for r in rows if r['id']=='wages')['checked_ratio'] is None
     assert next(r for r in rows if r['id']=='private_work')['confirmed_ratio']==0
@@ -92,7 +92,7 @@ def test_research_workspaces_and_new_sample_jump(monkeypatch):
     app=AppTest.from_file(str(Path(__file__).resolve().parents[1]/'app.py')).run(timeout=30)
     app.sidebar.radio(key='workspace').set_value('覆盖清单').run()
     assert not app.exception
-    assert any(m.value=='5/14' for m in app.metric)
+    assert any(m.value=='6/14' for m in app.metric)
     app.button(key='coverage_private_work').click().run()
     assert app.sidebar.selectbox(key='section_id').value=='private_work'
     assert any('主体本质' in m.value for m in app.markdown)

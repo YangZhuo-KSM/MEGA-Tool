@@ -13,7 +13,7 @@ def test_new_chapter_registration_cross_page_and_frozen_sampling():
     batch=[a for a in data['alignments'] if a['review_batch']==10]
     assert len(batch)==6 and all(a['section_id']=='communism' and a['status']=='uncertain' for a in batch)
     row=next(r for r in coverage_rows(data,{},load_plan(data)) if r['id']=='communism')
-    assert row['groups']==30 and row['state']=='部分收录' and row['collected_ratio'] is None
+    assert row['groups']==78 and row['state']=='部分收录' and row['collected_ratio'] is None
     assert units['communism_zh_004']['locations']==[
         dict(source_id='zh_collected',pdf_page=319,printed_page='294'),
         dict(source_id='zh_collected',pdf_page=320,printed_page='295')]
@@ -96,7 +96,7 @@ def test_large_batch_and_real_inserted_pages_are_distinct():
         assert not lookup_pages(data,'zh_collected',label) and not missing_pages(data,'zh_collected',label)
     assert not units_on_page(data,'zh_collected',324) and not units_on_page(data,'zh_collected',325)
     pages=reading_pages(data,'communism')
-    assert len(pages)<30 and len({aid for p in pages for aid in p['alignment_ids']})==30
+    assert len(pages)<78 and len({aid for p in pages for aid in p['alignment_ids']})==78
     for uid,word in [('communism_de_016','menschlichenresen'),('communism_de_027','Wtkung'),
                      ('communism_de_029','geschichthche'),('communism_de_030','Existenzweisenachgesellschaftliche')]:
         issue=next(i for i in data['editorial_issues'] if i['unit_id']==uid and i['current_reading']==word)

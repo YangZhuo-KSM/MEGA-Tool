@@ -40,13 +40,14 @@ def build(stage):
     output=ROOT/'dist'/f'{name}.zip'
     output.parent.mkdir(exist_ok=True)
     files=[ROOT/p for p in ('app.py','start.ps1','requirements.txt','requirements-dev.txt',
-        'local_sources.example.json','README.md','LICENSE','.gitignore','.streamlit/config.toml','pytest.ini','data/coverage_plan.json')]
+        'local_sources.example.json','README.md','README_zh.md','LICENSE','.gitignore','.streamlit/config.toml','pytest.ini','data/coverage_plan.json',
+        'desktop_launcher.py','requirements-build.txt')]
     if stage!='stage0' and (ROOT/'data/sampling_plan.json').exists():
         files.append(ROOT/'data/sampling_plan.json')
     for folder in ('paris','scripts','docs','tests'):
         files.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts
                      and p.suffix in ('.py','.md','.jpg','.png')
-                     and 'reviews' not in p.relative_to(ROOT).parts
+                     and 'reviews' not in p.relative_to(ROOT).parts and 'learning' not in p.relative_to(ROOT).parts
                      and p.name not in ('REVIEW_ACCEPTANCE.md','original-pages.jpg','windows-exe-original.png','USER_CONTRIBUTIONS_README_HANDOFF.md')
                      and not p.name.endswith('.local.md'))
     if stage=='stage0':

@@ -93,11 +93,16 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
                 for word in (doubts.get(uid, []) if doubts is not None else ['äusserüchen', 'Reügiosität', 'negüte', 'weü', 'wüd', 'befindüche']):
                     start = text.find(word)
                     while start >= 0:
+                        end = start + len(word)
+                        if ((start and text[start - 1].isalnum()) or
+                                (end < len(text) and text[end].isalnum())):
+                            start = text.find(word, end)
+                            continue
                         data['editorial_issues'].append(dict(
                             id=f'{uid}_literal_{start}', unit_id=uid, kind='semantic_doubt',
                             status='retained_as_source', current_reading=word, reported_reading=word,
                             evidence_pages=[f'{source}:{pages[-1] if word == "Agricultor" else pages[0]}'],
-                            text_anchor=dict(start=start, end=start+len(word), quote=word),
+                            text_anchor=dict(start=start, end=end, quote=word),
                             note=f'本地PDF可见字形为“{word}”，词形及语义存疑，按底本照录，未用上下文改写。这里只说明当前PDF的显示，尚未判定纸本或手稿原貌；可回查原页。',
                             recorded_by='Codex', recorded_at=stamp))
                         if word == '||n|':
@@ -118,7 +123,7 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
                             if not set(override) <= allowed:
                                 raise ValueError('Issue override may only change editorial description and evidence')
                             data['editorial_issues'][-1].update(copy.deepcopy(override))
-                        start = text.find(word, start+len(word))
+                        start = text.find(word, end)
         data['alignments'].append(dict(id=f'{section}_{n:03}', section_id=section, label=label,
             de_ids=[f'{section}_de_{n:03}'], zh_ids=[f'{section}_zh_{n:03}'], status='uncertain',
             proposed_by='Codex', verified_by=None, verified_at=None, review_batch=batch,

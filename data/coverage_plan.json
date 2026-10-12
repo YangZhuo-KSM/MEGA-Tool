@@ -110,7 +110,9 @@
       "id": "hegel",
       "work": "manuscript3",
       "title": "对黑格尔的辩证法和整个哲学的批判",
-      "section_ids": [],
+      "section_ids": [
+        "hegel"
+      ],
       "de_start": "399",
       "zh_start": "312",
       "total_groups": null,

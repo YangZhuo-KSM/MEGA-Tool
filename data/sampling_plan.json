@@ -3,8 +3,8 @@
   "policy": "stratified-review-v1",
   "seed": "paris-review-v1",
   "first_batch": 5,
-  "release": "0.4.0-alpha8",
-  "created_date": "2026-10-04",
+  "release": "0.4.0-alpha12",
+  "created_date": "2026-10-12",
   "scope_ids": [
     "private_relation_001",
     "private_relation_002",
@@ -65,9 +65,165 @@
     "communism_027",
     "communism_028",
     "communism_029",
-    "communism_030"
+    "communism_030",
+    "communism_031",
+    "communism_032",
+    "communism_033",
+    "communism_034",
+    "communism_035",
+    "communism_036",
+    "communism_037",
+    "communism_038",
+    "communism_039",
+    "communism_040",
+    "communism_041",
+    "communism_042",
+    "communism_043",
+    "communism_044",
+    "communism_045",
+    "communism_046",
+    "communism_047",
+    "communism_048",
+    "communism_049",
+    "communism_050",
+    "communism_051",
+    "communism_052",
+    "communism_053",
+    "communism_054",
+    "communism_055",
+    "communism_056",
+    "communism_057",
+    "communism_058",
+    "communism_059",
+    "communism_060",
+    "communism_061",
+    "communism_062",
+    "communism_063",
+    "communism_064",
+    "communism_065",
+    "communism_066",
+    "communism_067",
+    "communism_068",
+    "communism_069",
+    "communism_070",
+    "communism_071",
+    "communism_072",
+    "communism_073",
+    "communism_074",
+    "communism_075",
+    "communism_076",
+    "communism_077",
+    "communism_078",
+    "hegel_001",
+    "hegel_002",
+    "hegel_003",
+    "hegel_004",
+    "hegel_005",
+    "hegel_006",
+    "hegel_007",
+    "hegel_008",
+    "hegel_009",
+    "hegel_010",
+    "hegel_011",
+    "hegel_012",
+    "hegel_013",
+    "hegel_014",
+    "hegel_015",
+    "hegel_016",
+    "hegel_017",
+    "hegel_018",
+    "hegel_019",
+    "hegel_020",
+    "hegel_021",
+    "hegel_022",
+    "hegel_023",
+    "hegel_024",
+    "hegel_025",
+    "hegel_026",
+    "hegel_027",
+    "hegel_028",
+    "hegel_029",
+    "hegel_030",
+    "hegel_031",
+    "hegel_032",
+    "hegel_033",
+    "hegel_034",
+    "hegel_035",
+    "hegel_036",
+    "hegel_037",
+    "hegel_038",
+    "hegel_039",
+    "hegel_040",
+    "hegel_041",
+    "hegel_042",
+    "hegel_043",
+    "hegel_044",
+    "hegel_045",
+    "hegel_046",
+    "hegel_047",
+    "hegel_048",
+    "hegel_049",
+    "hegel_050",
+    "hegel_051",
+    "hegel_052",
+    "hegel_053",
+    "hegel_054",
+    "hegel_055",
+    "hegel_056",
+    "hegel_057",
+    "hegel_058",
+    "hegel_059",
+    "hegel_060",
+    "hegel_061",
+    "hegel_062",
+    "hegel_063",
+    "hegel_064",
+    "hegel_065",
+    "hegel_066",
+    "hegel_067",
+    "hegel_068",
+    "hegel_069",
+    "hegel_070",
+    "hegel_071",
+    "hegel_072",
+    "hegel_073",
+    "hegel_074",
+    "hegel_075",
+    "hegel_076",
+    "hegel_077",
+    "hegel_078",
+    "hegel_079",
+    "hegel_080",
+    "hegel_081",
+    "hegel_082",
+    "hegel_083",
+    "hegel_084",
+    "hegel_085",
+    "hegel_086",
+    "hegel_087",
+    "hegel_088",
+    "hegel_089",
+    "hegel_090",
+    "hegel_091",
+    "hegel_092",
+    "hegel_093",
+    "hegel_094",
+    "hegel_095",
+    "hegel_096",
+    "hegel_097",
+    "hegel_098",
+    "hegel_099",
+    "hegel_100",
+    "hegel_101",
+    "hegel_102",
+    "hegel_103",
+    "hegel_104",
+    "hegel_105",
+    "hegel_106",
+    "hegel_107",
+    "hegel_108"
   ],
-  "scope_digest": "9cf68491b615b33fd6e206ed05b6904abec5b7735f5368e6a36603434a8c1acc",
+  "scope_digest": "caadde4b674b98152cbf4ac1b94a0ec0b16d49ed5132efe06d75ba49487c7861",
   "recommended": [
     {
       "alignment_id": "private_relation_001",
@@ -228,8 +384,327 @@
         "风险代表样本：照录/字形疑点",
         "风险代表样本：跨页接续"
       ]
+    },
+    {
+      "alignment_id": "communism_031",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "communism_032",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "communism_037",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "communism_040",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_041",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "communism_042",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_050",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "communism_055",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_064",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_069",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "communism_071",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_072",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "communism_073",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "communism_074",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "communism_076",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "hegel_001",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_005",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_006",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "hegel_007",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_009",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_011",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_013",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_015",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_023",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_026",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_033",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_037",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_039",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_042",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_047",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_052",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_055",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "hegel_057",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_058",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_059",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_060",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_062",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_064",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "hegel_067",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_073",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_081",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_083",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_084",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_088",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_090",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "hegel_095",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_101",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_103",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_104",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_105",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_106",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
     }
   ],
   "note": "质量发现用的分层随机与风险定向混合抽样，不提供统计置信保证；未抽中记录不自动确认。",
-  "previous_scope_digest": "5a612932df210ed501b8fe280befc241a3ec688117a20eb309eaabf07efd7247"
+  "previous_scope_digest": "30c4031493ddb711b18246f632814638de5e3f05079921a10c2185de168d98ee"
 }

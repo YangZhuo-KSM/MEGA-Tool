@@ -1,5 +1,6 @@
 """Extract outside the workspace and verify the actual executable, not Python source."""
 import json
+import argparse
 import os
 from pathlib import Path
 import subprocess
@@ -14,8 +15,12 @@ from paris.desktop import healthy
 
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--archive',default='dist/MEGA_Tool-Windows-alpha8.zip')
+    parser.add_argument('--report',default='tmp/exe-package-checks.json')
+    args=parser.parse_args()
     staging=Path(tempfile.mkdtemp(prefix='MEGA_Tool-便携验收-'))
-    with ZipFile(ROOT/'dist/MEGA_Tool-Windows-alpha8.zip') as archive:
+    with ZipFile(ROOT/args.archive) as archive:
         archive.extractall(staging)
     project=staging/'MEGA_Tool_Windows'
     exe=project/'MEGA_Tool_Windows.exe'
@@ -43,7 +48,7 @@ def main():
                 server_pid=before['server_pid'],url='http://127.0.0.1:8513/',
                 check_result=result,duplicate='passed',port_conflict='passed',
                 next_action='Inspect portable UI without PDFs, then run this exe with --stop')
-    (ROOT/'tmp/exe-package-checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+    (ROOT/args.report).write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(report,ensure_ascii=False,indent=2))
 
 

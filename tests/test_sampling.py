@@ -11,7 +11,7 @@ from paris.reviews import save_review, load_reviews, review_state
 def test_sample_has_strata_and_risks_without_changing_confirmations(tmp_path):
     data=load_corpus(); before=copy.deepcopy(data); plan=build_plan(data)
     assert plan==build_plan(data) and data==before
-    assert len(plan['scope_ids'])==60
+    assert len(plan['scope_ids'])==216
     selected={r['alignment_id'] for r in plan['recommended']}
     assert {'private_relation_006','private_work_011','private_work_018'}<=selected
     assert len(selected)<len(plan['scope_ids'])
@@ -52,7 +52,7 @@ def test_sampling_filter_preserves_individual_review_forms(monkeypatch):
     assert len(app.get('form'))==6
     app.toggle(key='sampled_only').set_value(True).run()
     assert not app.exception and len(app.get('form'))==4
-    assert any('25/60' in x.value for x in app.info)
+    assert any('76/216' in x.value for x in app.info)
 
 
 def test_incremental_sampling_keeps_previous_cohort_and_rejects_changes():

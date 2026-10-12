@@ -11,9 +11,11 @@ from paris.sampling import build_plan, extend_plan
 if __name__ == '__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('--date', required=True, help='Hong Kong review date YYYY-MM-DD')
+    parser.add_argument('--previous', help='Optional prior frozen plan used to rebuild the newest cohort')
     args=parser.parse_args()
     path=ROOT/'data/sampling_plan.json'
     data=load_corpus()
-    plan=extend_plan(data,json.loads(path.read_text(encoding='utf-8')),args.date) if path.exists() else build_plan(data,created_date=args.date)
+    previous_path=Path(args.previous) if args.previous else path
+    plan=extend_plan(data,json.loads(previous_path.read_text(encoding='utf-8')),args.date) if previous_path.exists() else build_plan(data,created_date=args.date)
     path.write_text(json.dumps(plan,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f"Suggested {len(plan['recommended'])}/{len(plan['scope_ids'])} groups; no reviews changed.")
