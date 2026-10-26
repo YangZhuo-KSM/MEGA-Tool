@@ -13,7 +13,7 @@ def test_pages_multiple_groups_source_order_and_no_mutation():
     original=copy.deepcopy(data)
     pages=reading_pages(data,'alienation')
     assert any(len(p['alignment_ids'])>1 for p in pages)
-    assert [aid for p in pages for aid in p['alignment_ids']]==[a['id'] for a in data['alignments'] if a['section_id']=='alienation']
+    assert [aid for p in pages for aid in p['alignment_ids']]==['alienation_085','alienation_086'] + [f'alienation_{n:03}' for n in range(1,85)]
     assert data==original
 
 
@@ -24,7 +24,7 @@ def test_group_cardinality_and_oversized_group_never_split(de,zh):
     first['de_ids']=[f'alienation_de_{i:03}' for i in range(1,de+1)]
     first['zh_ids']=[f'alienation_zh_{i:03}' for i in range(1,zh+1)]
     pages=reading_pages(data,'alienation',budget=1)
-    page=pages[0]
+    page=next(p for p in pages if first['id'] in p['alignment_ids'])
     assert page['alignment_ids']==[first['id']]
     assert len(page_units(data,page,'de'))==de
     assert len(page_units(data,page,'zh'))==zh
@@ -36,7 +36,7 @@ def test_pagination_uses_both_columns_length_and_paragraphs():
     old=group_height(group,units)
     units[group['zh_ids'][0]]['text']='中'*3000
     assert group_height(group,units)>old
-    assert reading_pages(data,'alienation')[0]['alignment_ids']==[group['id']]
+    assert page_for_alignment(data,group['id'])['alignment_ids']==[group['id']]
     units[group['zh_ids'][0]]['text']='\n'.join('中' for _ in range(100))
     assert group_height(group,units)>old
 

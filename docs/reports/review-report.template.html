@@ -1,0 +1,130 @@
+<div id="mega-review-report">
+  <style>
+    #mega-review-report { color: var(--foreground); overflow-wrap: anywhere; }
+    #mega-review-report .report-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; margin: 16px 0; }
+    #mega-review-report .report-section { margin-block: 20px; }
+    #mega-review-report .report-quote { white-space: pre-wrap; margin-block: 12px; }
+    #mega-review-report .report-meta { margin-block: 8px; }
+    #mega-review-report mark { background: color-mix(in srgb,var(--viz-series-1) 22%,transparent); color: var(--foreground); }
+    #mega-review-report .report-evidence { max-width: 100%; height: auto; }
+    #mega-review-report summary { margin-block: 12px; }
+    #mega-review-report th { font-weight: 500; }
+    #mega-review-report .report-counts { margin-block: 16px; }
+    #mega-review-report [hidden] { display: none; }
+    @media (max-width: 560px) { #mega-review-report .report-pair { grid-template-columns: minmax(0,1fr); gap: 8px; } }
+  </style>
+  <div class="text-muted text-small" data-role="stamp"></div>
+  <div class="viz-row report-counts" data-role="counts"></div>
+  <div class="nav nav-pills" role="tablist" aria-label="核查报告">
+    <button class="nav-link active" id="mega-repair-tab" role="tab" aria-controls="mega-repair-panel" aria-selected="true" type="button">实际修复</button>
+    <button class="nav-link" id="mega-check-tab" role="tab" aria-controls="mega-check-panel" aria-selected="false" type="button">逐条核查</button>
+    <button class="nav-link" id="mega-range-tab" role="tab" aria-controls="mega-range-panel" aria-selected="false" type="button">正文范围</button>
+  </div>
+  <div id="mega-repair-panel" role="tabpanel" aria-labelledby="mega-repair-tab" class="report-section">
+    <h3>漏掉的是一条提醒，正文保留完整</h3>
+    <div class="table-responsive"><table class="table"><thead><tr><th>查看什么</th><th>修复前</th><th>修复后</th></tr></thead><tbody data-role="repair-rows"></tbody></table></div>
+    <div class="report-meta" data-role="repair-state" aria-live="polite"></div>
+    <details><summary>原页证据：印刷447页</summary><div data-role="evidence"></div></details>
+    <details><summary>抽样记录的技术详情</summary><div data-role="technical"></div></details>
+    <div class="report-section"><h3>各批验收</h3><div class="table-responsive"><table class="table table-sm"><thead><tr><th>批次</th><th>新增组数</th><th>保护审计</th></tr></thead><tbody data-role="batch-rows"></tbody></table></div></div>
+  </div>
+  <div id="mega-check-panel" role="tabpanel" aria-labelledby="mega-check-tab" hidden class="report-section">
+    <div class="viz-controls">
+      <label class="form-label">核查范围<select class="form-select" data-role="scope"><option value="new">本次新增的核查建议</option><option value="recommended">全部核查建议</option><option value="open">所有开放疑点</option><option value="retained">所有按底本保留的疑点</option></select></label>
+      <label class="form-label">来源专题<select class="form-select" data-role="section"><option value="all">全部专题</option></select></label>
+      <label class="form-label">对应组<select class="form-select" data-role="item"></select></label>
+    </div>
+    <div class="viz-row"><button class="btn" type="button" data-role="previous">上一组</button><span class="tabular-nums" data-role="position" aria-live="polite"></span><button class="btn" type="button" data-role="next">下一组</button></div>
+    <div class="report-meta" data-role="selected-summary" aria-live="polite"></div>
+    <div data-role="reason"></div>
+    <div class="report-pair">
+      <div><h3>德文片段</h3><div class="text-small" data-role="de-pages"></div><div class="report-quote" data-role="de"></div></div>
+      <div><h3>中文片段</h3><div class="text-small" data-role="zh-pages"></div><div class="report-quote" data-role="zh"></div></div>
+    </div>
+    <div data-role="issues"></div>
+    <button class="btn btn-primary" type="button" data-role="inspect">请显示这一组的全文和原页</button>
+    <div class="text-small report-meta" data-role="inspect-status" aria-live="polite"></div>
+  </div>
+  <div id="mega-range-panel" role="tabpanel" aria-labelledby="mega-range-tab" hidden class="report-section">
+    <div data-role="completion" class="report-meta"></div>
+    <div class="table-responsive"><table class="table table-sm"><thead><tr><th>专题</th><th>对应组</th><th>德 / 中印刷页</th><th>正文状态</th></tr></thead><tbody data-role="range-rows"></tbody></table></div>
+  </div>
+  <script type="application/json" data-role="report-data">__MEGA_REVIEW_DATA__</script>
+  <script>
+  (() => {
+    const root = document.getElementById('mega-review-report');
+    const el = role => root.querySelector('[data-role="' + role + '"]');
+    const data = JSON.parse(el('report-data').textContent);
+    const byId = new Map(data.groups.map(g => [g.id,g]));
+    const esc = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const note = n => data.notes[n] || '';
+    const persist = () => {
+      if(window.openai?.setWidgetState) window.openai.setWidgetState({modelContent:{scope:scope.value,section:section.value,alignment_id:item.value},privateContent:null}).catch(()=>{});
+    };
+    const scope = el('scope'), section=el('section'), item = el('item');
+    section.innerHTML = section.innerHTML + data.sections.map(s=>'<option value="'+esc(s.id)+'">'+esc(s.title)+'</option>').join('');
+    let active = [];
+    el('stamp').textContent = data.release + ' · ' + data.generated_at + ' · 已核对当前数据指纹';
+    el('counts').textContent = data.counts.groups + '组对应　·　' + data.counts.confirmed + '组已人工确认　·　' + data.counts.recommended + '条核查建议　·　' + data.counts.open + '处开放疑点';
+    const rows = [
+      ['正文开头','|(Bei jener Compensation…','|(Bei jener Compensation…（照录保留）'],
+      ['符号 |( 的提醒','缺少提醒',data.repair.applied?'已补：字形待核，证据为德文印刷447页':'尚未补入'],
+      ['mill_184 核查建议','原445条清单未包含此组',data.repair.recommended?'补入定向核查；原445条及理由保留':'仍未列入'],
+      ['今后的写入检查','可能漏掉紧接字母的符号','符号可正确匹配；配方漏项会在写入前拦住']
+    ];
+    el('repair-rows').innerHTML=rows.map(r=>'<tr>'+r.map(c=>'<td>'+esc(c)+'</td>').join('')+'</tr>').join('');
+    el('repair-state').textContent=data.repair.applied?'技术漏项已修复；符号的学术读法仍待核查。':'修复尚未完成，未计作验收。';
+    el('evidence').innerHTML=data.evidence_image?'<img class="report-evidence" alt="MEGA IV.2德文PDF440、印刷447页，正文开头的竖线与括号" src="'+data.evidence_image+'"><div>MEGA IV.2 · 印刷447 / PDF440</div>':'MEGA IV.2 · 印刷447 / PDF440 · 原文锚点 |(Bei jener Compensation';
+    el('technical').innerHTML='<div>'+esc(data.repair.details)+'</div><div>研究数据SHA256：<code>'+esc(data.corpus_sha256)+'</code></div><div>抽样范围指纹：<code>'+esc(data.scope_digest)+'</code></div>';
+    el('batch-rows').innerHTML=data.batches.map(b=>'<tr><td>'+esc(b.batch)+'</td><td>'+esc(b.added)+'</td><td>'+esc(b.status)+'</td></tr>').join('');
+    el('completion').textContent=data.completion;
+    el('range-rows').innerHTML=data.sections.map(s=>'<tr><td>'+esc(s.title)+'</td><td>'+s.count+'</td><td>'+esc(s.pages)+'</td><td>'+esc(s.status)+'</td></tr>').join('');
+    function matching(g){
+      if(section.value!=='all' && g.section!==section.value) return false;
+      if(scope.value==='new') return g.is_new;
+      if(scope.value==='recommended') return g.reasons.length>0;
+      if(scope.value==='open') return g.issues.some(i=>i.status==='open');
+      return g.issues.some(i=>i.status==='retained_as_source');
+    }
+    function renderSelected(){
+      const g = byId.get(item.value), index=active.findIndex(x=>x.id===item.value);
+      el('position').textContent=active.length?((index+1)+' / '+active.length):'此范围没有记录';
+      el('previous').disabled=index<=0;el('next').disabled=index<0 || index>=active.length-1;
+      el('inspect').disabled=!g;
+      for(const key of ['selected-summary','reason','de-pages','zh-pages','de','zh','issues']) el(key).textContent='';
+      if(!g)return;
+      el('selected-summary').textContent=g.id+' · '+g.label+' · '+(g.confirmed?'用户已确认对应':'对应待用户核查');
+      el('reason').textContent=g.reasons.length?'列入建议的原因：'+g.reasons.map(note).join('；'):'疑点定位记录';
+      el('de-pages').textContent=g.de_pages;el('zh-pages').textContent=g.zh_pages;
+      el('de').textContent=g.de;el('zh').textContent=g.zh;
+      el('issues').innerHTML=g.issues.map(i=>'<details><summary>'+esc(i.quote)+' · '+(i.status==='open'?'字形 / 来源待核':'按底本保留')+'</summary><div>'+esc(i.context)+'</div><div>'+esc(note(i.note))+'</div><div class="text-small">'+esc(i.pages)+'</div></details>').join('');
+      el('inspect-status').textContent='';
+    }
+    function rebuild(preferred){
+      active=data.groups.filter(matching);
+      item.innerHTML=active.map(g=>'<option value="'+esc(g.id)+'">'+esc(g.id+' · '+g.label)+'</option>').join('');
+      if(active.some(g=>g.id===preferred))item.value=preferred;
+      renderSelected();
+    }
+    scope.addEventListener('change',()=>{rebuild(item.value);persist();});
+    section.addEventListener('change',()=>{rebuild(item.value);persist();});
+    item.addEventListener('change',()=>{renderSelected();persist();});
+    for(const [key,delta] of [['previous',-1],['next',1]]) el(key).addEventListener('click',()=>{
+      const pos=active.findIndex(g=>g.id===item.value), g=active[pos+delta];if(g){item.value=g.id;renderSelected();persist();}
+    });
+    el('inspect').addEventListener('click',async()=>{
+      const g=byId.get(item.value);if(!g)return;
+      if(!window.openai?.sendFollowUpMessage){el('inspect-status').textContent='在本对话输入：查看 '+g.id+' 的德中全文和原页。';return;}
+      try{await window.openai.sendFollowUpMessage({prompt:'请核查 C:/MEGA_Tool 当前数据中的 '+g.id+'。展示德中全文、定位所有照录/字形疑点，并按 '+g.de_pages+'；'+g.zh_pages+' 回看原页。保持当前正文与人工确认状态；核查结果先解释给我。',title:'查看 '+g.id+' 的全文与原页'});}catch(error){el('inspect-status').textContent='未发送，请在对话中输入：查看 '+g.id+' 的全文与原页。';}
+    });
+    function restore(state){
+      const saved=state?.modelContent || state;
+      if(saved?.scope && [...scope.options].some(o=>o.value===saved.scope))scope.value=saved.scope;
+      if(saved?.section && [...section.options].some(o=>o.value===saved.section))section.value=saved.section;
+      rebuild(saved?.alignment_id || 'mill_184');
+    }
+    restore(window.openai?.widgetState);
+    window.addEventListener('openai:set_globals',event=>{if(event.detail?.globals?.widgetState)restore(event.detail.globals.widgetState);});
+  })();
+  </script>
+</div>

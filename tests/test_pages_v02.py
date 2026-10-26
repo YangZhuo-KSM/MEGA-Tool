@@ -51,7 +51,7 @@ def test_page_to_reader_jump_clears_previous_filters(monkeypatch):
     assert not at.exception
     assert at.sidebar.radio[0].value=='德中对读'
     assert at.sidebar.selectbox[0].value=='alienation'
-    assert at.sidebar.selectbox[1].value=='reading-alienation_004'
+    assert at.sidebar.selectbox[1].value=='reading-alienation_005'
     assert at.session_state['reading_focus']['alignment_id']=='alienation_006'
     assert at.sidebar.text_input[0].value==''
     assert not at.sidebar.checkbox[2].value

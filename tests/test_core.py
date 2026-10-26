@@ -18,10 +18,10 @@ def data():
 
 def test_curated_data_integrity(data):
     assert not validate(data)
-    assert len(data['alignments'])==240
-    assert len([a for a in data['alignments'] if a['section_id']=='mill'])==12
+    assert len(data['alignments'])==1236
+    assert len([a for a in data['alignments'] if a['section_id']=='mill'])==260
     assert all(a['status']=='uncertain' and not a['verified_by'] for a in data['alignments'])
-    assert {a['review_batch'] for a in data['alignments']}==set(range(1,17))
+    assert {a['review_batch'] for a in data['alignments']}==set(range(1,53))
 
 
 @pytest.mark.parametrize('text,query,expected',[
@@ -87,7 +87,7 @@ def test_exact_page_mapping_and_cross_page(data):
 def test_context_is_same_edition_and_section(data):
     u=index(data['units'])['mill_de_001']
     before,after=context_units(data,u)
-    assert before is None
+    assert before['id']=='mill_de_109'
     assert after['id']=='mill_de_002'
 
 

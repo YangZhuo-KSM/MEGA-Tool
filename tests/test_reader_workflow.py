@@ -21,14 +21,14 @@ def displayed_text(at):
 
 
 def test_navigation_and_continuous_reading_keep_group_sequence(app):
-    assert '竞争与垄断' in displayed_text(app) and '货币制度' in displayed_text(app)
+    assert '国民经济学前提及其社会结果' in displayed_text(app)
     app.button(key='reading_next').click().run()
-    assert app.sidebar.selectbox(key='reading_page').value=='reading-alienation_004'
+    assert app.sidebar.selectbox(key='reading_page').value=='reading-alienation_086'
     app.button(key='reading_prev').click().run()
-    assert app.sidebar.selectbox(key='reading_page').value=='reading-alienation_001'
+    assert app.sidebar.selectbox(key='reading_page').value=='reading-alienation_085'
     app.toggle(key='continuous_reading').set_value(True).run()
-    assert len(app.subheader)==4
-    assert '阅读页 4' in displayed_text(app)
+    assert len(app.subheader)==29
+    assert '阅读页 29' in displayed_text(app)
     assert not app.exception
 
 
@@ -69,11 +69,11 @@ def test_comparison_bridge_shows_original_hit_with_own_source(app):
 
 def test_reader_filter_keeps_neighbors_and_does_not_renumber(app):
     app.sidebar.text_input(key='reader_query').input('Vergegenständlichung').run()
-    assert app.sidebar.selectbox(key='reading_page').value=='reading-alienation_004'
+    assert app.sidebar.selectbox(key='reading_page').value=='reading-alienation_005'
     data=load_corpus()
-    neighbor=next(u for u in data['units'] if u['id']=='alienation_de_004')
+    neighbor=next(u for u in data['units'] if u['id']=='alienation_de_005')
     assert any(neighbor['text'] in m.value for m in app.markdown)
-    assert '阅读页 2' in displayed_text(app)
+    assert '阅读页 4' in displayed_text(app)
     assert not app.exception
 
 

@@ -30,7 +30,7 @@ def audit():
             for kind,pattern in PATTERNS.items():
                 if pattern.search(line): findings.append(dict(file=name,line=line_no,kind=kind))
     return dict(candidate_files=files,findings=findings,
-                limitation='Pattern checks are not a guarantee; visually inspect images and review each finding.')
+                limitation='Review pattern findings and screenshots in context.')
 
 
 if __name__=='__main__':

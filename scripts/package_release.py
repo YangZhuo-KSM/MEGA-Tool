@@ -4,6 +4,7 @@ import copy
 import hashlib
 import json
 import sys
+import subprocess
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
@@ -46,12 +47,18 @@ def build(stage):
         files.append(ROOT/'data/sampling_plan.json')
     for folder in ('paris','scripts','docs','tests'):
         files.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts
-                     and p.suffix in ('.py','.md','.jpg','.png')
+                     and p.suffix in ('.py','.md','.jpg','.png','.html','.json')
                      and 'reviews' not in p.relative_to(ROOT).parts and 'learning' not in p.relative_to(ROOT).parts
                      and p.name not in ('REVIEW_ACCEPTANCE.md','original-pages.jpg','windows-exe-original.png','USER_CONTRIBUTIONS_README_HANDOFF.md')
                      and not p.name.endswith('.local.md'))
     if stage=='stage0':
         files=[p for p in files if 'tests' not in p.relative_to(ROOT).parts and 'reviews' not in p.relative_to(ROOT).parts]
+    ignored = subprocess.run(['git','check-ignore','--stdin','-z'], input=('\0'.join(p.relative_to(ROOT).as_posix() for p in files)+'\0').encode('utf-8'),
+                             capture_output=True, cwd=ROOT)
+    if ignored.returncode not in (0, 1):
+        raise RuntimeError(ignored.stderr)
+    excluded = set(ignored.stdout.decode('utf-8').split('\0'))
+    files = [p for p in files if p.relative_to(ROOT).as_posix() not in excluded]
     with ZipFile(output,'w',ZIP_DEFLATED) as z:
         for p in sorted(set(files)):
             if stage=='stage0' and p==ROOT/'data/coverage_plan.json':

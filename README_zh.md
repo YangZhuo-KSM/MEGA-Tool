@@ -60,13 +60,15 @@ MEGA Tool 就是从这个实际研究工作流出发设计的。
 
 ## 当前公开版本
 
-**v0.4.0-alpha12 — Research Preview**
+**v0.4.0-alpha48 — 正文完整版**
 
-当前公开版包含 **240 组德中对应、494 个文本单元和 94 条页码映射**，涵盖《1844年经济学哲学手稿》及穆勒笔记中的六个研究专题。近期扩充集中于第三手稿的私有财产与共产主义论述，以及对黑格尔辩证法和哲学的批判。
+当前公开版包含 **1,236 组德中对应、2,486 个文本单元和 347 条页码映射**，涵盖 **14 个研究专题**。按选定底本收录三个1844年手稿及马克思穆勒笔记的连续正文，其中穆勒笔记包含260组对应。
 
 这个仓库既是一个正在使用的研究工具，也记录了文献学判断、书目信息和界面设计如何被转化为可复现的数字研究流程。
 
 ## 技术概况
+
+发行数据（2026-10-26）：**v0.4.0-alpha48**。52批语料整理已完成，包含2,472个主读文本单元和14个比较文本单元。本次发布完整语料、源码、Windows便携应用，以及包含470条抽样建议的研究审核工作流。详见[发行范围与验收](docs/V04_ALPHA48.md)。
 
 项目使用 **Python** 与 **Streamlit**。研究数据以 UTF-8 JSON 保存，包含稳定文本 ID、版本元数据、德中对应关系、页码映射和审核状态。
 
@@ -76,7 +78,7 @@ MEGA Tool 就是从这个实际研究工作流出发设计的。
 
 ## 本地运行
 
-**[下载 Windows 便携版](https://github.com/YangZhuo-KSM/MEGA-Tool/releases/download/v0.4.0-alpha12/MEGA_Tool-Windows-alpha12.zip)**：解压 ZIP 后双击 `MEGA_Tool_Windows.exe`，无需安装 Python。保留整个解压文件夹，阅读期间保持启动器窗口打开；详见[Windows启动版](docs/WINDOWS_EXE.md)。
+**[下载 Windows 便携版](https://github.com/YangZhuo-KSM/MEGA-Tool/releases/download/v0.4.0-alpha48/MEGA_Tool-Windows-alpha48.zip)**：解压 ZIP 后双击 `MEGA_Tool_Windows.exe`，无需安装 Python。保留整个解压文件夹，阅读期间保持启动器窗口打开；详见[Windows启动版](docs/WINDOWS_EXE.md)。
 
 使用 Python 3.11 或更新版本；项目已在 Windows / Python 3.14 上验证。
 
@@ -110,7 +112,7 @@ macOS / Linux 可使用 `python3 -m venv .venv` 创建环境，并将 Windows �
 - [代码说明](docs/CODE_GUIDE.md)
 - [转录复盘](docs/TRANSCRIPTION_REVIEW.md)
 - [验证记录](docs/VALIDATION.md)
-- [当前公开预览版说明](docs/V04_ALPHA12.md)
+- [当前发行范围与验收](docs/V04_ALPHA48.md)
 
 ## 开发说明
 

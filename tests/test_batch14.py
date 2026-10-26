@@ -21,7 +21,7 @@ def test_thirty_six_pending_groups_and_shared_chapter_boundary():
     shared = {u['id'] for u in units_on_page(data, 'de_megai2', 399)}
     assert {'communism_de_078', 'hegel_de_001'} <= shared
     row = next(r for r in coverage_rows(data, {}, load_plan(data)) if r['id']=='hegel')
-    assert row['groups'] == 108 and row['collected_ratio'] is None
+    assert row['groups'] == 182 and row['collected_ratio'] is None
 
 
 def test_new_long_cross_page_search_preserves_both_printed_pages():
@@ -62,4 +62,4 @@ def test_new_topic_opens_in_the_reader_without_confirming(monkeypatch):
     assert not at.exception
     assert any('批判辩证法的说明位置' in x.value for x in at.markdown)
     assert any('第312页' in x.value for x in at.caption)
-    assert at.metric[0].value == '240' and at.metric[1].value == '0'
+    assert at.metric[0].value == '1236' and at.metric[1].value == '0'

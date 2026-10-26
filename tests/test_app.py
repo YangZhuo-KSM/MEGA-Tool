@@ -20,12 +20,12 @@ def app():
 
 def test_default_reader_and_section_switch():
     at=app()
-    assert at.metric[0].value=='240'
+    assert at.metric[0].value=='1236'
     assert at.metric[1].value=='0'
     at.sidebar.selectbox[0].select('mill').run()
     assert not at.exception
-    assert at.sidebar.selectbox[1].value=='reading-mill_001'
-    assert any('需要与产品的权力' in x.value for x in at.markdown)
+    assert at.sidebar.selectbox[1].value=='reading-mill_110'
+    assert any('穆勒摘录：生产所需生活资料' in x.value for x in at.markdown)
     assert not any('竞争与垄断' in x.value for x in at.markdown)
 
 
@@ -63,6 +63,7 @@ def test_many_to_many_ui_and_missing_translation(monkeypatch):
     first=sample['alignments'][0]
     first['de_ids']+=sample['alignments'][1]['de_ids']
     first['zh_ids']+=sample['alignments'][1]['zh_ids']
+    sample['alignments'] = sample['alignments'][:2]
     monkeypatch.setattr('paris.corpus.load_corpus',lambda: sample)
     at=app()
     assert any('2 个德文单元 / 2 个中文单元' in x.value for x in at.caption)

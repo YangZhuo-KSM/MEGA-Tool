@@ -22,7 +22,9 @@
       "id": "preface",
       "work": "manuscript3",
       "title": "序言（第三手稿）",
-      "section_ids": [],
+      "section_ids": [
+        "preface"
+      ],
       "de_start": "325",
       "zh_start": "219",
       "total_groups": null,
@@ -32,7 +34,9 @@
       "id": "wages",
       "work": "manuscript1",
       "title": "工资",
-      "section_ids": [],
+      "section_ids": [
+        "wages"
+      ],
       "de_start": "327",
       "zh_start": "223",
       "total_groups": null,
@@ -42,7 +46,9 @@
       "id": "profit",
       "work": "manuscript1",
       "title": "资本的利润",
-      "section_ids": [],
+      "section_ids": [
+        "profit"
+      ],
       "de_start": "338",
       "zh_start": "238",
       "total_groups": null,
@@ -52,7 +58,9 @@
       "id": "rent",
       "work": "manuscript1",
       "title": "地租",
-      "section_ids": [],
+      "section_ids": [
+        "rent"
+      ],
       "de_start": "351",
       "zh_start": "252",
       "total_groups": null,
@@ -122,7 +130,9 @@
       "id": "needs",
       "work": "manuscript3",
       "title": "私有财产和需要",
-      "section_ids": [],
+      "section_ids": [
+        "needs"
+      ],
       "de_start": "418",
       "zh_start": "339",
       "total_groups": null,
@@ -132,7 +142,9 @@
       "id": "addenda",
       "work": "manuscript3",
       "title": "增补",
-      "section_ids": [],
+      "section_ids": [
+        "addenda"
+      ],
       "de_start": "424",
       "zh_start": "346",
       "total_groups": null,
@@ -142,7 +154,9 @@
       "id": "division",
       "work": "manuscript3",
       "title": "分工",
-      "section_ids": [],
+      "section_ids": [
+        "division"
+      ],
       "de_start": "429",
       "zh_start": "353",
       "total_groups": null,
@@ -152,7 +166,9 @@
       "id": "money",
       "work": "manuscript3",
       "title": "货币",
-      "section_ids": [],
+      "section_ids": [
+        "money"
+      ],
       "de_start": "434",
       "zh_start": "359",
       "total_groups": null,

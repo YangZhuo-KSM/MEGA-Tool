@@ -8,7 +8,7 @@
 - data/extraction.json的de_megaiv2:458及原页缓存均为 `Meine Arbeit wäre trete Lebensäusserung`，回看PDF渲染图像也显示trete。
 - scripts/build_samples.py的CORRECTIONS曾显式将 `trete Lebensäusserung` 替换为 `freie Lebensäusserung`。corpus.json保存了替换前后文本，证明变化发生于整理校订阶段。
 - 旧记录只写了通用扫描校订说明，没有该词逐字核对依据。不能事后断言当时一定参照了中文译文或某个版本；可确定的是把没有足够字形证据支持的候选当成了确定正文。
-- 本轮恢复trete，撤销生成脚本对应规则，追加更正记录并保留旧记录。mill_011继续待用户确认；本次纠错不等于用户已确认整组对应。
+- 本轮恢复trete，撤销生成脚本对应规则，追加更正记录并保留旧记录。mill_011的对应审核状态为待用户确认。
 
 ## 尚不能确定的事
 

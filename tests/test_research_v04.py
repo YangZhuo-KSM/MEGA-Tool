@@ -12,11 +12,12 @@ from paris.reviews import fingerprint
 def test_coverage_has_all_four_works_without_fabricated_full_denominator():
     data=load_corpus(); plan=load_plan(data); rows=coverage_rows(data,{},plan)
     assert {r['work'] for r in rows}=={'manuscript1','manuscript2','manuscript3','mill'}
-    assert len(rows)==14 and sum(r['groups']>0 for r in rows)==6
-    assert sum(r['groups'] for r in rows)==240
-    assert sum(r['units'] for r in rows)==480
+    assert len(rows)==14 and sum(r['groups']>0 for r in rows)==len(data['sections'])
+    assert sum(r['groups'] for r in rows)==len(data['alignments'])
+    assert sum(r['units'] for r in rows)==sum(u.get('role','primary')=='primary' for u in data['units'])
     assert all(r['collected_ratio'] is None for r in rows)
-    assert next(r for r in rows if r['id']=='wages')['checked_ratio'] is None
+    for row in rows:
+        assert row['checked_ratio']==(row['scan_checked']/row['units'] if row['units'] else None)
     assert next(r for r in rows if r['id']=='private_work')['confirmed_ratio']==0
 
 
@@ -54,11 +55,13 @@ def test_new_batch_is_pending_and_has_exact_reviewed_locations():
 def test_scoped_multiterm_counts_reproduce_rows_and_do_not_count_comparison_copies():
     data=load_corpus()
     report=research_distribution(data,{},['Arbeit','Capital','Arbeit'],'de',section_ids=['private_relation'])
-    assert report['scope']['queries']==['Arbeit','Capital'] and report['scope']['units']==6
+    expected=sum(u['section_id']=='private_relation' and u['language']=='de' and u.get('role','primary')=='primary'
+                 for u in data['units'])
+    assert report['scope']['queries']==['Arbeit','Capital'] and report['scope']['units']==expected
     for summary in report['summary']:
         assert summary['count']==sum(h['count'] for h in report['hits'] if h['query']==summary['query'])
     assert all(h['section_id']=='private_relation' and h['edition_id']=='de_megai2' for h in report['hits'])
-    assert all('S.376.' in h['citation'] for h in report['hits'])
+    assert all('MEGA²' in h['citation'] and 'S.' in h['citation'] for h in report['hits'])
     assert all(h['review_states']==['uncertain'] for h in report['hits'])
 
 
@@ -92,7 +95,7 @@ def test_research_workspaces_and_new_sample_jump(monkeypatch):
     app=AppTest.from_file(str(Path(__file__).resolve().parents[1]/'app.py')).run(timeout=30)
     app.sidebar.radio(key='workspace').set_value('覆盖清单').run()
     assert not app.exception
-    assert any(m.value=='6/14' for m in app.metric)
+    assert any(m.value==f"{len(load_corpus()['sections'])}/14" for m in app.metric)
     app.button(key='coverage_private_work').click().run()
     assert app.sidebar.selectbox(key='section_id').value=='private_work'
     assert any('主体本质' in m.value for m in app.markdown)

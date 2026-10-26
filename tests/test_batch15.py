@@ -66,14 +66,14 @@ def test_visible_source_anomalies_are_retained_and_annotated():
 def test_sampling_and_reader_include_batch_fifteen(monkeypatch):
     data = load_corpus()
     recommended = {r["alignment_id"] for r in load_sampling_plan(data)["recommended"]}
-    assert len(recommended) == 76
+    assert len(recommended) == 470
     assert any(f"hegel_{n:03}" in recommended for n in range(19, 61))
     monkeypatch.setattr("paris.reviews.load_reviews", lambda: {})
     app = AppTest.from_file(str(Path(__file__).resolve().parents[1] / "app.py")).run(timeout=30)
     app.sidebar.selectbox(key="section_id").select("hegel").run()
     app.sidebar.text_input[0].input("wtklichen").run()
     assert not app.exception
-    assert app.metric[0].value == "240" and app.metric[1].value == "0"
+    assert app.metric[0].value == "1236" and app.metric[1].value == "0"
     assert any("语义存疑 · 按底本照录：wtklichen" in w.value for w in app.warning)
 
 

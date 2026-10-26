@@ -11,9 +11,14 @@ from paris.reviews import save_review, load_reviews, review_state
 def test_sample_has_strata_and_risks_without_changing_confirmations(tmp_path):
     data=load_corpus(); before=copy.deepcopy(data); plan=build_plan(data)
     assert plan==build_plan(data) and data==before
-    assert len(plan['scope_ids'])==216
+    assert set(plan['scope_ids']) == {a['id'] for a in data['alignments']
+                                    if a['review_batch'] >= plan['first_batch']}
     selected={r['alignment_id'] for r in plan['recommended']}
-    assert {'private_relation_006','private_work_011','private_work_018'}<=selected
+    open_units = {i['unit_id'] for i in data['editorial_issues'] if i['status'] == 'open'}
+    required = {a['id'] for a in data['alignments'] if a['id'] in plan['scope_ids']
+                and open_units.intersection(a['de_ids'] + a['zh_ids'])}
+    assert required <= selected
+    assert any('分层随机样本' in reason for r in plan['recommended'] for reason in r['reasons'])
     assert len(selected)<len(plan['scope_ids'])
     a=index(data['alignments'])[next(iter(selected))]
     path=tmp_path/'reviews.json'
@@ -46,13 +51,15 @@ def test_seventh_batch_real_cross_page_and_glyph_pending():
 
 def test_sampling_filter_preserves_individual_review_forms(monkeypatch):
     monkeypatch.setattr('paris.reviews.load_reviews',lambda:{})
-    app=AppTest.from_file(str(Path(__file__).resolve().parents[1]/'app.py')).run(timeout=30)
+    app=AppTest.from_file(str(Path(__file__).resolve().parents[1]/'app.py'), default_timeout=30).run()
     app.sidebar.radio(key='workspace').set_value('审核与资料').run()
     app.selectbox[0].select(7).run()
     assert len(app.get('form'))==6
     app.toggle(key='sampled_only').set_value(True).run()
     assert not app.exception and len(app.get('form'))==4
-    assert any('76/216' in x.value for x in app.info)
+    plan = load_plan(load_corpus())
+    expected = f"{len(plan['recommended'])}/{len(plan['scope_ids'])}"
+    assert any(expected in x.value for x in app.info)
 
 
 def test_incremental_sampling_keeps_previous_cohort_and_rejects_changes():

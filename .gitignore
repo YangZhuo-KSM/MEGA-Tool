@@ -92,3 +92,10 @@ docs/screenshots/original-pages.jpg
 # Internal writing handoff and scanned source preview.
 docs/USER_CONTRIBUTIONS_README_HANDOFF.md
 docs/screenshots/windows-exe-original.png
+
+# Local teaching prompts, orchestration and personal review snapshots.
+MEGAtutorialprompt.txt
+docs/batch-coordination.json
+docs/reports/finalize_report.py
+docs/reports/report-manifest.json
+docs/reports/review-report.data.json

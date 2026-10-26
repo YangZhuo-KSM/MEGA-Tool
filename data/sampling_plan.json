@@ -3,8 +3,8 @@
   "policy": "stratified-review-v1",
   "seed": "paris-review-v1",
   "first_batch": 5,
-  "release": "0.4.0-alpha12",
-  "created_date": "2026-10-12",
+  "release": "0.4.0-alpha48",
+  "created_date": "2026-10-24",
   "scope_ids": [
     "private_relation_001",
     "private_relation_002",
@@ -221,9 +221,1005 @@
     "hegel_105",
     "hegel_106",
     "hegel_107",
-    "hegel_108"
+    "hegel_108",
+    "hegel_109",
+    "hegel_110",
+    "hegel_111",
+    "hegel_112",
+    "hegel_113",
+    "hegel_114",
+    "hegel_115",
+    "hegel_116",
+    "hegel_117",
+    "hegel_118",
+    "hegel_119",
+    "hegel_120",
+    "hegel_121",
+    "hegel_122",
+    "hegel_123",
+    "hegel_124",
+    "hegel_125",
+    "hegel_126",
+    "hegel_127",
+    "hegel_128",
+    "hegel_129",
+    "hegel_130",
+    "hegel_131",
+    "hegel_132",
+    "hegel_133",
+    "hegel_134",
+    "hegel_135",
+    "hegel_136",
+    "hegel_137",
+    "hegel_138",
+    "hegel_139",
+    "hegel_140",
+    "hegel_141",
+    "hegel_142",
+    "hegel_143",
+    "hegel_144",
+    "hegel_145",
+    "hegel_146",
+    "hegel_147",
+    "hegel_148",
+    "hegel_149",
+    "hegel_150",
+    "hegel_151",
+    "hegel_152",
+    "hegel_153",
+    "hegel_154",
+    "hegel_155",
+    "hegel_156",
+    "hegel_157",
+    "hegel_158",
+    "hegel_159",
+    "hegel_160",
+    "hegel_161",
+    "hegel_162",
+    "hegel_163",
+    "hegel_164",
+    "hegel_165",
+    "hegel_166",
+    "hegel_167",
+    "hegel_168",
+    "hegel_169",
+    "hegel_170",
+    "hegel_171",
+    "hegel_172",
+    "hegel_173",
+    "hegel_174",
+    "hegel_175",
+    "hegel_176",
+    "hegel_177",
+    "hegel_178",
+    "hegel_179",
+    "hegel_180",
+    "hegel_181",
+    "hegel_182",
+    "needs_001",
+    "needs_002",
+    "needs_003",
+    "needs_004",
+    "needs_005",
+    "needs_006",
+    "needs_007",
+    "needs_008",
+    "needs_009",
+    "needs_010",
+    "needs_011",
+    "needs_012",
+    "needs_013",
+    "needs_014",
+    "needs_015",
+    "needs_016",
+    "needs_017",
+    "needs_018",
+    "needs_019",
+    "needs_020",
+    "needs_021",
+    "needs_022",
+    "needs_023",
+    "needs_024",
+    "needs_025",
+    "needs_026",
+    "needs_027",
+    "needs_028",
+    "needs_029",
+    "needs_030",
+    "needs_031",
+    "needs_032",
+    "needs_033",
+    "needs_034",
+    "needs_035",
+    "needs_036",
+    "needs_037",
+    "needs_038",
+    "needs_039",
+    "needs_040",
+    "needs_041",
+    "needs_042",
+    "needs_043",
+    "needs_044",
+    "needs_045",
+    "needs_046",
+    "needs_047",
+    "needs_048",
+    "needs_049",
+    "needs_050",
+    "needs_051",
+    "needs_052",
+    "needs_053",
+    "needs_054",
+    "needs_055",
+    "needs_056",
+    "needs_057",
+    "needs_058",
+    "needs_059",
+    "needs_060",
+    "needs_061",
+    "needs_062",
+    "needs_063",
+    "needs_064",
+    "needs_065",
+    "needs_066",
+    "addenda_001",
+    "addenda_002",
+    "addenda_003",
+    "addenda_004",
+    "addenda_005",
+    "addenda_006",
+    "addenda_007",
+    "addenda_008",
+    "addenda_009",
+    "addenda_010",
+    "addenda_011",
+    "addenda_012",
+    "addenda_013",
+    "addenda_014",
+    "addenda_015",
+    "addenda_016",
+    "addenda_017",
+    "addenda_018",
+    "addenda_019",
+    "addenda_020",
+    "addenda_021",
+    "addenda_022",
+    "addenda_023",
+    "addenda_024",
+    "addenda_025",
+    "addenda_026",
+    "addenda_027",
+    "addenda_028",
+    "addenda_029",
+    "addenda_030",
+    "addenda_031",
+    "addenda_032",
+    "addenda_033",
+    "addenda_034",
+    "addenda_035",
+    "addenda_036",
+    "addenda_037",
+    "addenda_038",
+    "addenda_039",
+    "addenda_040",
+    "addenda_041",
+    "addenda_042",
+    "addenda_043",
+    "addenda_044",
+    "addenda_045",
+    "addenda_046",
+    "addenda_047",
+    "addenda_048",
+    "addenda_049",
+    "addenda_050",
+    "addenda_051",
+    "addenda_052",
+    "division_001",
+    "division_002",
+    "division_003",
+    "division_004",
+    "division_005",
+    "division_006",
+    "division_007",
+    "division_008",
+    "division_009",
+    "division_010",
+    "division_011",
+    "division_012",
+    "division_013",
+    "division_014",
+    "division_015",
+    "division_016",
+    "division_017",
+    "division_018",
+    "division_019",
+    "division_020",
+    "division_021",
+    "division_022",
+    "division_023",
+    "division_024",
+    "division_025",
+    "division_026",
+    "division_027",
+    "division_028",
+    "division_029",
+    "division_030",
+    "division_031",
+    "division_032",
+    "division_033",
+    "division_034",
+    "division_035",
+    "division_036",
+    "division_037",
+    "division_038",
+    "division_039",
+    "division_040",
+    "division_041",
+    "division_042",
+    "division_043",
+    "division_044",
+    "division_045",
+    "division_046",
+    "division_047",
+    "division_048",
+    "division_049",
+    "division_050",
+    "division_051",
+    "division_052",
+    "division_053",
+    "division_054",
+    "division_055",
+    "division_056",
+    "division_057",
+    "division_058",
+    "division_059",
+    "division_060",
+    "money_001",
+    "money_002",
+    "money_003",
+    "money_004",
+    "money_005",
+    "money_006",
+    "money_007",
+    "money_008",
+    "money_009",
+    "money_010",
+    "money_011",
+    "money_012",
+    "money_013",
+    "money_014",
+    "money_015",
+    "money_016",
+    "money_017",
+    "money_018",
+    "money_019",
+    "money_020",
+    "money_021",
+    "money_022",
+    "money_023",
+    "money_024",
+    "money_025",
+    "money_026",
+    "money_027",
+    "money_028",
+    "money_029",
+    "money_030",
+    "money_031",
+    "money_032",
+    "money_033",
+    "money_034",
+    "money_035",
+    "money_036",
+    "money_037",
+    "money_038",
+    "money_039",
+    "money_040",
+    "money_041",
+    "money_042",
+    "money_043",
+    "money_044",
+    "money_045",
+    "money_046",
+    "money_047",
+    "mill_013",
+    "mill_014",
+    "mill_015",
+    "mill_016",
+    "mill_017",
+    "mill_018",
+    "mill_019",
+    "mill_020",
+    "mill_021",
+    "mill_022",
+    "mill_023",
+    "mill_024",
+    "mill_025",
+    "mill_026",
+    "mill_027",
+    "mill_028",
+    "mill_029",
+    "mill_030",
+    "mill_031",
+    "mill_032",
+    "mill_033",
+    "mill_034",
+    "mill_035",
+    "mill_036",
+    "mill_037",
+    "mill_038",
+    "mill_039",
+    "mill_040",
+    "mill_041",
+    "mill_042",
+    "mill_043",
+    "mill_044",
+    "mill_045",
+    "mill_046",
+    "mill_047",
+    "mill_048",
+    "mill_049",
+    "mill_050",
+    "mill_051",
+    "mill_052",
+    "mill_053",
+    "mill_054",
+    "mill_055",
+    "mill_056",
+    "mill_057",
+    "mill_058",
+    "mill_059",
+    "mill_060",
+    "mill_061",
+    "mill_062",
+    "mill_063",
+    "mill_064",
+    "mill_065",
+    "mill_066",
+    "mill_067",
+    "mill_068",
+    "mill_069",
+    "mill_070",
+    "mill_071",
+    "mill_072",
+    "mill_073",
+    "mill_074",
+    "mill_075",
+    "mill_076",
+    "mill_077",
+    "mill_078",
+    "mill_079",
+    "mill_080",
+    "mill_081",
+    "mill_082",
+    "mill_083",
+    "mill_084",
+    "mill_085",
+    "mill_086",
+    "mill_087",
+    "mill_088",
+    "mill_089",
+    "mill_090",
+    "mill_091",
+    "mill_092",
+    "mill_093",
+    "mill_094",
+    "mill_095",
+    "mill_096",
+    "mill_097",
+    "mill_098",
+    "mill_099",
+    "mill_100",
+    "mill_101",
+    "mill_102",
+    "mill_103",
+    "mill_104",
+    "mill_105",
+    "mill_106",
+    "mill_107",
+    "mill_108",
+    "mill_109",
+    "private_relation_007",
+    "private_relation_008",
+    "private_relation_009",
+    "private_relation_010",
+    "private_relation_011",
+    "private_relation_012",
+    "private_relation_013",
+    "private_relation_014",
+    "private_relation_015",
+    "private_relation_016",
+    "private_relation_017",
+    "private_relation_018",
+    "private_relation_019",
+    "private_relation_020",
+    "private_relation_021",
+    "private_relation_022",
+    "private_relation_023",
+    "private_relation_024",
+    "private_relation_025",
+    "private_relation_026",
+    "private_relation_027",
+    "private_relation_028",
+    "private_relation_029",
+    "private_relation_030",
+    "private_relation_031",
+    "private_relation_032",
+    "private_relation_033",
+    "private_relation_034",
+    "private_relation_035",
+    "private_relation_036",
+    "private_relation_037",
+    "private_relation_038",
+    "private_relation_039",
+    "private_relation_040",
+    "private_relation_041",
+    "private_relation_042",
+    "private_relation_043",
+    "private_relation_044",
+    "private_relation_045",
+    "private_relation_046",
+    "private_relation_047",
+    "private_relation_048",
+    "private_relation_049",
+    "private_relation_050",
+    "private_relation_051",
+    "private_relation_052",
+    "private_relation_053",
+    "private_relation_054",
+    "alienation_013",
+    "alienation_014",
+    "alienation_015",
+    "alienation_016",
+    "alienation_017",
+    "alienation_018",
+    "alienation_019",
+    "alienation_020",
+    "alienation_021",
+    "alienation_022",
+    "alienation_023",
+    "alienation_024",
+    "alienation_025",
+    "alienation_026",
+    "alienation_027",
+    "alienation_028",
+    "alienation_029",
+    "alienation_030",
+    "alienation_031",
+    "alienation_032",
+    "alienation_033",
+    "alienation_034",
+    "alienation_035",
+    "alienation_036",
+    "alienation_037",
+    "alienation_038",
+    "alienation_039",
+    "alienation_040",
+    "alienation_041",
+    "alienation_042",
+    "alienation_043",
+    "alienation_044",
+    "alienation_045",
+    "alienation_046",
+    "alienation_047",
+    "alienation_048",
+    "alienation_049",
+    "alienation_050",
+    "alienation_051",
+    "alienation_052",
+    "alienation_053",
+    "alienation_054",
+    "alienation_055",
+    "alienation_056",
+    "alienation_057",
+    "alienation_058",
+    "alienation_059",
+    "alienation_060",
+    "alienation_061",
+    "alienation_062",
+    "alienation_063",
+    "alienation_064",
+    "alienation_065",
+    "alienation_066",
+    "alienation_067",
+    "alienation_068",
+    "alienation_069",
+    "alienation_070",
+    "alienation_071",
+    "alienation_072",
+    "alienation_073",
+    "alienation_074",
+    "alienation_075",
+    "alienation_076",
+    "alienation_077",
+    "alienation_078",
+    "alienation_079",
+    "alienation_080",
+    "alienation_081",
+    "alienation_082",
+    "alienation_083",
+    "alienation_084",
+    "wages_001",
+    "wages_002",
+    "wages_003",
+    "wages_004",
+    "wages_005",
+    "wages_006",
+    "wages_007",
+    "wages_008",
+    "wages_009",
+    "wages_010",
+    "wages_011",
+    "wages_012",
+    "wages_013",
+    "wages_014",
+    "wages_015",
+    "wages_016",
+    "wages_017",
+    "wages_018",
+    "wages_019",
+    "wages_020",
+    "wages_021",
+    "wages_022",
+    "wages_023",
+    "wages_024",
+    "wages_025",
+    "wages_026",
+    "wages_027",
+    "wages_028",
+    "wages_029",
+    "wages_030",
+    "wages_031",
+    "wages_032",
+    "wages_033",
+    "wages_034",
+    "wages_035",
+    "wages_036",
+    "wages_037",
+    "wages_038",
+    "wages_039",
+    "wages_040",
+    "wages_041",
+    "wages_042",
+    "wages_043",
+    "wages_044",
+    "wages_045",
+    "wages_046",
+    "wages_047",
+    "wages_048",
+    "wages_049",
+    "wages_050",
+    "wages_051",
+    "wages_052",
+    "wages_053",
+    "wages_054",
+    "wages_055",
+    "wages_056",
+    "wages_057",
+    "wages_058",
+    "wages_059",
+    "wages_060",
+    "wages_061",
+    "wages_062",
+    "wages_063",
+    "wages_064",
+    "wages_065",
+    "wages_066",
+    "wages_067",
+    "wages_068",
+    "wages_069",
+    "wages_070",
+    "wages_071",
+    "wages_072",
+    "wages_073",
+    "wages_074",
+    "wages_075",
+    "wages_076",
+    "wages_077",
+    "wages_078",
+    "wages_079",
+    "wages_080",
+    "wages_081",
+    "wages_082",
+    "wages_083",
+    "wages_084",
+    "wages_085",
+    "wages_086",
+    "wages_087",
+    "wages_088",
+    "wages_089",
+    "wages_090",
+    "wages_091",
+    "wages_092",
+    "wages_093",
+    "wages_094",
+    "wages_095",
+    "wages_096",
+    "profit_001",
+    "profit_002",
+    "profit_003",
+    "profit_004",
+    "profit_005",
+    "profit_006",
+    "profit_007",
+    "profit_008",
+    "profit_009",
+    "profit_010",
+    "profit_011",
+    "profit_012",
+    "profit_013",
+    "profit_014",
+    "profit_015",
+    "profit_016",
+    "profit_017",
+    "profit_018",
+    "profit_019",
+    "profit_020",
+    "profit_021",
+    "profit_022",
+    "profit_023",
+    "profit_024",
+    "profit_025",
+    "profit_026",
+    "profit_027",
+    "profit_028",
+    "profit_029",
+    "profit_030",
+    "profit_031",
+    "profit_032",
+    "profit_033",
+    "profit_034",
+    "profit_035",
+    "profit_036",
+    "profit_037",
+    "profit_038",
+    "profit_039",
+    "profit_040",
+    "profit_041",
+    "profit_042",
+    "profit_043",
+    "profit_044",
+    "profit_045",
+    "profit_046",
+    "profit_047",
+    "profit_048",
+    "profit_049",
+    "profit_050",
+    "profit_051",
+    "profit_052",
+    "profit_053",
+    "profit_054",
+    "profit_055",
+    "profit_056",
+    "profit_057",
+    "profit_058",
+    "profit_059",
+    "profit_060",
+    "profit_061",
+    "profit_062",
+    "profit_063",
+    "profit_064",
+    "profit_065",
+    "profit_066",
+    "profit_067",
+    "profit_068",
+    "profit_069",
+    "profit_070",
+    "profit_071",
+    "profit_072",
+    "profit_073",
+    "profit_074",
+    "profit_075",
+    "profit_076",
+    "profit_077",
+    "profit_078",
+    "profit_079",
+    "profit_080",
+    "profit_081",
+    "profit_082",
+    "profit_083",
+    "profit_084",
+    "profit_085",
+    "profit_086",
+    "profit_087",
+    "profit_088",
+    "profit_089",
+    "profit_090",
+    "profit_091",
+    "profit_092",
+    "profit_093",
+    "profit_094",
+    "profit_095",
+    "profit_096",
+    "profit_097",
+    "profit_098",
+    "profit_099",
+    "profit_100",
+    "profit_101",
+    "profit_102",
+    "profit_103",
+    "profit_104",
+    "profit_105",
+    "profit_106",
+    "profit_107",
+    "profit_108",
+    "profit_109",
+    "profit_110",
+    "profit_111",
+    "profit_112",
+    "profit_113",
+    "profit_114",
+    "profit_115",
+    "rent_001",
+    "rent_002",
+    "rent_003",
+    "rent_004",
+    "rent_005",
+    "rent_006",
+    "rent_007",
+    "rent_008",
+    "rent_009",
+    "rent_010",
+    "rent_011",
+    "rent_012",
+    "rent_013",
+    "rent_014",
+    "rent_015",
+    "rent_016",
+    "rent_017",
+    "rent_018",
+    "rent_019",
+    "rent_020",
+    "rent_021",
+    "rent_022",
+    "rent_023",
+    "rent_024",
+    "rent_025",
+    "rent_026",
+    "rent_027",
+    "rent_028",
+    "rent_029",
+    "rent_030",
+    "rent_031",
+    "rent_032",
+    "rent_033",
+    "rent_034",
+    "rent_035",
+    "rent_036",
+    "rent_037",
+    "rent_038",
+    "rent_039",
+    "rent_040",
+    "rent_041",
+    "rent_042",
+    "rent_043",
+    "rent_044",
+    "rent_045",
+    "rent_046",
+    "rent_047",
+    "rent_048",
+    "rent_049",
+    "rent_050",
+    "rent_051",
+    "rent_052",
+    "rent_053",
+    "rent_054",
+    "rent_055",
+    "rent_056",
+    "rent_057",
+    "rent_058",
+    "rent_059",
+    "rent_060",
+    "rent_061",
+    "rent_062",
+    "rent_063",
+    "rent_064",
+    "rent_065",
+    "rent_066",
+    "rent_067",
+    "rent_068",
+    "rent_069",
+    "rent_070",
+    "rent_071",
+    "rent_072",
+    "rent_073",
+    "rent_074",
+    "rent_075",
+    "rent_076",
+    "rent_077",
+    "rent_078",
+    "rent_079",
+    "rent_080",
+    "rent_081",
+    "rent_082",
+    "rent_083",
+    "rent_084",
+    "rent_085",
+    "rent_086",
+    "rent_087",
+    "rent_088",
+    "rent_089",
+    "rent_090",
+    "rent_091",
+    "rent_092",
+    "rent_093",
+    "rent_094",
+    "rent_095",
+    "rent_096",
+    "rent_097",
+    "rent_098",
+    "rent_099",
+    "rent_100",
+    "rent_101",
+    "rent_102",
+    "preface_001",
+    "preface_002",
+    "preface_003",
+    "preface_004",
+    "preface_005",
+    "preface_006",
+    "preface_007",
+    "preface_008",
+    "preface_009",
+    "preface_010",
+    "preface_011",
+    "preface_012",
+    "preface_013",
+    "preface_014",
+    "alienation_085",
+    "alienation_086",
+    "mill_110",
+    "mill_111",
+    "mill_112",
+    "mill_113",
+    "mill_114",
+    "mill_115",
+    "mill_116",
+    "mill_117",
+    "mill_118",
+    "mill_119",
+    "mill_120",
+    "mill_121",
+    "mill_122",
+    "mill_123",
+    "mill_124",
+    "mill_125",
+    "mill_126",
+    "mill_127",
+    "mill_128",
+    "mill_129",
+    "mill_130",
+    "mill_131",
+    "mill_132",
+    "mill_133",
+    "mill_134",
+    "mill_135",
+    "mill_136",
+    "mill_137",
+    "mill_138",
+    "mill_139",
+    "mill_140",
+    "mill_141",
+    "mill_142",
+    "mill_143",
+    "mill_144",
+    "mill_145",
+    "mill_146",
+    "mill_147",
+    "mill_148",
+    "mill_149",
+    "mill_150",
+    "mill_151",
+    "mill_152",
+    "mill_153",
+    "mill_154",
+    "mill_155",
+    "mill_156",
+    "mill_157",
+    "mill_158",
+    "mill_159",
+    "mill_160",
+    "mill_161",
+    "mill_162",
+    "mill_163",
+    "mill_164",
+    "mill_165",
+    "mill_166",
+    "mill_167",
+    "mill_168",
+    "mill_169",
+    "mill_170",
+    "mill_171",
+    "mill_172",
+    "mill_173",
+    "mill_174",
+    "mill_175",
+    "mill_176",
+    "mill_177",
+    "mill_178",
+    "mill_179",
+    "mill_180",
+    "mill_181",
+    "mill_182",
+    "mill_183",
+    "mill_184",
+    "mill_185",
+    "mill_186",
+    "mill_187",
+    "mill_188",
+    "mill_189",
+    "mill_190",
+    "mill_191",
+    "mill_192",
+    "mill_193",
+    "mill_194",
+    "mill_195",
+    "mill_196",
+    "mill_197",
+    "mill_198",
+    "mill_199",
+    "mill_200",
+    "mill_201",
+    "mill_202",
+    "mill_203",
+    "mill_204",
+    "mill_205",
+    "mill_206",
+    "mill_207",
+    "mill_208",
+    "mill_209",
+    "mill_210",
+    "mill_211",
+    "mill_212",
+    "mill_213",
+    "mill_214",
+    "mill_215",
+    "mill_216",
+    "mill_217",
+    "mill_218",
+    "mill_219",
+    "mill_220",
+    "mill_221",
+    "mill_222",
+    "mill_223",
+    "mill_224",
+    "mill_225",
+    "mill_226",
+    "mill_227",
+    "mill_228",
+    "mill_229",
+    "mill_230",
+    "mill_231",
+    "mill_232",
+    "mill_233",
+    "mill_234",
+    "mill_235",
+    "mill_236",
+    "mill_237",
+    "mill_238",
+    "mill_239",
+    "mill_240",
+    "mill_241",
+    "mill_242",
+    "mill_243",
+    "mill_244",
+    "mill_245",
+    "mill_246",
+    "mill_247",
+    "mill_248",
+    "mill_249",
+    "mill_250",
+    "mill_251",
+    "mill_252",
+    "mill_253",
+    "mill_254",
+    "mill_255",
+    "mill_256",
+    "mill_257",
+    "mill_258",
+    "mill_259",
+    "mill_260"
   ],
-  "scope_digest": "caadde4b674b98152cbf4ac1b94a0ec0b16d49ed5132efe06d75ba49487c7861",
+  "scope_digest": "2b051989be11315251b126d16ef10f0789af6db598451bed0480ea985b847dbb",
   "recommended": [
     {
       "alignment_id": "private_relation_001",
@@ -703,8 +1699,2502 @@
       "reasons": [
         "分层随机样本：专题/来源版本及相对长短段"
       ]
+    },
+    {
+      "alignment_id": "hegel_109",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_110",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_113",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_115",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_120",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_123",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_124",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_129",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_132",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_133",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_134",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_136",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_138",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_140",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_141",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_143",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_144",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_146",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_148",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_152",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "hegel_154",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_158",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "hegel_159",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_167",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_170",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_171",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_173",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "hegel_179",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "hegel_181",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "hegel_182",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "needs_001",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_002",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_007",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_010",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_011",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "needs_013",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_018",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_021",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_027",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_030",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_031",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_033",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_035",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_036",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_044",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "needs_045",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_047",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_051",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_052",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_055",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "needs_065",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "needs_066",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_001",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_003",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_005",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "addenda_007",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "addenda_008",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "addenda_011",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_018",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_020",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_021",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_022",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_029",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_030",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "addenda_031",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_033",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "addenda_035",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "addenda_036",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "addenda_038",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_039",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_041",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "addenda_045",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "addenda_046",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "addenda_049",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "addenda_050",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "addenda_051",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_001",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "division_008",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_010",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_012",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "division_016",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_017",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_019",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_021",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "division_029",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "division_030",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_034",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_036",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "division_041",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_046",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_049",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "division_055",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "division_056",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "division_058",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "division_060",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "money_001",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "money_003",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "money_007",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "money_008",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "money_009",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "money_010",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "money_011",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "money_021",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "money_028",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "money_030",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "money_032",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "money_035",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "money_041",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "money_044",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "money_047",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_013",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_014",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_022",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_023",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_025",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_027",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_029",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_030",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_031",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_034",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "mill_037",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_040",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_043",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_046",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_049",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_051",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_057",
+      "reasons": [
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "mill_067",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_068",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_070",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_072",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_074",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_077",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "mill_079",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_080",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_086",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_090",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_097",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_098",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_103",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_108",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_008",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_009",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_017",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_022",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_023",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_024",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_025",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_030",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_036",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_037",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_040",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_041",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_043",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_045",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_048",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_050",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "private_relation_054",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_014",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_016",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_017",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_021",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_023",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_030",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_031",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_036",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "alienation_037",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_038",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "alienation_043",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_044",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_047",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "alienation_050",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_051",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_055",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_059",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_061",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "alienation_063",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_065",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_067",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_071",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_072",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_075",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_080",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_081",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "alienation_084",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_001",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_004",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_007",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_008",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_010",
+      "reasons": [
+        "跨插页正文：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_012",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_015",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_016",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_019",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_020",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "wages_022",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_027",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_028",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_032",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_033",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_034",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "wages_038",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_043",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_045",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_047",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_048",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_049",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "wages_051",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_056",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_057",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_058",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_061",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_062",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_063",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_065",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_071",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_078",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "wages_079",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_081",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_082",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_084",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "wages_085",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "wages_093",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "wages_096",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_001",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_005",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_006",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_010",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_013",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "profit_016",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_018",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "profit_023",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_024",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_025",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_027",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "profit_028",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_031",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_032",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_033",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_037",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_040",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "profit_041",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_042",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_047",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_049",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "profit_056",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_059",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_063",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "profit_066",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_071",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_072",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_073",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_080",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_083",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_085",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_086",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_088",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "profit_090",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_094",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "profit_096",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_098",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_100",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "profit_101",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "profit_108",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_109",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "profit_110",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "profit_113",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_001",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_004",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "rent_006",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_009",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_011",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_015",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_016",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_017",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "rent_019",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "rent_020",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_021",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_024",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_025",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_029",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_030",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_033",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_034",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_036",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_040",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_044",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_047",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_049",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "rent_050",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_051",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "rent_054",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "rent_055",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_056",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_057",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_060",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_061",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_062",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_063",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "rent_064",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_065",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_066",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_074",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_075",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_080",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_082",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "rent_083",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_084",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_085",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_088",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_089",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_093",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_094",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_096",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "rent_098",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_100",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "rent_101",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "rent_102",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "preface_001",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "preface_007",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "preface_008",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "preface_010",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "preface_011",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "preface_012",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "preface_013",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "preface_014",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "alienation_085",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "alienation_086",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_110",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_111",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_112",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_114",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_116",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_119",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_120",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "mill_127",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_130",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_133",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "mill_134",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_135",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_143",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_145",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_151",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_152",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_153",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_158",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_159",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_160",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_164",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_165",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_167",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_169",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_171",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_172",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_175",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_176",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_177",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "跨插页正文：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_178",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_180",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_181",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_182",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_183",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_185",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_188",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_193",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_199",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_200",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_201",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_203",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_184",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_206",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_207",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_211",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_218",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_219",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_220",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
+    },
+    {
+      "alignment_id": "mill_221",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_222",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_226",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_227",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_230",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_233",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_234",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_235",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_236",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段",
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_239",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_243",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_244",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_250",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点",
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_255",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_256",
+      "reasons": [
+        "未解决疑点：定向核查"
+      ]
+    },
+    {
+      "alignment_id": "mill_258",
+      "reasons": [
+        "分层随机样本：专题/来源版本及相对长短段"
+      ]
+    },
+    {
+      "alignment_id": "mill_259",
+      "reasons": [
+        "风险代表样本：跨页接续"
+      ]
+    },
+    {
+      "alignment_id": "mill_260",
+      "reasons": [
+        "未解决疑点：定向核查",
+        "风险代表样本：照录/字形疑点"
+      ]
     }
   ],
   "note": "质量发现用的分层随机与风险定向混合抽样，不提供统计置信保证；未抽中记录不自动确认。",
-  "previous_scope_digest": "30c4031493ddb711b18246f632814638de5e3f05079921a10c2185de168d98ee"
+  "previous_scope_digest": "fbffe1cfc17cb345b1ff332c7de56d7695d26636658a83e08f7b9dc24da55872"
 }

@@ -102,7 +102,7 @@ def render_reader(data, reviews, preview):
     nav[0].button('← 上一阅读页',key='reading_prev',disabled=position==0,on_click=turn,args=(-1,))
     nav[1].caption(f'{sections[section_id]["title"]} · 阅读页 {page["number"]} / {len(pages)}')
     nav[2].button('下一阅读页 →',key='reading_next',disabled=position==len(ids)-1,on_click=turn,args=(1,))
-    st.caption(sections[section_id]['coverage']+'。页与页仅连续呈现已收录样本，不代表原著全文连续覆盖。')
+    st.caption(sections[section_id]['coverage'])
     focus=st.session_state.get('reading_focus',{})
     if focus.get('alignment_id') in page['alignment_ids']:
         st.info('已定位：'+groups[focus['alignment_id']]['label']+'。目标组以绿色边线标出。')

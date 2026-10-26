@@ -65,14 +65,14 @@ def test_scan_readings_override_obvious_text_layer_errors_and_mark_page_symbols(
 def test_sampling_and_reader_include_batch_sixteen(monkeypatch):
     data = load_corpus()
     recommended = {r["alignment_id"] for r in load_sampling_plan(data)["recommended"]}
-    assert len(recommended) == 76
+    assert len(recommended) == 470
     assert any(f"hegel_{n:03}" in recommended for n in range(61, 109))
     monkeypatch.setattr("paris.reviews.load_reviews", lambda: {})
     app = AppTest.from_file(str(ROOT / "app.py")).run(timeout=30)
     app.sidebar.selectbox(key="section_id").select("hegel").run()
     app.sidebar.text_input[0].input("exis||tiren").run()
     assert not app.exception
-    assert app.metric[0].value == "240" and app.metric[1].value == "0"
+    assert app.metric[0].value == "1236" and app.metric[1].value == "0"
     assert any("exis||tiren" in w.value for w in app.warning)
 
 

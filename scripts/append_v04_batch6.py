@@ -43,8 +43,50 @@ PRINTED.update({('zh_collected', 306): '281', ('zh_collected', 307): '282',
                 ('zh_collected', 314): '289', ('zh_collected', 315): '290'})
 
 
+def sources_for_section(section, source_by_section=None):
+    """Return the German/Chinese source pair, preserving the historical default."""
+    pair = (source_by_section or {}).get(section, ('de_megai2', 'zh_collected'))
+    if not isinstance(pair, (tuple, list)) or len(pair) != 2 or not all(isinstance(x, str) for x in pair):
+        raise ValueError(f'Source route for section {section} must contain two source IDs')
+    return tuple(pair)
+
+
+def sequence_for_row(section, number, sequence_overrides=None):
+    """Insert later IDs at an earlier source position without renumbering old IDs."""
+    alignment_id = f'{section}_{number:03}'
+    sequence = (sequence_overrides or {}).get(alignment_id, number)
+    if type(sequence) is not int:
+        raise ValueError(f'Sequence override for {alignment_id} must be an integer')
+    return sequence
+
+
+def issue_spans(text, quote):
+    """Match literal markers; apply word boundaries only to alphanumeric edges."""
+    if not quote:
+        raise ValueError('Editorial issue quote must not be empty')
+    start = text.find(quote)
+    while start >= 0:
+        end = start + len(quote)
+        left = quote[0].isalnum() and start > 0 and text[start - 1].isalnum()
+        right = quote[-1].isalnum() and end < len(text) and text[end].isalnum()
+        if not left and not right:
+            yield start, end
+        start = text.find(quote, end)
+
+
+def validate_requested_issues(data, prior_count, doubts):
+    """Reject missing recipe markers in memory, before backups or data writes."""
+    emitted = {(i['unit_id'], i['text_anchor']['quote'])
+               for i in data['editorial_issues'][prior_count:]}
+    missing = [(uid, quote) for uid, quotes in (doubts or {}).items()
+               for quote in quotes if (uid, quote) not in emitted]
+    if missing:
+        raise ValueError(f'Requested editorial issues not generated: {missing!r}')
+
+
 def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=None, reviewed_date='2026-10-02',
-         new_sections=None, coverage_updates=None, issue_overrides=None, extra_page_maps=None):
+         new_sections=None, coverage_updates=None, issue_overrides=None, extra_page_maps=None,
+         source_by_section=None, coverage_notes=None, row_notes=None, sequence_overrides=None):
     original = load_corpus()
     if any(a['review_batch'] == batch for a in original['alignments']):
         raise SystemExit(f'Batch {batch} already present; refusing to overwrite edits.')
@@ -70,16 +112,28 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
     evidence_path = ROOT / 'data/extraction.json'
     evidence = json.loads(evidence_path.read_text(encoding='utf-8'))
     stamp = reviewed_date
+    known_sources = {item['id'] for item in data['sources']}
+    known_editions = {item['id'] for item in data['editions']}
+    row_ids = {f'{section}_{number:03}' for section, number, *_ in rows}
+    unknown_sequence_ids = set(sequence_overrides or {}) - row_ids
+    if unknown_sequence_ids:
+        raise ValueError('Sequence override does not match this batch: '+', '.join(sorted(unknown_sequence_ids)))
     for section, n, label, de, zh, de_pages, zh_pages in rows:
-        for lang, text, source, pages in [('de', de, 'de_megai2', de_pages), ('zh', zh, 'zh_collected', zh_pages)]:
+        row_note = (row_notes or {}).get(f'{section}_{n:03}', '')
+        sequence = sequence_for_row(section, n, sequence_overrides)
+        de_source, zh_source = sources_for_section(section, source_by_section)
+        for source in (de_source, zh_source):
+            if source not in known_sources or source not in known_editions:
+                raise ValueError(f'Unknown source/edition for section {section}: {source}')
+        for lang, text, source, pages in [('de', de, de_source, de_pages), ('zh', zh, zh_source, zh_pages)]:
             uid = f'{section}_{lang}_{n:03}'
             locations = [dict(source_id=source, pdf_page=p, printed_page=printed[source, p]) for p in pages]
             refs = [f'{source}:{p}' for p in pages]
             unit = dict(id=uid, edition_id=source, language=lang, section_id=section,
-                        sequence=n, label=label, text=text, locations=locations,
+                        sequence=sequence, label=label, text=text, locations=locations,
                         proofread_status='scan_checked_ai', proofread_by='Codex', proofread_at=stamp,
                         evidence_pages=refs,
-                        transcription_note=f'{stamp}逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行，保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。')
+                        transcription_note=f'{stamp}逐句核对本地PDF可见页面；按句群划分，非原书自然段。合并排版断行（引诗保留诗行），保留历史拼写、注号与可见疑字，不复现字重或斜体。脚注正文仍在原页；对应关系待用户确认。'+row_note)
             data['units'].append(unit)
             data['corrections'].append(dict(unit_id=uid, method='scan_review_ai', reviewed_by='Codex',
                 reviewed_at=stamp, extracted_reading=None, corrected_text=text, evidence_pages=refs,
@@ -91,13 +145,7 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
                     data['page_map'].append(dict(**loc, status='scan_checked_ai', checked_by='Codex', checked_at=stamp))
             if lang == 'de':
                 for word in (doubts.get(uid, []) if doubts is not None else ['äusserüchen', 'Reügiosität', 'negüte', 'weü', 'wüd', 'befindüche']):
-                    start = text.find(word)
-                    while start >= 0:
-                        end = start + len(word)
-                        if ((start and text[start - 1].isalnum()) or
-                                (end < len(text) and text[end].isalnum())):
-                            start = text.find(word, end)
-                            continue
+                    for start, end in issue_spans(text, word):
                         data['editorial_issues'].append(dict(
                             id=f'{uid}_literal_{start}', unit_id=uid, kind='semantic_doubt',
                             status='retained_as_source', current_reading=word, reported_reading=word,
@@ -123,11 +171,10 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
                             if not set(override) <= allowed:
                                 raise ValueError('Issue override may only change editorial description and evidence')
                             data['editorial_issues'][-1].update(copy.deepcopy(override))
-                        start = text.find(word, end)
         data['alignments'].append(dict(id=f'{section}_{n:03}', section_id=section, label=label,
             de_ids=[f'{section}_de_{n:03}'], zh_ids=[f'{section}_zh_{n:03}'], status='uncertain',
             proposed_by='Codex', verified_by=None, verified_at=None, review_batch=batch,
-            note=f'第{batch}批句群对应候选；跨页来源分别保存，等待用户确认。'))
+            note=f'第{batch}批句群对应候选；跨页来源分别保存，等待用户确认。'+row_note))
     for page in extra_page_maps or []:
         if any(p['source_id'] == page['source_id'] and p['pdf_page'] == page['pdf_page']
                for p in data['page_map']):
@@ -138,8 +185,10 @@ def main(rows=ROWS, printed=PRINTED, batch=6, release='0.4.0-alpha2', doubts=Non
     for section in data['sections']:
         if section['id'] in {r[0] for r in rows}:
             count = sum(a['section_id'] == section['id'] for a in data['alignments'])
-            section['coverage'] = f'本节开头连续{count}个句群，非整节；句群边界为项目阅读划分'
+            section['coverage'] = (coverage_notes or {}).get(section['id'],
+                f'本节开头连续{count}个句群，非整节；句群边界为项目阅读划分')
     data['release'] = release
+    validate_requested_issues(data, len(original.get('editorial_issues', [])), doubts)
     assert not validate(data), validate(data)
     for table in ('sources', 'editions', 'units', 'alignments', 'page_map',
                   'comparisons', 'corrections', 'editorial_issues', 'coverage'):

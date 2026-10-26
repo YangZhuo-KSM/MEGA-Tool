@@ -58,15 +58,17 @@ I identified the error, requested its correction, and used the incident to tight
 
 This is the kind of problem the tool is meant to make easier to detect and trace.
 
-## Current public preview
+## Current release
 
-**v0.4.0-alpha12 — Research Preview**
+**v0.4.0-alpha48 — Complete Text Edition**
 
-The current public version contains **240 German–Chinese alignment groups, 494 text units, and 94 page mappings** across six research topics from the 1844 manuscripts and the notes on James Mill. Recent additions extend the third manuscript’s discussion of private property and communism and its critique of Hegel’s dialectic and philosophy.
+The current release contains **1,236 German–Chinese alignment groups, 2,486 text units, and 347 page mappings** across **14 research topics**. It covers the continuous body text of the three 1844 manuscripts and Marx’s notes on James Mill in the selected source editions, including 260 alignment groups for the Mill notes.
 
 The repository is intended both as a working research tool and as a record of how textual, bibliographical, and interface decisions are translated into a reproducible digital workflow.
 
 ## Technical overview
+
+Release data (2026-10-26): **v0.4.0-alpha48**. All 52 corpus batches are complete, with 2,472 bilingual reading units and 14 comparison units. The release includes the complete corpus, source code, Windows portable application, and a review workflow with 470 sampling recommendations. See the [release scope and validation](docs/V04_ALPHA48.md).
 
 The application is built with **Python** and **Streamlit**. Research data are stored in UTF-8 JSON with stable text IDs, source metadata, alignment relations, page mappings, and review state.
 
@@ -76,7 +78,7 @@ The application does not require an online AI API at runtime.
 
 ## Run locally
 
-**[Download the Windows portable edition](https://github.com/YangZhuo-KSM/MEGA-Tool/releases/download/v0.4.0-alpha12/MEGA_Tool-Windows-alpha12.zip)** — extract the ZIP and double-click `MEGA_Tool_Windows.exe`. No Python installation is required. Keep the extracted folder intact and the launcher window open while reading. See [Windows instructions](docs/WINDOWS_EXE.md).
+**[Download the Windows portable edition](https://github.com/YangZhuo-KSM/MEGA-Tool/releases/download/v0.4.0-alpha48/MEGA_Tool-Windows-alpha48.zip)** — extract the ZIP and double-click `MEGA_Tool_Windows.exe`. No Python installation is required. Keep the extracted folder intact and the launcher window open while reading. See [Windows instructions](docs/WINDOWS_EXE.md).
 
 Use Python 3.11 or newer. The application has been tested on Windows with Python 3.14.
 
@@ -110,7 +112,7 @@ Page mappings are tied to the indexed PDFs by file hash and page count. A differ
 - [Code guide](docs/CODE_GUIDE.md)
 - [Transcription review](docs/TRANSCRIPTION_REVIEW.md)
 - [Validation](docs/VALIDATION.md)
-- [Current public preview notes](docs/V04_ALPHA12.md)
+- [Current release scope and validation](docs/V04_ALPHA48.md)
 
 ## Development note
 

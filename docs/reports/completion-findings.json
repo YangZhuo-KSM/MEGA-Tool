@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-24",
+  "summary": "按当前选定底本的正文范围，14个专题已连续收录；穆勒前补已接上既有后段。共1236组，对应确认和字形核查继续按建议清单进行。",
+  "sections": {
+    "preface": "节首至节尾连续；删文脚注留在原页",
+    "wages": "节首至节尾连续；影印页及空白页已单独登记",
+    "profit": "节首至节尾连续",
+    "rent": "节首至节尾连续",
+    "alienation": "第46批补齐节首；已接续原有正文至节尾",
+    "private_relation": "传世残存正文连续；开头省略号按底本保留",
+    "private_work": "节首至节尾连续",
+    "communism": "节首至节尾连续；影印页及空白页已单独登记",
+    "hegel": "节首至节尾连续",
+    "needs": "节首至节尾连续",
+    "addenda": "节首至节尾连续",
+    "division": "节首至节尾连续",
+    "money": "节首至节尾连续；下篇为另一文本",
+    "mill": "260组连续；新260接旧062，影印页已单独登记"
+  },
+  "evidence": {
+    "historical_boundary_review": "docs/SECTION_BOUNDARY_AUDIT.md",
+    "alienation_fill": "tmp/alpha42-batch46-audit.json",
+    "alienation_recipe": "scripts/append_v04_batch46.py",
+    "current_preservation_check": "2026-10-24只读核对：第46批之前所有单元与当前内容逐项相同，异化劳动085/086与原页校订配方相同，阅读顺序085、086、001衔接。",
+    "mill_final_seam": "tmp/batch52-mill-order-audit.json",
+    "final_inventory": "docs/reports/final-section-inventory.json"
+  },
+  "full_text_denominator": null,
+  "review_status": "对应审核与字形核查按建议清单逐项记录",
+  "data_release": "0.4.0-alpha48"
+}

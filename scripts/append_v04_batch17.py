@@ -1,7 +1,4 @@
-"""Prepared, NOT EXECUTED: 54 groups for a future Hegel-critique batch.
-
-The alpha12 public corpus ends at hegel_108; these rows are not yet included.
-"""
+"""Batch 17: 54 Hegel-critique groups. Append once; refuses repeated execution."""
 from append_v04_batch6 import main
 
 
@@ -211,7 +208,7 @@ DOUBTS = {
     "hegel_de_150": ["Gegentheü"],
     "hegel_de_152": ["||XXXII|", "entschüeßt", "\\"],
     "hegel_de_153": ["Anscnauungentschließt"],
-    "hegel_de_158": ["||", "{(", "ursprüngüchen", "unendüche", "|"],
+    "hegel_de_158": ["||", "{(", "ursprüngüchen", "unendüche", ") |"],
     "hegel_de_159": ["|XXXIII|"],
 }
 
@@ -230,7 +227,7 @@ GLYPHS = {
     "hegel_de_144": {"||"},
     "hegel_de_146": {"11"},
     "hegel_de_152": {"||XXXII|", "\\"},
-    "hegel_de_158": {"||", "{(", "|"},
+    "hegel_de_158": {"||", "{(", ") |"},
     "hegel_de_159": {"|XXXIII|"},
 }
 
@@ -252,6 +249,10 @@ for uid, words in DOUBTS.items():
             note=note + "产品中持续显示此标注，可回查原页。",
             reported_reading=word,
         )
+
+# These two units cross book pages; the cited glyphs occur on the latter page.
+for token in ("||", "wkkhche", "/"):
+    OVERRIDES["hegel_de_123"][token]["evidence_pages"] = ["de_megai2:413"]
 
 
 if __name__ == "__main__":
