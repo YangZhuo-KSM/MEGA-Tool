@@ -1,8 +1,12 @@
 # MEGA Tool
 
-**A research-oriented digital humanities tool for reading, locating, comparing, and citing Marx’s *Paris Manuscripts* (including *Economic and Philosophic Manuscripts of 1844*) across MEGA² and Chinese editions.**
+**A German–Chinese research tool for MEGA², the historical-critical edition of the works of Karl Marx and Friedrich Engels.**
 
-[中文说明](README_zh.md)
+Read German texts alongside their Chinese translations, compare editions, and go from a passage to its printed page and edition-specific citation. Open the source scan for verification when the corresponding local PDF is available.
+
+The [current release](#current-release) covers the three manuscripts that make up Marx’s *Economic and Philosophic Manuscripts of 1844*, along with his notes on James Mill.
+
+[中文说明](README_zh.md) · [Roadmap](#roadmap)
 
 ![Parallel German–Chinese reading interface](docs/screenshots/reader-desktop.jpg)
 
@@ -42,7 +46,7 @@ I defined the research questions, documentary scope, edition selection and sourc
 
 A few design decisions are central to the project:
 
-- **Textual scope.** The first stage focuses on the three 1844 manuscripts and Marx’s notes on James Mill.
+- **Edition-specific sources.** The first corpus pairs the 1844 manuscripts from MEGA² I/2 and the Mill notes from MEGA² IV/2 with selected Chinese editions.
 - **Traceable alignment.** German–Chinese relations are stored explicitly and can be 1:1, 1:N, or N:1. Reading-page layout must not break those correspondence groups.
 - **Different kinds of pages have different jobs.** Software reading pages support continuous reading; printed page numbers support research and citation; PDF page indices support local source retrieval and verification.
 - **Citation follows the edition.** Citation templates are tied to the source edition and kept separate from PDF navigation.
@@ -62,13 +66,19 @@ This is the kind of problem the tool is meant to make easier to detect and trace
 
 **v0.4.0-alpha48 — Complete Text Edition**
 
-The current release contains **1,236 German–Chinese alignment groups, 2,486 text units, and 347 page mappings** across **14 research topics**. It covers the continuous body text of the three 1844 manuscripts and Marx’s notes on James Mill in the selected source editions, including 260 alignment groups for the Mill notes.
+In this release, “Complete Text Edition” refers to the continuous body text of the three 1844 manuscripts and Marx’s notes on James Mill in the selected editions. It includes **1,236 German–Chinese alignment groups, 2,486 text units, and 347 page mappings** across **14 research topics**, with 260 alignment groups for the Mill notes.
 
 The repository is intended both as a working research tool and as a record of how textual, bibliographical, and interface decisions are translated into a reproducible digital workflow.
 
+## Roadmap
+
+The next goal is to build systematic coverage of one MEGA² division, volume by volume. Each volume will use the same approach to linking German passages with Chinese translations, printed pages, and edition-specific citations.
+
+From there, I plan to explore adding volumes from other divisions, with the long-term goal of comprehensive German–Chinese coverage across all four. The [MEGA² edition is still being published](https://www.bbaw.de/en/research/marx-engels-gesamtausgabe-the-complete-works-of-marx-and-engels), so the corpus will grow as source volumes are published and Chinese translations suitable for inclusion become available.
+
 ## Technical overview
 
-Release data (2026-10-26): **v0.4.0-alpha48**. All 52 corpus batches are complete, with 2,472 bilingual reading units and 14 comparison units. The release includes the complete corpus, source code, Windows portable application, and a review workflow with 470 sampling recommendations. See the [release scope and validation](docs/V04_ALPHA48.md).
+Release data (2026-10-26): **v0.4.0-alpha48**. All 52 corpus batches are complete, with 2,472 bilingual reading units and 14 comparison units. The release includes the alpha48 corpus, source code, Windows portable application, and a review workflow with 470 sampling recommendations. See the [release scope and validation](docs/V04_ALPHA48.md).
 
 The application is built with **Python** and **Streamlit**. Research data are stored in UTF-8 JSON with stable text IDs, source metadata, alignment relations, page mappings, and review state.
 
